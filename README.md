@@ -21,11 +21,22 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 
 ---
 
-## Published Research
+## Published Research & Thought Leadership
 
-Peer-reviewed publications with **Springer Nature**, **Elsevier**, and **IEEE** on AI, machine learning, and data science applications.
+**31 publications** across peer-reviewed journals, books, and industry platforms. Full list: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690)
 
-📖 [ORCID: 0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690) · [Medium: rudrendupaul.medium.com](https://rudrendupaul.medium.com)
+**Books**
+
+- 📘 [*AI for Advanced Manufacturing and Industrial Applications*](https://orcid.org/0009-0008-0141-4690) — **Springer Nature**, 2025
+- 📘 *AI-Driven Autonomous Systems and Advanced Manufacturing with MLOps* — Chronicle International, 2023
+- 📘 *AI Applications in Renewable Energy and Grid Integration Technologies* — Chronicle International, 2023
+
+**Selected Articles & Talks**
+
+- IEEE NAPS & WPI Conference presentations on applied AI (2023)
+- *How to Build and Secure a Personal AI Agent* — freeCodeCamp, 2026
+- *A CIO's Checklist for a Low-Risk Migration to an AI-Ready Platform* — Cloud Data Insights, 2026
+- Regular contributor: **DZone · Hackernoon · Swiss Cognitive** on GenAI, MLOps, and enterprise AI
 
 ---
 
@@ -53,7 +64,7 @@ Contributing to the infrastructure layer of AI — the frameworks, SDKs, and too
 
 | | |
 |--|--|
-| 🤗 Hugging Face | [huggingface.co/Rudrendu](https://huggingface.co/Rudrendu) |
 | 💼 LinkedIn | [linkedin.com/in/rudrendupaul](https://www.linkedin.com/in/rudrendupaul) |
+| 📚 Research (ORCID) | [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690) |
 | ✍️ Blog | [rudrendupaul.medium.com](https://rudrendupaul.medium.com) |
-| 📚 Research | [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690) |
+| 🤗 Hugging Face | [huggingface.co/Rudrendu](https://huggingface.co/Rudrendu) |
