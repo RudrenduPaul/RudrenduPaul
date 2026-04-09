@@ -27,6 +27,7 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 
 **Books**
 
+- 📘 *Applications of Artificial Intelligence in Healthcare* — **Elsevier** *(forthcoming July 2026)*
 - 📘 [*AI for Advanced Manufacturing and Industrial Applications*](https://orcid.org/0009-0008-0141-4690) — **Springer Nature**, 2025
 - 📘 *AI-Driven Autonomous Systems and Advanced Manufacturing with MLOps* — Chronicle International, 2023
 
