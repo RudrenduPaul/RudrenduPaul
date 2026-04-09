@@ -30,12 +30,15 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 - 📘 [*AI for Advanced Manufacturing and Industrial Applications*](https://orcid.org/0009-0008-0141-4690) — **Springer Nature**, 2025
 - 📘 *AI-Driven Autonomous Systems and Advanced Manufacturing with MLOps* — Chronicle International, 2023
 
-**Selected Articles & Talks**
+**Selected Articles & Conference Talks**
 
-- IEEE NAPS & WPI Conference presentations on applied AI (2023)
-- *How to Build and Secure a Personal AI Agent* — freeCodeCamp, 2026
-- *A CIO's Checklist for a Low-Risk Migration to an AI-Ready Platform* — Cloud Data Insights, 2026
-- Regular contributor: **DZone · Hackernoon · Swiss Cognitive** on GenAI, MLOps, and enterprise AI
+- 🎤 **IEEE NAPS & WPI Conference** — Peer-reviewed presentations on applied AI and machine learning (2023)
+- ✍️ **freeCodeCamp** *(10M+ monthly visitors)* — [*How to Build and Secure a Personal AI Agent*](https://orcid.org/0009-0008-0141-4690) (2026)
+- ✍️ **DZone** *(1M+ monthly readers, global developer community)* — GenAI, MLOps, enterprise AI
+- ✍️ **Hackernoon** *(4M+ monthly readers)* — AI/ML practitioner deep-dives
+- ✍️ **Swiss Cognitive** *(Global AI Intelligence platform)* — Applied AI strategy and enterprise transformation
+- ✍️ **Cloud Data Insights** — *A CIO's Checklist for a Low-Risk Migration to an AI-Ready Platform* (2026)
+- ✍️ **Nuclear Engineering International · PV Magazine** — AI applications in energy and industrial sectors
 
 ---
 
