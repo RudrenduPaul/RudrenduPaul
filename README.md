@@ -47,13 +47,15 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 
 Contributing to the infrastructure layer of AI — the frameworks, SDKs, and tooling that every ML engineer depends on.
 
-| PR | Repo | Description |
-|----|------|-------------|
-| [#2409](https://github.com/modelcontextprotocol/python-sdk/pull/2409) | **MCP Python SDK** | docs: CLI reference table for mcp dev/run/install |
-| [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | fix: type annotation for errlog in stdio_client |
-| [#2251](https://github.com/567-labs/instructor/pull/2251) | **Instructor** | test: unit tests for hook attempt metadata forwarding |
+| PR | Repo | Stars | Description |
+|----|------|-------|-------------|
+| [#45338](https://github.com/huggingface/transformers/pull/45338) | **HuggingFace Transformers** | 158K ⭐ | docs: document known limitations of source-inspection heuristic in `_can_set_attn_implementation` |
+| [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points |
+| [#2409](https://github.com/modelcontextprotocol/python-sdk/pull/2409) | **MCP Python SDK** | 4K ⭐ | docs: add CLI reference table for `mcp dev` / `run` / `install` flags |
+| [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` |
+| [#2251](https://github.com/567-labs/instructor/pull/2251) | **Instructor** | 10K ⭐ | test: unit tests for `completion:error` hook attempt metadata forwarding |
 
-**Active tracks:** MCP Python SDK · Instructor · HF Transformers · HF PEFT · vLLM · LangGraph
+**Active tracks:** HF Transformers · Google ADK · MCP Python SDK · Instructor · HF PEFT · vLLM · LangGraph
 
 ---
 
