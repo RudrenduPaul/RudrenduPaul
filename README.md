@@ -54,7 +54,7 @@ Contributing to the infrastructure layer of AI — the frameworks, SDKs, and too
 | [#2251](https://github.com/567-labs/instructor/pull/2251) | **Instructor** | 10K ⭐ | test: unit tests for `completion:error` hook attempt metadata forwarding |
 | [#45351](https://github.com/huggingface/transformers/pull/45351) | **HuggingFace Transformers** | 158K ⭐ | fix: guard `get_device_capability()` with `torch.cuda.is_available()` in testing utils |
 | [#45352](https://github.com/huggingface/transformers/pull/45352) | **HuggingFace Transformers** | 158K ⭐ | fix: correct return type annotation on `Qwen3MoeSparseMoeBlock.forward` |
-| [#5492](https://github.com/huggingface/trl/pull/5492) | **HuggingFace TRL** | 12K ⭐ | feat: add Llama 3 training chat template with `{% generation %}` markers for SFT assistant-only loss masking |
+| [#5493](https://github.com/huggingface/trl/pull/5493) | **HuggingFace TRL** | 12K ⭐ | feat: add Llama 3 training chat template with `{% generation %}` markers for SFT assistant-only loss masking |
 | [#2409](https://github.com/modelcontextprotocol/python-sdk/pull/2409) | **MCP Python SDK** | 4K ⭐ | docs: add CLI reference table for `mcp dev` / `run` / `install` flags |
 | [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` |
 
