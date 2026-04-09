@@ -1,6 +1,6 @@
-# Rudrendu Paul
+# Rudrendu Paul — Applied AI/ML Leader · Published Author · Open Source Contributor
 
-**Applied AI/ML Leader · Marketing Measurement Science · Published Author · Open Source Contributor**
+**Fortune 50 AI/ML · Springer Nature · Elsevier · IEEE · HuggingFace · Google ADK · MCP**
 
 > Building and scaling world-class AI/ML systems at Fortune 50 companies for 15+ years. Published author with **Springer Nature, Elsevier, and IEEE**. Active open source contributor to the tools the AI industry runs on.
 
