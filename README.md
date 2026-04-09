@@ -29,7 +29,6 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 
 - 📘 [*AI for Advanced Manufacturing and Industrial Applications*](https://orcid.org/0009-0008-0141-4690) — **Springer Nature**, 2025
 - 📘 *AI-Driven Autonomous Systems and Advanced Manufacturing with MLOps* — Chronicle International, 2023
-- 📘 *AI Applications in Renewable Energy and Grid Integration Technologies* — Chronicle International, 2023
 
 **Selected Articles & Talks**
 
