@@ -49,6 +49,7 @@ Contributing to the infrastructure layer of AI — the frameworks, SDKs, and too
 
 | PR | Repo | Stars | Description |
 |----|------|-------|-------------|
+| [#5235](https://github.com/google/adk-python/pull/5235) | **Google ADK** | 9K ⭐ | fix: support flat-module agents in `_determine_agent_language`; fixes `adk web` crash for flat-module structures |
 | [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points |
 | [#2251](https://github.com/567-labs/instructor/pull/2251) | **Instructor** | 10K ⭐ | test: unit tests for `completion:error` hook attempt metadata forwarding |
 | [#45351](https://github.com/huggingface/transformers/pull/45351) | **HuggingFace Transformers** | 158K ⭐ | fix: guard `get_device_capability()` with `torch.cuda.is_available()` in testing utils |
