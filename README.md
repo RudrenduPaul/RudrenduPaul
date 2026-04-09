@@ -2,7 +2,7 @@
 
 **Applied AI/ML Leader · Marketing Measurement Science · Published Author · Open Source Contributor**
 
-> Building and scaling world-class AI/ML systems at Fortune 50 companies for 15+ years. Published researcher. Active open source contributor to the tools the AI industry runs on.
+> Building and scaling world-class AI/ML systems at Fortune 50 companies for 15+ years. Published author with **Springer Nature, Elsevier, and IEEE**. Active open source contributor to the tools the AI industry runs on.
 
 ---
 
@@ -23,7 +23,7 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 
 ## Published Research & Thought Leadership
 
-**31 publications** across peer-reviewed journals, books, and industry platforms. Full list: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690)
+**Published author with Springer Nature, Elsevier, and IEEE.** 31 publications across peer-reviewed journals, books, and industry platforms. Full list: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690)
 
 **Books**
 
