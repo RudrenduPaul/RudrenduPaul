@@ -6,7 +6,7 @@
 
 ---
 
-## What I Do
+## What I Do 
 
 I sit at the intersection of **applied machine learning**, **causal inference**, and **marketing measurement science** — building production AI systems that drive measurable business outcomes at scale.
 
