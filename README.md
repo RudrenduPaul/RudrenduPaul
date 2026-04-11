@@ -13,7 +13,6 @@ I sit at the intersection of **applied machine learning**, **causal inference**,
 My work has shaped AI and data strategy across **retail media networks, AdTech, MarTech, CPG, and e-commerce** at some of the world's largest companies. I specialize in problems where the math is hard, the stakes are high, and the answer has to work in production.
 
 **Core domains:**
-
 - Marketing Mix Modeling · Multi-Touch Attribution · Incrementality Testing
 - Causal Inference · Experimentation at Scale
 - Generative AI · LLM Systems · AI Agents
@@ -50,25 +49,32 @@ Contributing to the infrastructure layer of AI — the frameworks, SDKs, and too
 
 ### ✅ Merged into Production
 
-**[huggingface/trl #5493](https://github.com/huggingface/trl/pull/5493) — merged into `main` on April 10, 2026**
+**[huggingface/trl #5493](https://github.com/huggingface/trl/pull/5493) — merged April 10, 2026**
 
-Added the Llama 3 training chat template with `{% generation %}` markers to **HuggingFace TRL** (12K ⭐). This template is now shipped in TRL's official release — used by ML engineers fine-tuning Llama 3 models with SFT and assistant-only loss masking. The contribution directly closed part of maintainer-tracked issue [#5471](https://github.com/huggingface/trl/issues/5471).
+Added the Llama 3 training chat template with `{% generation %}` markers to **HuggingFace TRL** (12K ⭐). Shipped in TRL's official release — used by ML engineers fine-tuning Llama 3 models with SFT and assistant-only loss masking. Closed part of maintainer-tracked issue [#5471](https://github.com/huggingface/trl/issues/5471).
+
+**[huggingface/trl #5494](https://github.com/huggingface/trl/pull/5494) — merged April 10, 2026**
+
+Added a runnable code example for `completion_only_loss` to **HuggingFace TRL**'s SFT Trainer documentation — closing a documentation gap flagged by community users.
 
 ---
 
 ### 🔵 Open Pull Requests
 
-| PR                                                                 | Repo                               | Stars   | Description                                                                                       |
-| ------------------------------------------------------------------ | ---------------------------------- | ------- | ------------------------------------------------------------------------------------------------- |
-| [#45351](https://github.com/huggingface/transformers/pull/45351)      | **HuggingFace Transformers** | 158K ⭐ | fix: guard `get_device_capability()` with `torch.cuda.is_available()` in testing utils        |
-| [#45352](https://github.com/huggingface/transformers/pull/45352)      | **HuggingFace Transformers** | 158K ⭐ | fix: correct return type annotation on `Qwen3MoeSparseMoeBlock.forward`                         |
-| [#5235](https://github.com/google/adk-python/pull/5235)               | **Google ADK**               | 9K ⭐   | fix: support flat-module agents in `_determine_agent_language`; fixes `adk web` crash         |
-| [#5227](https://github.com/google/adk-python/pull/5227)               | **Google ADK**               | 9K ⭐   | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points |
-| [#2251](https://github.com/567-labs/instructor/pull/2251)             | **Instructor**               | 10K ⭐  | test: unit tests for `completion:error` hook attempt metadata forwarding                        |
-| [#2409](https://github.com/modelcontextprotocol/python-sdk/pull/2409) | **MCP Python SDK**           | 4K ⭐   | docs: add CLI reference table for `mcp dev` / `run` / `install` flags                       |
-| [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK**           | 4K ⭐   | fix: allow integer file descriptors for `errlog` in `stdio_client`                            |
+| PR | Repo | Stars | Description |
+|----|------|-------|-------------|
+| [#5522](https://github.com/huggingface/trl/pull/5522) | **HuggingFace TRL** | 12K ⭐ | feat: add Qwen2.5 training chat template with `{% generation %}` markers for SFT loss masking |
+| [#3144](https://github.com/huggingface/peft/pull/3144) | **HuggingFace PEFT** | 17K ⭐ | feat: add type hints to utility functions in `merge_utils.py` and `other.py` |
+| [#45370](https://github.com/huggingface/transformers/pull/45370) | **HuggingFace Transformers** | 158K ⭐ | docs: fix 5 docstring errors in `Gemma3nTextConfig` (typos, grammar, formatting) |
+| [#45352](https://github.com/huggingface/transformers/pull/45352) | **HuggingFace Transformers** | 158K ⭐ | fix: correct return type annotation on `Qwen3MoeSparseMoeBlock.forward` + propagate to generated vl\_moe and omni\_moe files |
+| [#45351](https://github.com/huggingface/transformers/pull/45351) | **HuggingFace Transformers** | 158K ⭐ | fix: guard `get_device_capability()` with `torch.cuda.is_available()` in testing utils |
+| [#5235](https://github.com/google/adk-python/pull/5235) | **Google ADK** | 9K ⭐ | fix: support flat-module agents in `_determine_agent_language`; fixes `adk web` crash |
+| [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points |
+| [#2251](https://github.com/567-labs/instructor/pull/2251) | **Instructor** | 10K ⭐ | test: unit tests for `completion:error` hook attempt metadata forwarding |
+| [#2409](https://github.com/modelcontextprotocol/python-sdk/pull/2409) | **MCP Python SDK** | 4K ⭐ | docs: add CLI reference table for `mcp dev` / `run` / `install` flags |
+| [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` |
 
-**Active tracks:** HuggingFace TRL · HuggingFace Transformers · Google ADK · MCP Python SDK · Instructor
+**Active tracks:** HuggingFace TRL · HuggingFace PEFT · HuggingFace Transformers · Google ADK · MCP Python SDK · Instructor
 
 ---
 
@@ -80,9 +86,9 @@ Added the Llama 3 training chat template with `{% generation %}` markers to **Hu
 
 ## Connect
 
-|                     |                                                                       |
-| ------------------- | --------------------------------------------------------------------- |
-| 💼 LinkedIn         | [linkedin.com/in/rudrendupaul](https://www.linkedin.com/in/rudrendupaul) |
-| 📚 Research (ORCID) | [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690)   |
-| ✍️ Blog           | [rudrendupaul.medium.com](https://rudrendupaul.medium.com)               |
-| 🤗 Hugging Face     | [huggingface.co/Rudrendu](https://huggingface.co/Rudrendu)               |
+| | |
+|--|--|
+| 💼 LinkedIn | [linkedin.com/in/rudrendupaul](https://www.linkedin.com/in/rudrendupaul) |
+| 📚 Research (ORCID) | [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690) |
+| ✍️ Blog | [rudrendupaul.medium.com](https://rudrendupaul.medium.com) |
+| 🤗 Hugging Face | [huggingface.co/Rudrendu](https://huggingface.co/Rudrendu) |
