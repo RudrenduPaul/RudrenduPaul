@@ -81,9 +81,11 @@ Added a working code example to **HuggingFace TRL**'s documentation showing how 
 | [#5527](https://github.com/huggingface/trl/pull/5527) | **HuggingFace TRL** | 12K ⭐ | feat: add DeepSeek-V3 training chat template with `{% generation %}` markers for SFT loss masking | New |
 | [#5526](https://github.com/huggingface/trl/pull/5526) | **HuggingFace TRL** | 12K ⭐ | feat: add Phi-3 training chat template with `{% generation %}` markers for SFT loss masking | New |
 | [#33728](https://github.com/scikit-learn/scikit-learn/pull/33728) | **scikit-learn** | 65K ⭐ | docs: add note about `StratifiedShuffleSplit` approximation limitation for rare classes | New |
+| [#7493](https://github.com/langchain-ai/langgraph/pull/7493) | **LangGraph** | 25K ⭐ | docs: add docstrings to managed value classes (`ManagedValue`, `IsLastStep`, `RemainingSteps`) | New |
+| [#2876](https://github.com/openai/openai-agents-python/pull/2876) | **OpenAI Agents SDK** | 19K ⭐ | docs: add docstrings to `Computer`/`AsyncComputer` abstract methods | New |
 | [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Awaiting review |
 
-**Active tracks:** HuggingFace TRL · HuggingFace PEFT · HuggingFace Transformers · scikit-learn · Google ADK · MCP Python SDK · Instructor
+**Active tracks:** HuggingFace TRL · HuggingFace PEFT · HuggingFace Transformers · scikit-learn · LangGraph · OpenAI Agents SDK · Google ADK · Instructor
 
 ---
 
