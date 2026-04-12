@@ -78,7 +78,9 @@ Added a working code example to **HuggingFace TRL**'s documentation showing how 
 | [#2251](https://github.com/567-labs/instructor/pull/2251) | **Instructor** | 10K ⭐ | test: unit tests for `completion:error` hook attempt metadata forwarding | Awaiting review |
 | [#5235](https://github.com/google/adk-python/pull/5235) | **Google ADK** | 9K ⭐ | fix: support flat-module agents in `_determine_agent_language`; fixes `adk web` crash | Awaiting review |
 | [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points | Awaiting review |
+| [#5527](https://github.com/huggingface/trl/pull/5527) | **HuggingFace TRL** | 12K ⭐ | feat: add DeepSeek-V3 training chat template with `{% generation %}` markers for SFT loss masking | New |
 | [#5526](https://github.com/huggingface/trl/pull/5526) | **HuggingFace TRL** | 12K ⭐ | feat: add Phi-3 training chat template with `{% generation %}` markers for SFT loss masking | New |
+| [#33728](https://github.com/scikit-learn/scikit-learn/pull/33728) | **scikit-learn** | 65K ⭐ | docs: add note about `StratifiedShuffleSplit` approximation limitation for rare classes | New |
 | [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Awaiting review |
 
 **Active tracks:** HuggingFace TRL · HuggingFace PEFT · HuggingFace Transformers · scikit-learn · Google ADK · MCP Python SDK · Instructor
