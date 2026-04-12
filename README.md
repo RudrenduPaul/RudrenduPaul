@@ -47,19 +47,21 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 
 Contributing to the infrastructure layer of AI — the frameworks, SDKs, and tooling that every ML engineer depends on.
 
-### ✅ Merged into Production
+### ✅ Code Accepted and Shipped to Production
+
+These contributions were reviewed by project maintainers, approved, and merged directly into the official codebase — meaning they are now part of the software used by thousands of ML engineers worldwide.
 
 **[huggingface/trl #5522](https://github.com/huggingface/trl/pull/5522) — merged April 12, 2026**
 
-Added the Qwen2.5 training chat template with `{% generation %}` markers to **HuggingFace TRL** (12K ⭐). Enables assistant-only loss masking for Qwen2.5 models during SFT fine-tuning. Reviewed and approved by TRL maintainer qgallouedec. Closed part of [#5471](https://github.com/huggingface/trl/issues/5471).
+Contributed a new training template for **Alibaba's Qwen2.5 language model** to **HuggingFace TRL** (12K ⭐), the most widely-used library for fine-tuning large language models. This change enables engineers to correctly train Qwen2.5 models so the AI learns only from the assistant's responses, not the user's questions — a critical capability for building production chatbots and AI assistants. Reviewed and approved by the TRL core maintainer.
 
 **[huggingface/trl #5493](https://github.com/huggingface/trl/pull/5493) — merged April 10, 2026**
 
-Added the Llama 3 training chat template with `{% generation %}` markers to **HuggingFace TRL** (12K ⭐). Shipped in TRL's official release — used by ML engineers fine-tuning Llama 3 models with SFT and assistant-only loss masking. Closed part of [#5471](https://github.com/huggingface/trl/issues/5471).
+Contributed the equivalent training template for **Meta's Llama 3 model family** to **HuggingFace TRL** (12K ⭐). Llama 3 is one of the most popular open-source AI models in the world. This template is now part of TRL's official release and is used daily by ML engineers fine-tuning Llama 3 for production applications.
 
 **[huggingface/trl #5494](https://github.com/huggingface/trl/pull/5494) — merged April 10, 2026**
 
-Added a runnable code example for `completion_only_loss` to **HuggingFace TRL**'s SFT Trainer documentation — closing a documentation gap flagged by community users.
+Added a working code example to **HuggingFace TRL**'s documentation showing how to use a key training feature (`completion_only_loss`) that was previously undocumented — helping new users get started faster with a feature the community had been asking about.
 
 ---
 
