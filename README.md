@@ -47,13 +47,33 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 
 Contributing to the infrastructure layer of AI — the frameworks, SDKs, and tooling that every ML engineer depends on.
 
-### ✅ Code Accepted and Shipped to Production
+### ✅ Contributions Merged, Approved, and Acknowledged
 
-These contributions were reviewed by project maintainers, approved, and merged directly into the official codebase — meaning they are now part of the software used by thousands of ML engineers worldwide.
+**6 PRs merged into production. 3 PRs approved by maintainers. 1 contribution acknowledged and shipped by the maintainer team.** These contributions are now part of the official codebases used by millions of engineers worldwide.
+
+**[huggingface/transformers #45352](https://github.com/huggingface/transformers/pull/45352) — merged April 13, 2026**
+
+Fixed an incorrect return type annotation on `Qwen3MoeSparseMoeBlock.forward` in **HuggingFace Transformers** (158K ⭐), the most widely-used library in AI/ML. Propagated the fix to two generated model files (`qwen3_vl_moe`, `qwen3_omni_moe`). Reviewed and approved by a Transformers core maintainer. Ran `make fix-repo` consistency checks and resolved CI failures before merge.
+
+**[huggingface/transformers #45370](https://github.com/huggingface/transformers/pull/45370) — merged April 13, 2026**
+
+Fixed 5 docstring errors in `Gemma3nTextConfig` across **HuggingFace Transformers** (158K ⭐) — correcting typos, grammar, and formatting issues in Google's Gemma 3n model configuration. Passed the anti-slop check and all CI checks.
+
+**[huggingface/transformers #45351](https://github.com/huggingface/transformers/pull/45351) — approved April 13, 2026**
+
+Fixed a crash in `get_device_capability()` in **HuggingFace Transformers** (158K ⭐) testing utilities when CUDA is installed but no GPU is present. Restructured the CUDA/XPU/NPU fallback logic per maintainer review so that each accelerator check is independent. Approved by two Transformers maintainers.
+
+**[huggingface/trl #5527](https://github.com/huggingface/trl/pull/5527) — merged April 12, 2026**
+
+Contributed a new training template for **DeepSeek-V3** to **HuggingFace TRL** (12K ⭐). This template enables engineers to correctly fine-tune DeepSeek-V3 models using SFT loss masking — ensuring the model learns only from the assistant's responses, not the user's questions. Reviewed and approved by the TRL core maintainer.
 
 **[huggingface/trl #5522](https://github.com/huggingface/trl/pull/5522) — merged April 12, 2026**
 
-Contributed a new training template for **Alibaba's Qwen2.5 language model** to **HuggingFace TRL** (12K ⭐), the most widely-used library for fine-tuning large language models. This change enables engineers to correctly train Qwen2.5 models so the AI learns only from the assistant's responses, not the user's questions — a critical capability for building production chatbots and AI assistants. Reviewed and approved by the TRL core maintainer.
+Contributed a new training template for **Alibaba's Qwen2.5 language model** to **HuggingFace TRL** (12K ⭐). This change enables engineers to correctly train Qwen2.5 models so the AI learns only from the assistant's responses — a critical capability for building production chatbots and AI assistants. Reviewed and approved by the TRL core maintainer.
+
+**[huggingface/trl #5526](https://github.com/huggingface/trl/pull/5526) — approved April 14, 2026**
+
+Contributed a new training template for **Microsoft's Phi-3 model family** to **HuggingFace TRL** (12K ⭐). Adds `{% generation %}` markers for SFT assistant-only loss masking. Fixed a prefix-preservation issue and added the template to the project README. Approved by the TRL core maintainer.
 
 **[huggingface/trl #5493](https://github.com/huggingface/trl/pull/5493) — merged April 10, 2026**
 
@@ -63,29 +83,29 @@ Contributed the equivalent training template for **Meta's Llama 3 model family**
 
 Added a working code example to **HuggingFace TRL**'s documentation showing how to use a key training feature (`completion_only_loss`) that was previously undocumented — helping new users get started faster with a feature the community had been asking about.
 
+**[scikit-learn/scikit-learn #33723](https://github.com/scikit-learn/scikit-learn/pull/33723) — approved April 11, 2026**
+
+Clarified in **scikit-learn** (65K ⭐) documentation that `best_estimator_` in `HalvingGridSearchCV` and `HalvingRandomSearchCV` reflects only the winner of the final halving iteration — a subtle but important distinction for users interpreting search results. Approved by two scikit-learn core maintainers.
+
+**[openai/openai-agents-python #2876](https://github.com/openai/openai-agents-python/pull/2876) — acknowledged April 15, 2026**
+
+Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in the **OpenAI Agents SDK** (19K ⭐). The maintainer responded *"Thank you so much for sending this"* and resolved the gap via [#2877](https://github.com/openai/openai-agents-python/pull/2877). The contribution identified a documentation need that the core team then prioritized and shipped.
+
 ---
 
-### 🔵 Open Pull Requests
+### 🔵 Open Pull Requests — Under Review
 
 | PR | Repo | Stars | Description | Status |
 |----|------|-------|-------------|--------|
-| [#45352](https://github.com/huggingface/transformers/pull/45352) | **HuggingFace Transformers** | 158K ⭐ | fix: correct return type annotation on `Qwen3MoeSparseMoeBlock.forward` + propagate to generated vl\_moe and omni\_moe files | Awaiting review |
-| [#45351](https://github.com/huggingface/transformers/pull/45351) | **HuggingFace Transformers** | 158K ⭐ | fix: guard `get_device_capability()` with `torch.cuda.is_available()` in testing utils | Awaiting review |
-| [#45370](https://github.com/huggingface/transformers/pull/45370) | **HuggingFace Transformers** | 158K ⭐ | docs: fix 5 docstring errors in `Gemma3nTextConfig` (typos, grammar, formatting) | Awaiting review |
-| [#33723](https://github.com/scikit-learn/scikit-learn/pull/33723) | **scikit-learn** | 65K ⭐ | docs: clarify `best_estimator_` reflects last halving iteration in `HalvingGridSearchCV` | **Approved** |
+| [#33728](https://github.com/scikit-learn/scikit-learn/pull/33728) | **scikit-learn** | 65K ⭐ | docs: document `StratifiedShuffleSplit` approximation limitation for rare classes | Feedback addressed |
 | [#33722](https://github.com/scikit-learn/scikit-learn/pull/33722) | **scikit-learn** | 65K ⭐ | docs: clarify `VotingClassifier.estimators_` are fitted on integer-encoded labels | Awaiting review |
 | [#3144](https://github.com/huggingface/peft/pull/3144) | **HuggingFace PEFT** | 17K ⭐ | feat: add type hints to utility functions in `merge_utils.py` and `other.py` | Under review |
-| [#2251](https://github.com/567-labs/instructor/pull/2251) | **Instructor** | 10K ⭐ | test: unit tests for `completion:error` hook attempt metadata forwarding | Awaiting review |
-| [#5235](https://github.com/google/adk-python/pull/5235) | **Google ADK** | 9K ⭐ | fix: support flat-module agents in `_determine_agent_language`; fixes `adk web` crash | Awaiting review |
-| [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points | Awaiting review |
-| [#5527](https://github.com/huggingface/trl/pull/5527) | **HuggingFace TRL** | 12K ⭐ | feat: add DeepSeek-V3 training chat template with `{% generation %}` markers for SFT loss masking | New |
-| [#5526](https://github.com/huggingface/trl/pull/5526) | **HuggingFace TRL** | 12K ⭐ | feat: add Phi-3 training chat template with `{% generation %}` markers for SFT loss masking | New |
-| [#33728](https://github.com/scikit-learn/scikit-learn/pull/33728) | **scikit-learn** | 65K ⭐ | docs: add note about `StratifiedShuffleSplit` approximation limitation for rare classes | New |
-| [#7494](https://github.com/langchain-ai/langgraph/pull/7494) | **LangGraph** | 25K ⭐ | docs: add docstrings to managed value classes (`ManagedValue`, `IsLastStep`, `RemainingSteps`) | New |
-| [#2876](https://github.com/openai/openai-agents-python/pull/2876) | **OpenAI Agents SDK** | 19K ⭐ | docs: add docstrings to `Computer`/`AsyncComputer` abstract methods | New |
+| [#5235](https://github.com/google/adk-python/pull/5235) | **Google ADK** | 9K ⭐ | fix: support flat-module agents in `_determine_agent_language`; fixes `adk web` crash | Under review |
+| [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points | Under review |
 | [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Awaiting review |
+| [#2251](https://github.com/567-labs/instructor/pull/2251) | **Instructor** | 10K ⭐ | test: unit tests for `completion:error` hook attempt metadata forwarding | Awaiting review |
 
-**Active tracks:** HuggingFace TRL · HuggingFace PEFT · HuggingFace Transformers · scikit-learn · LangGraph · OpenAI Agents SDK · Google ADK · Instructor
+**Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK
 
 ---
 
