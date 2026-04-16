@@ -23,23 +23,39 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 
 ## Published Research & Thought Leadership
 
-**Published author with Springer Nature, Elsevier, and IEEE.** 31 publications across peer-reviewed journals, books, and industry platforms. Full list: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690)
+**Published author with Springer Nature, Elsevier, and IEEE.** 30+ publications across peer-reviewed journals, books, conferences, and industry platforms. Full list: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690)
 
-**Books**
+**Books (3)**
 
 - 📘 *Applications of Artificial Intelligence in Healthcare* — **Elsevier** *(forthcoming July 2026)*
-- 📘 [*AI for Advanced Manufacturing and Industrial Applications*](https://orcid.org/0009-0008-0141-4690) — **Springer Nature**, 2025
+- 📘 [*AI for Advanced Manufacturing and Industrial Applications*](http://dx.doi.org/10.1007/978-3-031-86091-1) — **Springer Nature**, 2025
 - 📘 *AI-Driven Autonomous Systems and Advanced Manufacturing with MLOps* — Chronicle International, 2023
 
-**Selected Articles & Conference Talks**
+**Articles (22)**
 
-- 🎤 **IEEE NAPS & WPI Conference** — Peer-reviewed presentations on applied AI and machine learning (2023)
-- ✍️ **freeCodeCamp** *(10M+ monthly visitors)* — [*How to Build and Secure a Personal AI Agent*](https://orcid.org/0009-0008-0141-4690) (2026)
-- ✍️ **DZone** *(1M+ monthly readers, global developer community)* — GenAI, MLOps, enterprise AI
-- ✍️ **Hackernoon** *(4M+ monthly readers)* — AI/ML practitioner deep-dives
-- ✍️ **Swiss Cognitive** *(Global AI Intelligence platform)* — Applied AI strategy and enterprise transformation
-- ✍️ **Cloud Data Insights** — *A CIO's Checklist for a Low-Risk Migration to an AI-Ready Platform* (2026)
-- ✍️ **Nuclear Engineering International · PV Magazine** — AI applications in energy and industrial sectors
+| Platform | Reach | Articles |
+|----------|-------|----------|
+| **freeCodeCamp** | 10M+ monthly visitors | [*How to Build and Secure a Personal AI Agent*](https://www.freecodecamp.org/news/how-to-build-and-secure-a-personal-ai-agent-with-openclaw/) (2026), [*The AI Governance Handbook*](https://www.freecodecamp.org/news/the-ai-governance-handbook-build-responsible-ai-systems/) (2026) |
+| **DZone** | 1M+ monthly readers | [*Beyond "Lift-and-Shift": AI Automating Complex Logic*](https://dzone.com/articles/how-ai-and-genai-are-automating-complex-logic) (2026), [*Escaping the "Demo Trap": Reliable AI Agents*](https://dzone.com/articles/escaping-demo-trap-reliable-ai-agents) (2026), [*Self-Evolving AI Agent That Learns From Failure*](https://dzone.com/articles/self-evolving-ai-agent-learns-from-failure) (2025), [*GenAI Unleashed: MLOps and LLM Deployment*](https://dzone.com/articles/generative-ai-unleashed-mlops-and-llm-deployment-s) (2023) |
+| **Hackernoon** | 4M+ monthly readers | [*Why AI Enterprises Still Rely on Manual Labor for Data Migration*](https://hackernoon.com/why-ai-driven-enterprises-still-rely-on-manual-labor-for-data-migration) (2026), [*GenAI Strategy Demands All-Inclusive Data Modernization*](https://hackernoon.com/why-your-genai-strategy-demands-an-all-inclusive-data-modernization) (2025), [*The New Monetizing Playbook: Pricing GenAI*](https://hackernoon.com/the-new-monetizing-playbook-a-product-leaders-framework-for-pricing-genai-capabilities) (2025), [*The AI Flywheel: Building Compounding Growth*](https://hackernoon.com/the-ai-flywheel-a-product-leaders-guide-to-building-compounding-growth) (2023) |
+| **Swiss Cognitive** | Global AI platform | [*The Discovery Deficit: Why Manual Assessments Fail*](https://swisscognitive.ch/2026/04/14/the-discovery-deficit-why-manual-assessments-fail-and-ai-driven-analysis-is-essential/) (2026), [*From "Isolated Genius" to Co-Pilot*](https://swisscognitive.ch/2026/02/24/from-isolated-genius-to-co-pilot-why-the-next-ai-scientist-must-be-social/) (2026), [*AI-Powered Predictive Maintenance*](https://swisscognitive.ch/2023/11/23/ai-powered-predictive-maintenance-in-advanced-manufacturing/) (2023), [*Conversational AI on Manufacturing Floors*](https://swisscognitive.ch/2023/12/21/conversational-ai-on-manufacturing-floors-with-nlp-enabled-assistants/) (2023) |
+| **Cloud Data Insights** | Enterprise IT | [*A CIO's Checklist for Low-Risk Migration to AI-Ready Platform*](https://www.clouddatainsights.com/a-cios-checklist-for-a-low-risk-migration-to-an-ai-ready-platform/) (2026), [*The Manual Migration Trap: Why 70% Exceed Budget*](https://www.clouddatainsights.com/the-manual-migration-trap-why-70-of-data-warehouse-modernization-projects-exceed-budget-or-fail/) (2026) |
+| **Nuclear Engineering Intl / PV Magazine** | Energy sector | [*Generative AI as an SMR Catalyst*](https://content.yudu.com/web/442ay/0A444i1/NEI0326-Pros/html/38.html?page=38) (2026), [*Why Generative AI is Good for Grids*](https://www.pv-magazine.com/magazine-archive/why-generative-ai-is-good-for-grids/) (2026) |
+| **Data Science Central** (TechTarget) | Data science community | [*The Hidden Price of Not Being AI-Ready*](https://www.datasciencecentral.com/the-hidden-price-of-not-being-ai-ready/) (2025) |
+| **EMERJ AI Research** | Enterprise AI | [*AI for Avoiding Supply Chain Disruptions*](https://emerj.com/ai-for-avoiding-supply-chain-disruptions-two-use-cases/) (2023) |
+
+**Peer-Reviewed Research (2)**
+
+- [*Automated Currency Transactions Forecasting for Global E-commerce*](http://dx.doi.org/10.54254/2755-2721/30/20230070) — Applied and Computational Engineering, 2024
+- [*Credit Risk Evaluation for Financial Inclusion Using ML Optimization*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4690773) — SSRN, 2023
+
+**Conference Talks (5)**
+
+- 🎤 **AI Summit, New York** — *How Will Third-Party AI-Plugins Make an Impact on Business?* (2023)
+- 🎤 **IEEE NAPS, Western Carolina University** — *Performance Comparison of Advanced ML Techniques for Electricity Price Forecasting* (2023)
+- 🎤 **WPI Fintech Lab** — *Credit Risk Evaluation for Financial Inclusion* (2023)
+- 🎤 **CONF-CIAP** — *xCovNet: A Wide Deep Learning Model for CXR-based COVID-19 Detection* (2023)
+- 🎤 **CONF-MLA** — *Automated FX Currency Transaction Forecasting for E-commerce and Fintech* (2023)
 
 ---
 
