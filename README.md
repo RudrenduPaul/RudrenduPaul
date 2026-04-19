@@ -122,11 +122,11 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#2251](https://github.com/567-labs/instructor/pull/2251) | **Instructor** | 10K ⭐ | test: unit tests for `completion:error` hook attempt metadata forwarding | Awaiting review |
 | [#2280](https://github.com/567-labs/instructor/pull/2280) | **Instructor** | 10K ⭐ | fix: propagate `IncompleteOutputException` directly without wrapping in `InstructorRetryException` | Awaiting review |
 | [#33791](https://github.com/scikit-learn/scikit-learn/pull/33791) | **scikit-learn** | 65K ⭐ | docs: add Notes + References sections to `CCA` docstring (numerical instability warning) | Awaiting review |
-| [#33792](https://github.com/scikit-learn/scikit-learn/pull/33792) | **scikit-learn** | 65K ⭐ | fix: correct `SimpleImputer.inverse_transform` column order with all-NaN features | Awaiting review |
+| [#33792](https://github.com/scikit-learn/scikit-learn/pull/33792) | **scikit-learn** | 65K ⭐ | fix: correct `SimpleImputer.inverse_transform` column order with all-NaN features | Changelog entry added (2026-04-19); CI resolved; awaiting review |
 | [#6631](https://github.com/optuna/optuna/pull/6631) | **Optuna** | 11K ⭐ | fix: correct `.. note:` → `.. note::` Sphinx directive in `QMCSampler` docstring | Awaiting review |
 | [#13965](https://github.com/explosion/spaCy/pull/13965) | **spaCy** | 32K ⭐ | fix: add `is_base_form` to `FrenchLemmatizer` to skip suffix rules on French infinitives | Awaiting review |
-| [#62756](https://github.com/ray-project/ray/pull/62756) | **Ray** | 37K ⭐ | docs: fix import count in tune-pytorch-cifar notebook (3 → 2 Ray-specific imports) | Awaiting review |
-| [#40271](https://github.com/vllm-project/vllm/pull/40271) | **vLLM** | 47K ⭐ | docs: expand `load_weights` contributing guide with `AutoWeightsLoader` and manual patterns | Awaiting review |
+| [#62756](https://github.com/ray-project/ray/pull/62756) | **Ray** | 37K ⭐ | docs: fix import count in tune-pytorch-cifar notebook (3 → 2 Ray-specific imports) | Gemini: "no feedback" — clean; awaiting human review |
+| [#40271](https://github.com/vllm-project/vllm/pull/40271) | **vLLM** | 47K ⭐ | docs: expand `load_weights` contributing guide with `AutoWeightsLoader` and manual patterns | DCO sign-off added (2026-04-19); needs maintainer `ready` label for CI |
 | [#65291](https://github.com/pandas-dev/pandas/pull/65291) | **Pandas** | 45K ⭐ | docs: add docstring with examples to `Series.__invert__` | Awaiting review |
 | [#9635](https://github.com/stanfordnlp/dspy/pull/9635) | **DSPy** | 23K ⭐ | docs: add Google-style docstrings to `LabeledFewShot` (vanilla.py) | Awaiting review |
 
