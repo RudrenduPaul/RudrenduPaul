@@ -77,7 +77,7 @@ Fixed 5 docstring errors in `Gemma3nTextConfig` across **HuggingFace Transformer
 
 **[huggingface/transformers #45351](https://github.com/huggingface/transformers/pull/45351) — approved April 13, 2026**
 
-Fixed a crash in `get_device_capability()` in **HuggingFace Transformers** (158K ⭐) testing utilities when CUDA is installed but no GPU is present. Approved by Transformers maintainers; implementing a refactored CUDA/ROCm and XPU split provided by @remi-or (2026-04-17) — the new structure makes both accelerator paths independent so they co-exist cleanly even when only one device is present.
+Fixed a crash in `get_device_capability()` in **HuggingFace Transformers** (158K ⭐) testing utilities when CUDA is installed but no GPU is present. Approved by Transformers maintainers; refactored CUDA/ROCm and XPU split implemented and pushed (2026-04-18) per @remi-or's review — both accelerator paths are now independent so they co-exist cleanly when only one device is present; awaiting final merge.
 
 **[huggingface/trl #5527](https://github.com/huggingface/trl/pull/5527) — merged April 12, 2026**
 
@@ -89,7 +89,7 @@ Contributed a new training template for **Alibaba's Qwen2.5 language model** to 
 
 **[huggingface/trl #5526](https://github.com/huggingface/trl/pull/5526) — approved April 14, 2026**
 
-Contributed a new training template for **Microsoft's Phi-3 model family** to **HuggingFace TRL** (12K ⭐). Adds `{% generation %}` markers for SFT assistant-only loss masking. Approved by the TRL core maintainer; final pass underway to add Phi-3 to the chat-template README and align the EOS handling with the rest of the training-template family for prefix preservation.
+Contributed a new training template for **Microsoft's Phi-3 model family** to **HuggingFace TRL** (12K ⭐). Adds `{% generation %}` markers for SFT assistant-only loss masking. Approved by the TRL core maintainer; follow-up fixes applied (2026-04-18): Phi-3 added to the chat-template README and `else eos_token` branch removed to preserve the prefix property — awaiting final merge.
 
 **[huggingface/trl #5493](https://github.com/huggingface/trl/pull/5493) — merged April 10, 2026**
 
@@ -115,9 +115,9 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 |----|------|-------|-------------|--------|
 | [#33728](https://github.com/scikit-learn/scikit-learn/pull/33728) | **scikit-learn** | 65K ⭐ | docs: document `StratifiedShuffleSplit` approximation limitation for rare classes | Approved by @ArturoAmorQ — awaiting @glemaitre confirmation |
 | [#33722](https://github.com/scikit-learn/scikit-learn/pull/33722) | **scikit-learn** | 65K ⭐ | docs: clarify `VotingClassifier.estimators_` are fitted on integer-encoded labels | Awaiting review |
-| [#3144](https://github.com/huggingface/peft/pull/3144) | **HuggingFace PEFT** | 17K ⭐ | feat: add type hints to utility functions in `merge_utils.py` and `other.py` | Maintainer green-lit broader pyright cleanup on this PR — work underway |
+| [#3144](https://github.com/huggingface/peft/pull/3144) | **HuggingFace PEFT** | 17K ⭐ | feat: add type hints to utility functions in `merge_utils.py` and `other.py` | Pyright cleanup pushed (2026-04-18) — fixed `possibly-unbound` vars in `loftq_utils.py` and `integrations.py`; awaiting review |
 | [#5235](https://github.com/google/adk-python/pull/5235) | **Google ADK** | 9K ⭐ | fix: support flat-module agents in `_determine_agent_language`; fixes `adk web` crash | Under review |
-| [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points | Formatting fixes requested — pending |
+| [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points | `autoformat.sh` applied and pushed (2026-04-18); awaiting review |
 | [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Awaiting review |
 | [#2251](https://github.com/567-labs/instructor/pull/2251) | **Instructor** | 10K ⭐ | test: unit tests for `completion:error` hook attempt metadata forwarding | Awaiting review |
 
