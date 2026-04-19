@@ -1,6 +1,6 @@
 # Rudrendu Paul — Applied AI/ML Leader · Published Author · Open Source Contributor
 
-**Fortune 50 AI/ML · Springer Nature · Elsevier · IEEE · HuggingFace Transformers · Google ADK · MCP**
+**Fortune 50 AI/ML · Springer Nature · Elsevier · IEEE · HuggingFace Transformers · scikit-learn · Pandas · vLLM · Google ADK · MCP · DSPy**
 
 > Building and scaling world-class AI/ML systems at Fortune 50 companies for 15+ years. Published author with **Springer Nature, Elsevier, and IEEE**. Active open source contributor to the tools the AI industry runs on.
 
@@ -65,7 +65,7 @@ Contributing to the infrastructure layer of AI — the frameworks, SDKs, and too
 
 ### ✅ Contributions Merged, Approved, and Acknowledged
 
-**6 PRs merged into production. 3 PRs approved by maintainers. 1 contribution acknowledged and shipped by the maintainer team.** These contributions are now part of the official codebases used by millions of engineers worldwide.
+**6 PRs merged into production. 3 PRs approved by maintainers. 1 contribution acknowledged and shipped by the maintainer team. 16 PRs under review across 14+ repos.** These contributions are now part of the official codebases used by millions of engineers worldwide.
 
 **[huggingface/transformers #45352](https://github.com/huggingface/transformers/pull/45352) — merged April 13, 2026**
 
@@ -120,8 +120,17 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points | `autoformat.sh` applied and pushed (2026-04-18); awaiting review |
 | [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Awaiting review |
 | [#2251](https://github.com/567-labs/instructor/pull/2251) | **Instructor** | 10K ⭐ | test: unit tests for `completion:error` hook attempt metadata forwarding | Awaiting review |
+| [#2280](https://github.com/567-labs/instructor/pull/2280) | **Instructor** | 10K ⭐ | fix: propagate `IncompleteOutputException` directly without wrapping in `InstructorRetryException` | Awaiting review |
+| [#33791](https://github.com/scikit-learn/scikit-learn/pull/33791) | **scikit-learn** | 65K ⭐ | docs: add Notes + References sections to `CCA` docstring (numerical instability warning) | Awaiting review |
+| [#33792](https://github.com/scikit-learn/scikit-learn/pull/33792) | **scikit-learn** | 65K ⭐ | fix: correct `SimpleImputer.inverse_transform` column order with all-NaN features | Awaiting review |
+| [#6631](https://github.com/optuna/optuna/pull/6631) | **Optuna** | 11K ⭐ | fix: correct `.. note:` → `.. note::` Sphinx directive in `QMCSampler` docstring | Awaiting review |
+| [#13965](https://github.com/explosion/spaCy/pull/13965) | **spaCy** | 32K ⭐ | fix: add `is_base_form` to `FrenchLemmatizer` to skip suffix rules on French infinitives | Awaiting review |
+| [#62756](https://github.com/ray-project/ray/pull/62756) | **Ray** | 37K ⭐ | docs: fix import count in tune-pytorch-cifar notebook (3 → 2 Ray-specific imports) | Awaiting review |
+| [#40271](https://github.com/vllm-project/vllm/pull/40271) | **vLLM** | 47K ⭐ | docs: expand `load_weights` contributing guide with `AutoWeightsLoader` and manual patterns | Awaiting review |
+| [#65291](https://github.com/pandas-dev/pandas/pull/65291) | **Pandas** | 45K ⭐ | docs: add docstring with examples to `Series.__invert__` | Awaiting review |
+| [#9635](https://github.com/stanfordnlp/dspy/pull/9635) | **DSPy** | 23K ⭐ | docs: add Google-style docstrings to `LabeledFewShot` (vanilla.py) | Awaiting review |
 
-**Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK
+**Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas · DSPy
 
 ---
 
