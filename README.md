@@ -77,7 +77,7 @@ Fixed 5 docstring errors in `Gemma3nTextConfig` across **HuggingFace Transformer
 
 **[huggingface/transformers #45351](https://github.com/huggingface/transformers/pull/45351) — approved April 13, 2026**
 
-Fixed a crash in `get_device_capability()` in **HuggingFace Transformers** (158K ⭐) testing utilities when CUDA is installed but no GPU is present. Approved by Transformers maintainers; iterating on a refactor proposed by @remi-or to make the CUDA/ROCm and XPU fallback paths independent so both accelerators co-exist cleanly.
+Fixed a crash in `get_device_capability()` in **HuggingFace Transformers** (158K ⭐) testing utilities when CUDA is installed but no GPU is present. Approved by Transformers maintainers; implementing a refactored CUDA/ROCm and XPU split provided by @remi-or (2026-04-17) — the new structure makes both accelerator paths independent so they co-exist cleanly even when only one device is present.
 
 **[huggingface/trl #5527](https://github.com/huggingface/trl/pull/5527) — merged April 12, 2026**
 
@@ -113,11 +113,11 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 
 | PR | Repo | Stars | Description | Status |
 |----|------|-------|-------------|--------|
-| [#33728](https://github.com/scikit-learn/scikit-learn/pull/33728) | **scikit-learn** | 65K ⭐ | docs: document `StratifiedShuffleSplit` approximation limitation for rare classes | New maintainer review — applying inline edits |
+| [#33728](https://github.com/scikit-learn/scikit-learn/pull/33728) | **scikit-learn** | 65K ⭐ | docs: document `StratifiedShuffleSplit` approximation limitation for rare classes | Approved by @ArturoAmorQ — awaiting @glemaitre confirmation |
 | [#33722](https://github.com/scikit-learn/scikit-learn/pull/33722) | **scikit-learn** | 65K ⭐ | docs: clarify `VotingClassifier.estimators_` are fitted on integer-encoded labels | Awaiting review |
 | [#3144](https://github.com/huggingface/peft/pull/3144) | **HuggingFace PEFT** | 17K ⭐ | feat: add type hints to utility functions in `merge_utils.py` and `other.py` | Maintainer green-lit broader pyright cleanup on this PR — work underway |
 | [#5235](https://github.com/google/adk-python/pull/5235) | **Google ADK** | 9K ⭐ | fix: support flat-module agents in `_determine_agent_language`; fixes `adk web` crash | Under review |
-| [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points | Under review |
+| [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points | Formatting fixes requested — pending |
 | [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Awaiting review |
 | [#2251](https://github.com/567-labs/instructor/pull/2251) | **Instructor** | 10K ⭐ | test: unit tests for `completion:error` hook attempt metadata forwarding | Awaiting review |
 
