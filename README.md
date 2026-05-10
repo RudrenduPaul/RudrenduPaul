@@ -65,7 +65,7 @@ Contributing to the infrastructure layer of AI — the frameworks, SDKs, and too
 
 ### ✅ Contributions Merged, Approved, and Acknowledged
 
-**6 PRs merged into production. 3 PRs approved by maintainers. 1 contribution acknowledged and shipped by the maintainer team. 16 PRs under review across 14+ repos.** These contributions are now part of the official codebases used by millions of engineers worldwide.
+**8 PRs merged into production. 3 PRs approved by maintainers. 1 contribution acknowledged and shipped by the maintainer team. 13 PRs under review across 14+ repos.** These contributions are now part of the official codebases used by millions of engineers worldwide.
 
 **[huggingface/transformers #45352](https://github.com/huggingface/transformers/pull/45352) — merged April 13, 2026**
 
@@ -79,6 +79,10 @@ Fixed 5 docstring errors in `Gemma3nTextConfig` across **HuggingFace Transformer
 
 Fixed a crash in `get_device_capability()` in **HuggingFace Transformers** (158K ⭐) testing utilities when CUDA is installed but no GPU is present. Approved by Transformers maintainers; refactored CUDA/ROCm and XPU split implemented and pushed (2026-04-18) per @remi-or's review — both accelerator paths are now independent so they co-exist cleanly when only one device is present; awaiting final merge.
 
+**[optuna/optuna #6631](https://github.com/optuna/optuna/pull/6631) — merged April 19, 2026**
+
+Fixed a Sphinx RST directive typo in **Optuna** (11K ⭐) — correcting `.. note:` to `.. note::` in the `QMCSampler` docstring, which prevented the note from rendering in the documentation. "Good catch!" response from maintainer before merge.
+
 **[huggingface/trl #5527](https://github.com/huggingface/trl/pull/5527) — merged April 12, 2026**
 
 Contributed a new training template for **DeepSeek-V3** to **HuggingFace TRL** (12K ⭐). This template enables engineers to correctly fine-tune DeepSeek-V3 models using SFT loss masking — ensuring the model learns only from the assistant's responses, not the user's questions. Reviewed and approved by the TRL core maintainer.
@@ -87,9 +91,9 @@ Contributed a new training template for **DeepSeek-V3** to **HuggingFace TRL** (
 
 Contributed a new training template for **Alibaba's Qwen2.5 language model** to **HuggingFace TRL** (12K ⭐). This change enables engineers to correctly train Qwen2.5 models so the AI learns only from the assistant's responses — a critical capability for building production chatbots and AI assistants. Reviewed and approved by the TRL core maintainer.
 
-**[huggingface/trl #5526](https://github.com/huggingface/trl/pull/5526) — approved April 14, 2026**
+**[huggingface/trl #5526](https://github.com/huggingface/trl/pull/5526) — merged April 22, 2026**
 
-Contributed a new training template for **Microsoft's Phi-3 model family** to **HuggingFace TRL** (12K ⭐). Adds `{% generation %}` markers for SFT assistant-only loss masking. Approved by the TRL core maintainer; follow-up fixes applied (2026-04-18): Phi-3 added to the chat-template README and `else eos_token` branch removed to preserve the prefix property — awaiting final merge.
+Contributed a new training template for **Microsoft's Phi-3 model family** to **HuggingFace TRL** (12K ⭐). Adds `{% generation %}` markers for SFT assistant-only loss masking. Approved by the TRL core maintainer and merged into main.
 
 **[huggingface/trl #5493](https://github.com/huggingface/trl/pull/5493) — merged April 10, 2026**
 
@@ -115,7 +119,7 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 |----|------|-------|-------------|--------|
 | [#33728](https://github.com/scikit-learn/scikit-learn/pull/33728) | **scikit-learn** | 65K ⭐ | docs: document `StratifiedShuffleSplit` approximation limitation for rare classes | Approved by @ArturoAmorQ — awaiting @glemaitre confirmation |
 | [#33722](https://github.com/scikit-learn/scikit-learn/pull/33722) | **scikit-learn** | 65K ⭐ | docs: clarify `VotingClassifier.estimators_` are fitted on integer-encoded labels | Awaiting review |
-| [#3144](https://github.com/huggingface/peft/pull/3144) | **HuggingFace PEFT** | 17K ⭐ | feat: add type hints to utility functions in `merge_utils.py` and `other.py` | Pyright cleanup pushed (2026-04-18) — fixed `possibly-unbound` vars in `loftq_utils.py` and `integrations.py`; awaiting review |
+| [#3144](https://github.com/huggingface/peft/pull/3144) | **HuggingFace PEFT** | 17K ⭐ | feat: add type hints to utility functions in `merge_utils.py` and `other.py` | Changes requested addressed (2026-05-09) — removed assert/init additions per BenjaminBossan; awaiting re-review |
 | [#5235](https://github.com/google/adk-python/pull/5235) | **Google ADK** | 9K ⭐ | fix: support flat-module agents in `_determine_agent_language`; fixes `adk web` crash | Under review |
 | [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points | `autoformat.sh` applied and pushed (2026-04-18); awaiting review |
 | [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Awaiting review |
@@ -123,14 +127,12 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#2280](https://github.com/567-labs/instructor/pull/2280) | **Instructor** | 10K ⭐ | fix: propagate `IncompleteOutputException` directly without wrapping in `InstructorRetryException` | Awaiting review |
 | [#33791](https://github.com/scikit-learn/scikit-learn/pull/33791) | **scikit-learn** | 65K ⭐ | docs: add Notes + References sections to `CCA` docstring (numerical instability warning) | Awaiting review |
 | [#33792](https://github.com/scikit-learn/scikit-learn/pull/33792) | **scikit-learn** | 65K ⭐ | fix: correct `SimpleImputer.inverse_transform` column order with all-NaN features | Changelog entry added (2026-04-19); CI resolved; awaiting review |
-| [#6631](https://github.com/optuna/optuna/pull/6631) | **Optuna** | 11K ⭐ | fix: correct `.. note:` → `.. note::` Sphinx directive in `QMCSampler` docstring | Awaiting review |
 | [#13965](https://github.com/explosion/spaCy/pull/13965) | **spaCy** | 32K ⭐ | fix: add `is_base_form` to `FrenchLemmatizer` to skip suffix rules on French infinitives | Awaiting review |
-| [#62756](https://github.com/ray-project/ray/pull/62756) | **Ray** | 37K ⭐ | docs: fix import count in tune-pytorch-cifar notebook (3 → 2 Ray-specific imports) | Gemini: "no feedback" — clean; awaiting human review |
+| [#62756](https://github.com/ray-project/ray/pull/62756) | **Ray** | 37K ⭐ | docs: fix import count in tune-pytorch-cifar notebook (3 → 2 Ray-specific imports) | **Approved** — LGTM from @pseudo-rnd-thoughts (May 6); awaiting merge |
 | [#40271](https://github.com/vllm-project/vllm/pull/40271) | **vLLM** | 47K ⭐ | docs: expand `load_weights` contributing guide with `AutoWeightsLoader` and manual patterns | DCO sign-off added (2026-04-19); needs maintainer `ready` label for CI |
-| [#65291](https://github.com/pandas-dev/pandas/pull/65291) | **Pandas** | 45K ⭐ | docs: add docstring with examples to `Series.__invert__` | Awaiting review |
-| [#9635](https://github.com/stanfordnlp/dspy/pull/9635) | **DSPy** | 23K ⭐ | docs: add Google-style docstrings to `LabeledFewShot` (vanilla.py) | Awaiting review |
+| [#65291](https://github.com/pandas-dev/pandas/pull/65291) | **Pandas** | 45K ⭐ | docs: add docstring with examples to `Series.__invert__` | Reviewer comment addressed (2026-05-09) — moved to Unary operator functions section; awaiting review |
 
-**Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas · DSPy
+**Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas
 
 ---
 
