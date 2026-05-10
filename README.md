@@ -51,11 +51,11 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 
 **Conference Talks (5)**
 
-- 🎤 **AI Summit, New York** — *How Will Third-Party AI-Plugins Make an Impact on Business?* (2023)
-- 🎤 **IEEE NAPS, Western Carolina University** — *Performance Comparison of Advanced ML Techniques for Electricity Price Forecasting* (2023)
-- 🎤 **WPI Fintech Lab** — *Credit Risk Evaluation for Financial Inclusion* (2023)
-- 🎤 **CONF-CIAP** — *xCovNet: A Wide Deep Learning Model for CXR-based COVID-19 Detection* (2023)
-- 🎤 **CONF-MLA** — *Automated FX Currency Transaction Forecasting for E-commerce and Fintech* (2023)
+- 🎤 **AI Summit, New York** — *How Will Third-Party AI-Plugins Make an Impact on Business?*
+- 🎤 **IEEE NAPS, Western Carolina University** — *Performance Comparison of Advanced ML Techniques for Electricity Price Forecasting*
+- 🎤 **WPI Fintech Lab** — *Credit Risk Evaluation for Financial Inclusion*
+- 🎤 **CONF-CIAP** — *xCovNet: A Wide Deep Learning Model for CXR-based COVID-19 Detection*
+- 🎤 **CONF-MLA** — *Automated FX Currency Transaction Forecasting for E-commerce and Fintech*
 
 ---
 
