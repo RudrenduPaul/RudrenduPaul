@@ -105,7 +105,7 @@ Added a working code example to **HuggingFace TRL**'s documentation showing how 
 
 **[scikit-learn/scikit-learn #33723](https://github.com/scikit-learn/scikit-learn/pull/33723) — approved April 11, 2026**
 
-Clarified in **scikit-learn** (65K ⭐) documentation that `best_estimator_` in `HalvingGridSearchCV` and `HalvingRandomSearchCV` reflects only the winner of the final halving iteration — a subtle but important distinction for users interpreting search results. Approved by two scikit-learn core maintainers.
+Clarified in **scikit-learn** (65K ⭐) documentation that `best_estimator_` in `HalvingGridSearchCV` and `HalvingRandomSearchCV` reflects only the winner of the final halving iteration — a subtle but important distinction for users interpreting search results. Approved by two scikit-learn core maintainers. All reviewer inline suggestions integrated; CI lint passing.
 
 **[openai/openai-agents-python #2876](https://github.com/openai/openai-agents-python/pull/2876) — acknowledged April 15, 2026**
 
