@@ -65,10 +65,10 @@ Contributing to the infrastructure layer of AI — the frameworks, SDKs, and too
 
 ### ✅ Contributions Merged, Approved, and Acknowledged
 
-- **8 PRs merged into production**
-- **3 PRs approved by maintainers** — awaiting final merge
+- **14 PRs merged into production**
+- **1 PR approved by maintainers** — awaiting final merge
 - **1 contribution acknowledged and shipped** by the maintainer team
-- **13 PRs under review** across 14+ repos
+- **8 PRs under review** across 10+ repos
 
 These contributions are now part of the official codebases used by millions of engineers worldwide.
 
@@ -80,9 +80,9 @@ Fixed an incorrect return type annotation on `Qwen3MoeSparseMoeBlock.forward` in
 
 Fixed 5 docstring errors in `Gemma3nTextConfig` across **HuggingFace Transformers** (158K ⭐) — correcting typos, grammar, and formatting issues in Google's Gemma 3n model configuration. Passed the anti-slop check and all CI checks.
 
-**[huggingface/transformers #45351](https://github.com/huggingface/transformers/pull/45351) — approved, awaiting merge**
+**[huggingface/transformers #45351](https://github.com/huggingface/transformers/pull/45351) — merged**
 
-Fixed a crash in `get_device_capability()` in **HuggingFace Transformers** (158K ⭐) testing utilities when CUDA is installed but no GPU is present. Approved by Transformers maintainers; refactored CUDA/ROCm and XPU split per @remi-or's review — both accelerator paths are now independent so they co-exist cleanly when only one device is present; awaiting final merge.
+Fixed a crash in `get_device_capability()` in **HuggingFace Transformers** (158K ⭐) testing utilities when CUDA is installed but no GPU is present. Refactored CUDA/ROCm and XPU split per @remi-or's review — both accelerator paths are now independent. Reviewed and merged by Transformers core maintainers.
 
 **[optuna/optuna #6631](https://github.com/optuna/optuna/pull/6631) — merged**
 
@@ -108,9 +108,25 @@ Contributed the equivalent training template for **Meta's Llama 3 model family**
 
 Added a working code example to **HuggingFace TRL**'s documentation showing how to use a key training feature (`completion_only_loss`) that was previously undocumented — helping new users get started faster with a feature the community had been asking about.
 
-**[scikit-learn/scikit-learn #33723](https://github.com/scikit-learn/scikit-learn/pull/33723) — approved, awaiting merge**
+**[scikit-learn/scikit-learn #33723](https://github.com/scikit-learn/scikit-learn/pull/33723) — merged**
 
-Clarified in **scikit-learn** (65K ⭐) documentation that `best_estimator_` in `HalvingGridSearchCV` and `HalvingRandomSearchCV` reflects only the winner of the final halving iteration — a subtle but important distinction for users interpreting search results. Approved by two scikit-learn core maintainers. All reviewer inline suggestions integrated; CI lint passing.
+Clarified in **scikit-learn** (65K ⭐) documentation that `best_estimator_` in `HalvingGridSearchCV` and `HalvingRandomSearchCV` reflects only the winner of the final halving iteration — a subtle but important distinction for users interpreting search results. Approved by two scikit-learn core maintainers (StefanieSenger, betatim) and merged. Also closed issue #24901.
+
+**[scikit-learn/scikit-learn #33722](https://github.com/scikit-learn/scikit-learn/pull/33722) — merged**
+
+Clarified in **scikit-learn** (65K ⭐) that `VotingClassifier.estimators_` contains models fitted on integer-encoded labels — not the original string class names. This subtle distinction causes silent misinterpretation when users inspect the fitted sub-estimators. Reviewed by jeremiedbb and merged; also closed issue #12189.
+
+**[huggingface/peft #3144](https://github.com/huggingface/peft/pull/3144) — merged**
+
+Added type annotations to utility functions across `src/peft/utils/` in **HuggingFace PEFT** (17K ⭐) — `merge_utils.py`, `other.py`, `loftq_utils.py`, and `integrations.py`. Ran pyright across the full module to target the most impactful errors. Approved by PEFT lead maintainer BenjaminBossan after an iterative review addressing 5 inline change requests.
+
+**[567-labs/instructor #2280](https://github.com/567-labs/instructor/pull/2280) — merged**
+
+Fixed exception propagation in **Instructor** (10K ⭐): when an LLM returns an incomplete response, `IncompleteOutputException` was being swallowed inside a tenacity `RetryError` wrapper, hiding the root cause from callers. The fix propagates it directly, giving users the correct exception type without the wrapping noise. Merged by Jason Liu.
+
+**[ray-project/ray #62756](https://github.com/ray-project/ray/pull/62756) — merged**
+
+Fixed incorrect import count in the PyTorch CIFAR tutorial notebook in **Ray** (37K ⭐) — the comment stated 3 Ray-specific imports where only 2 existed. Reviewed by @pseudo-rnd-thoughts (LGTM) and merged.
 
 **[openai/openai-agents-python #2876](https://github.com/openai/openai-agents-python/pull/2876) — acknowledged**
 
@@ -120,22 +136,19 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 
 ### 🔵 Open Pull Requests — Under Review
 
+Also merged since last update: **[#33722](https://github.com/scikit-learn/scikit-learn/pull/33722)** (sklearn, May 13) · **[#3144](https://github.com/huggingface/peft/pull/3144)** (HF PEFT, May 11) · **[#2280](https://github.com/567-labs/instructor/pull/2280)** (Instructor, May 10) · **[#62756](https://github.com/ray-project/ray/pull/62756)** (Ray, May 22)
+
 | PR | Repo | Stars | Description | Status |
 |----|------|-------|-------------|--------|
 | [#33728](https://github.com/scikit-learn/scikit-learn/pull/33728) | **scikit-learn** | 65K ⭐ | docs: document `StratifiedShuffleSplit` approximation limitation for rare classes | Approved by @ArturoAmorQ — awaiting @glemaitre confirmation |
-| [#33722](https://github.com/scikit-learn/scikit-learn/pull/33722) | **scikit-learn** | 65K ⭐ | docs: clarify `VotingClassifier.estimators_` are fitted on integer-encoded labels | Awaiting review |
-| [#3144](https://github.com/huggingface/peft/pull/3144) | **HuggingFace PEFT** | 17K ⭐ | feat: add type hints to utility functions in `merge_utils.py` and `other.py` | Changes requested addressed — awaiting re-review |
-| [#5235](https://github.com/google/adk-python/pull/5235) | **Google ADK** | 9K ⭐ | fix: support flat-module agents in `_determine_agent_language`; fixes `adk web` crash | Under review |
-| [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points | Awaiting review |
-| [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Awaiting review |
-| [#2251](https://github.com/567-labs/instructor/pull/2251) | **Instructor** | 10K ⭐ | test: unit tests for `completion:error` hook attempt metadata forwarding | Awaiting review |
-| [#2280](https://github.com/567-labs/instructor/pull/2280) | **Instructor** | 10K ⭐ | fix: propagate `IncompleteOutputException` directly without wrapping in `InstructorRetryException` | Awaiting review |
 | [#33791](https://github.com/scikit-learn/scikit-learn/pull/33791) | **scikit-learn** | 65K ⭐ | docs: add Notes + References sections to `CCA` docstring (numerical instability warning) | Awaiting review |
 | [#33792](https://github.com/scikit-learn/scikit-learn/pull/33792) | **scikit-learn** | 65K ⭐ | fix: correct `SimpleImputer.inverse_transform` column order with all-NaN features | CI passing; awaiting review |
+| [#5235](https://github.com/google/adk-python/pull/5235) | **Google ADK** | 9K ⭐ | fix: support flat-module agents in `_determine_agent_language`; fixes `adk web` crash | Under review, assigned to @DeanChensj |
+| [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points | Awaiting review (CLA pending) |
+| [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Awaiting review |
 | [#13965](https://github.com/explosion/spaCy/pull/13965) | **spaCy** | 32K ⭐ | fix: add `is_base_form` to `FrenchLemmatizer` to skip suffix rules on French infinitives | Awaiting review |
-| [#62756](https://github.com/ray-project/ray/pull/62756) | **Ray** | 37K ⭐ | docs: fix import count in tune-pytorch-cifar notebook (3 → 2 Ray-specific imports) | **Approved** — awaiting merge |
 | [#40271](https://github.com/vllm-project/vllm/pull/40271) | **vLLM** | 47K ⭐ | docs: expand `load_weights` contributing guide with `AutoWeightsLoader` and manual patterns | Awaiting maintainer `ready` label for CI |
-| [#65291](https://github.com/pandas-dev/pandas/pull/65291) | **Pandas** | 45K ⭐ | docs: add docstring with examples to `Series.__invert__` | Awaiting review |
+| [#65291](https://github.com/pandas-dev/pandas/pull/65291) | **Pandas** | 45K ⭐ | docs: add docstring with examples to `NDFrame.__invert__`; add `DataFrame.__invert__` to frame.rst | All reviewer comments addressed (Jun 2026) — awaiting re-review |
 
 **Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas
 
