@@ -66,9 +66,9 @@ Contributing to the infrastructure layer of AI — the frameworks, SDKs, and too
 ### ✅ Contributions Merged, Approved, and Acknowledged
 
 - **14 PRs merged into production**
-- **1 PR approved by maintainers** — awaiting final merge
+- **1 PR approved by maintainers** — awaiting final merge (sklearn #33728)
 - **1 contribution acknowledged and shipped** by the maintainer team
-- **8 PRs under review** across 10+ repos
+- **8 PRs under review** across 6 repos
 
 These contributions are now part of the official codebases used by millions of engineers worldwide.
 
@@ -135,8 +135,6 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 ---
 
 ### 🔵 Open Pull Requests — Under Review
-
-Also merged since last update: **[#33722](https://github.com/scikit-learn/scikit-learn/pull/33722)** (sklearn, May 13) · **[#3144](https://github.com/huggingface/peft/pull/3144)** (HF PEFT, May 11) · **[#2280](https://github.com/567-labs/instructor/pull/2280)** (Instructor, May 10) · **[#62756](https://github.com/ray-project/ray/pull/62756)** (Ray, May 22)
 
 | PR | Repo | Stars | Description | Status |
 |----|------|-------|-------------|--------|
