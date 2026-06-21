@@ -66,7 +66,7 @@ Contributing to the infrastructure layer of AI, the frameworks, SDKs, and toolin
 ### ✅ Contributions Merged, Approved, and Acknowledged
 
 - **15 PRs merged into production**
-- **1 PR approved by maintainers**, awaiting final merge (sklearn #33728)
+- **2 PRs approved by maintainers**, awaiting final merge (sklearn #33728, Anthropic Cookbook #733)
 - **1 contribution acknowledged and shipped** by the maintainer team
 - **26 PRs under review** across 9 repos (20 new PRs submitted Jun 21, Anthropic Cookbook ×7, OpenAI Agents Python ×5, OpenAI Cookbook ×4, Anthropic Courses ×1, + 8 legacy)
 
@@ -155,7 +155,7 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#730](https://github.com/anthropics/claude-cookbooks/pull/730) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): rate limiting and retry patterns, tenacity backoff, token budget, async semaphore | Submitted Jun 21 |
 | [#731](https://github.com/anthropics/claude-cookbooks/pull/731) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): token counting and context window management, sliding-window, extended thinking | Submitted Jun 21 |
 | [#732](https://github.com/anthropics/claude-cookbooks/pull/732) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): streaming text and events, all 6 event types, async streaming, progress indicator | Submitted Jun 21 |
-| [#733](https://github.com/anthropics/claude-cookbooks/pull/733) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Message Batches API, async batch submission, polling, result streaming, 50% cost savings | Submitted Jun 21 |
+| [#733](https://github.com/anthropics/claude-cookbooks/pull/733) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Message Batches API, async batch submission, polling, result streaming, 50% cost savings | **Approved** by @sajjadfarooq768-ai, Jun 21 — awaiting merge |
 | [#3664](https://github.com/openai/openai-agents-python/pull/3664) | **OpenAI Agents Python** | 19K ⭐ | docs(voice): add missing class/method docstrings to `VoiceWorkflowHelper`, `SingleAgentWorkflowCallbacks`, `run()` | Submitted Jun 21. All 33 voice tests pass. The bot flagged `tests.yml` in the original diff; that file dropped out after rebasing. |
 | [#3665](https://github.com/openai/openai-agents-python/pull/3665) | **OpenAI Agents Python** | 19K ⭐ | feat: add `__repr__` to `RunResult` and `Agent`; add citation-verification-loop example | Submitted Jun 21. Pushed two review fixes: added a note that the verifier uses model memory (a search tool is needed in production), and replaced the Pydantic validator with a loop-level guard so bad outputs get logged and dropped. |
 | [#3666](https://github.com/openai/openai-agents-python/pull/3666) | **OpenAI Agents Python** | 19K ⭐ | docs: add missing docstrings to guardrail `run`/`get_name` and `ModelSettings.to_json_dict` | Submitted Jun 21, all checks pass |
