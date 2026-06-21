@@ -68,7 +68,7 @@ Contributing to the infrastructure layer of AI — the frameworks, SDKs, and too
 - **14 PRs merged into production**
 - **1 PR approved by maintainers** — awaiting final merge (sklearn #33728)
 - **1 contribution acknowledged and shipped** by the maintainer team
-- **8 PRs under review** across 6 repos
+- **7 PRs under review** across 5 repos
 
 These contributions are now part of the official codebases used by millions of engineers worldwide.
 
@@ -142,11 +142,10 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#33791](https://github.com/scikit-learn/scikit-learn/pull/33791) | **scikit-learn** | 65K ⭐ | docs: add Notes + References sections to `CCA` docstring (numerical instability warning) | Awaiting review |
 | [#33792](https://github.com/scikit-learn/scikit-learn/pull/33792) | **scikit-learn** | 65K ⭐ | fix: correct `SimpleImputer.inverse_transform` column order with all-NaN features | CI passing; awaiting review |
 | [#5235](https://github.com/google/adk-python/pull/5235) | **Google ADK** | 9K ⭐ | fix: support flat-module agents in `_determine_agent_language`; fixes `adk web` crash | Under review, assigned to @DeanChensj |
-| [#5227](https://github.com/google/adk-python/pull/5227) | **Google ADK** | 9K ⭐ | fix: add `--agent_module` flag to `adk deploy agent_engine` for non-`agent.py` entry points | Awaiting review (CLA pending) |
 | [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Awaiting review |
 | [#13965](https://github.com/explosion/spaCy/pull/13965) | **spaCy** | 32K ⭐ | fix: add `is_base_form` to `FrenchLemmatizer` to skip suffix rules on French infinitives | Awaiting review |
 | [#40271](https://github.com/vllm-project/vllm/pull/40271) | **vLLM** | 47K ⭐ | docs: expand `load_weights` contributing guide with `AutoWeightsLoader` and manual patterns | Awaiting maintainer `ready` label for CI |
-| [#65291](https://github.com/pandas-dev/pandas/pull/65291) | **Pandas** | 45K ⭐ | docs: add docstring with examples to `NDFrame.__invert__`; add `DataFrame.__invert__` to frame.rst | All reviewer comments addressed (Jun 2026) — awaiting re-review |
+| [#65291](https://github.com/pandas-dev/pandas/pull/65291) | **Pandas** | 45K ⭐ | docs: add docstring with examples to `NDFrame.__invert__`; add `DataFrame.__invert__` to frame.rst | Fixes pushed Jun 14 — awaiting re-review from jbrockmendel |
 
 **Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas
 
