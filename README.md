@@ -68,7 +68,7 @@ Contributing to the infrastructure layer of AI — the frameworks, SDKs, and too
 - **14 PRs merged into production**
 - **1 PR approved by maintainers** — awaiting final merge (sklearn #33728)
 - **1 contribution acknowledged and shipped** by the maintainer team
-- **7 PRs under review** across 5 repos
+- **14 PRs under review** across 7 repos (7 new PRs submitted Jun 21 to Anthropic Courses, Anthropic Cookbook, and OpenAI Agents Python)
 
 These contributions are now part of the official codebases used by millions of engineers worldwide.
 
@@ -146,8 +146,15 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#13965](https://github.com/explosion/spaCy/pull/13965) | **spaCy** | 32K ⭐ | fix: add `is_base_form` to `FrenchLemmatizer` to skip suffix rules on French infinitives | Awaiting review |
 | [#40271](https://github.com/vllm-project/vllm/pull/40271) | **vLLM** | 47K ⭐ | docs: expand `load_weights` contributing guide with `AutoWeightsLoader` and manual patterns | Awaiting maintainer `ready` label for CI |
 | [#65291](https://github.com/pandas-dev/pandas/pull/65291) | **Pandas** | 45K ⭐ | docs: add docstring with examples to `NDFrame.__invert__`; add `DataFrame.__invert__` to frame.rst | Fixes pushed Jun 14 — awaiting re-review from jbrockmendel |
+| [#168](https://github.com/anthropics/courses/pull/168) | **Anthropic Courses** | 7K ⭐ | fix: update `claude-3-haiku-20240307` → `claude-haiku-4-5` in `04_parameters.ipynb` | Submitted Jun 21 |
+| [#725](https://github.com/anthropics/claude-cookbooks/pull/725) | **Anthropic Cookbook** | 12K ⭐ | fix(security): add `.npmrc` to `.gitignore` with negation for safe sandbox templates | Submitted Jun 21 |
+| [#3664](https://github.com/openai/openai-agents-python/pull/3664) | **OpenAI Agents Python** | 19K ⭐ | docs(voice): add missing class/method docstrings to `VoiceWorkflowHelper`, `SingleAgentWorkflowCallbacks`, `run()` | Submitted Jun 21 — all 33 voice tests pass |
+| [#726](https://github.com/anthropics/claude-cookbooks/pull/726) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Pipeline vs Barrier notebook — benchmark of asyncio pipeline vs barrier for sub-agent composition | Submitted Jun 21 — refs issue #721 |
+| [#727](https://github.com/anthropics/claude-cookbooks/pull/727) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Adversarial Self-Verification notebook — Generator→3 Verifiers→Synthesis pattern to cut false positives | Submitted Jun 21 — refs issue #713 |
+| [#728](https://github.com/anthropics/claude-cookbooks/pull/728) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Model Routing notebook — cheapest-capable-model dispatch with ModelRouter class and cost analysis | Submitted Jun 21 — refs issue #714 |
+| [#729](https://github.com/anthropics/claude-cookbooks/pull/729) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Human-in-the-Loop Approval notebook — `IrreversibleActionGate` with blast-radius preflight and timeout-abort | Submitted Jun 21 — refs issue #701 |
 
-**Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas
+**Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas · **Anthropic Courses** · **Anthropic Cookbook**
 
 ---
 
