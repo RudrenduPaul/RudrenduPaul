@@ -65,10 +65,10 @@ Contributing to the infrastructure layer of AI, the frameworks, SDKs, and toolin
 
 ### ✅ Contributions Merged, Approved, and Acknowledged
 
-- **14 PRs merged into production**
+- **15 PRs merged into production**
 - **1 PR approved by maintainers**, awaiting final merge (sklearn #33728)
 - **1 contribution acknowledged and shipped** by the maintainer team
-- **27 PRs under review** across 9 repos (20 new PRs submitted Jun 21, Anthropic Cookbook ×7, OpenAI Agents Python ×5, OpenAI Cookbook ×4, Anthropic Courses ×1, + 9 legacy)
+- **26 PRs under review** across 9 repos (20 new PRs submitted Jun 21, Anthropic Cookbook ×7, OpenAI Agents Python ×5, OpenAI Cookbook ×4, Anthropic Courses ×1, + 8 legacy)
 
 These contributions are now part of the official codebases used by millions of engineers worldwide.
 
@@ -145,7 +145,7 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Awaiting review |
 | [#13965](https://github.com/explosion/spaCy/pull/13965) | **spaCy** | 32K ⭐ | fix: add `is_base_form` to `FrenchLemmatizer` to skip suffix rules on French infinitives | Awaiting review |
 | [#40271](https://github.com/vllm-project/vllm/pull/40271) | **vLLM** | 47K ⭐ | docs: expand `load_weights` contributing guide with `AutoWeightsLoader` and manual patterns | Awaiting maintainer `ready` label for CI |
-| [#65291](https://github.com/pandas-dev/pandas/pull/65291) | **Pandas** | 45K ⭐ | docs: add docstring with examples to `NDFrame.__invert__`; add `DataFrame.__invert__` to frame.rst | Fixes pushed Jun 14. CI failures (Linux-32-bit, Musl, Pyodide) are pre-existing pytest infra issues unrelated to this PR. Comment left Jun 21; awaiting jbrockmendel re-review. |
+| ~~[#65291](https://github.com/pandas-dev/pandas/pull/65291)~~ | ~~**Pandas**~~ | ~~45K ⭐~~ | ~~docs: add docstring with examples to `NDFrame.__invert__`; add `DataFrame.__invert__` to frame.rst~~ | **MERGED Jun 21** ✅ — @jbrockmendel approved; "thanks @RudrenduPaul" |
 | [#168](https://github.com/anthropics/courses/pull/168) | **Anthropic Courses** | 7K ⭐ | fix: update `claude-3-haiku-20240307` to `claude-haiku-4-5` in `04_parameters.ipynb` | Submitted Jun 21 |
 | [#725](https://github.com/anthropics/claude-cookbooks/pull/725) | **Anthropic Cookbook** | 12K ⭐ | fix(security): add `.npmrc` to `.gitignore` with negation for safe sandbox templates | Submitted Jun 21 |
 | [#726](https://github.com/anthropics/claude-cookbooks/pull/726) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Pipeline vs Barrier notebook, benchmark of asyncio pipeline vs barrier for sub-agent composition | Submitted Jun 21 (refs issue #721) |
@@ -161,7 +161,7 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#3666](https://github.com/openai/openai-agents-python/pull/3666) | **OpenAI Agents Python** | 19K ⭐ | docs: add missing docstrings to guardrail `run`/`get_name` and `ModelSettings.to_json_dict` | Submitted Jun 21, all checks pass |
 | [#3667](https://github.com/openai/openai-agents-python/pull/3667) | **OpenAI Agents Python** | 19K ⭐ | feat(examples): structured output validation loop + multi-step tool chain patterns | Submitted Jun 21. Pushed two review fixes: validator now checks all fields even when the score is out of range, and research agent runs tools one at a time. |
 | [#3668](https://github.com/openai/openai-agents-python/pull/3668) | **OpenAI Agents Python** | 19K ⭐ | feat(examples): streaming lifecycle event observer + typed context injection with `RunContextWrapper` | Submitted Jun 21. Both reviewer comments resolved: get_price tool output cleaned up to remove the internal price tier label, and the docstring now describes what the model receives from the context wrapper. |
-| [#2810](https://github.com/openai/openai-cookbook/pull/2810) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): structured extraction from PDFs with GPT-4o vision + Pydantic validation loop | Three Codex rounds resolved: registry.yaml, validation routing, and early-pass confidence check. Waiting for re-review. |
+| [#2810](https://github.com/openai/openai-cookbook/pull/2810) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): structured extraction from PDFs with GPT-4o vision + Pydantic validation loop | Four Codex rounds resolved: registry.yaml, validation routing, early-pass confidence check, total_amount check when tax is absent. Waiting for re-review. |
 | [#2811](https://github.com/openai/openai-cookbook/pull/2811) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): model routing, cheapest capable OpenAI model dispatch with tiktoken cost tracking | Four Codex rounds resolved: registry, API key, tier-1 upgrade skip, classifier cost in totals, JSON compact output exemption. Waiting for re-review. |
 | [#2812](https://github.com/openai/openai-cookbook/pull/2812) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): error handling and retry patterns for OpenAI API, tenacity, fallback, header inspection | Submitted Jun 21. All four reviewer comments resolved. |
 | [#2813](https://github.com/openai/openai-cookbook/pull/2813) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): multi-agent task decomposition, parallel specialists + asyncio.gather synthesis | Four Codex rounds resolved: registry, asyncio fix, AsyncOpenAI deferred, synthesis prompt now dynamic from results keys. Waiting for re-review. |
