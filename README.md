@@ -68,7 +68,7 @@ Contributing to the infrastructure layer of AI, the frameworks, SDKs, and toolin
 - **15 PRs merged into production**
 - **2 PRs approved by maintainers**, awaiting final merge (sklearn #33728, Anthropic Cookbook #733)
 - **1 contribution acknowledged and shipped** by the maintainer team
-- **26 PRs under review** across 9 repos (20 new PRs submitted Jun 21, Anthropic Cookbook ×7, OpenAI Agents Python ×5, OpenAI Cookbook ×4, Anthropic Courses ×1, + 8 legacy)
+- **21 PRs under review** across 8 repos (Anthropic Cookbook ×9, OpenAI Cookbook ×4, Anthropic Courses ×1, scikit-learn ×3, vLLM, spaCy, MCP, Google ADK)
 
 These contributions are now part of the official codebases used by millions of engineers worldwide.
 
@@ -156,17 +156,12 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#731](https://github.com/anthropics/claude-cookbooks/pull/731) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): token counting and context window management, sliding-window, extended thinking | Submitted Jun 21 |
 | [#732](https://github.com/anthropics/claude-cookbooks/pull/732) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): streaming text and events, all 6 event types, async streaming, progress indicator | Submitted Jun 21 |
 | [#733](https://github.com/anthropics/claude-cookbooks/pull/733) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Message Batches API, async batch submission, polling, result streaming, 50% cost savings | **Approved** by @sajjadfarooq768-ai, Jun 21 — awaiting merge |
-| [#3664](https://github.com/openai/openai-agents-python/pull/3664) | **OpenAI Agents Python** | 19K ⭐ | docs(voice): add missing class/method docstrings to `VoiceWorkflowHelper`, `SingleAgentWorkflowCallbacks`, `run()` | Submitted Jun 21. All 33 voice tests pass. The bot flagged `tests.yml` in the original diff; that file dropped out after rebasing. |
-| [#3665](https://github.com/openai/openai-agents-python/pull/3665) | **OpenAI Agents Python** | 19K ⭐ | feat: add `__repr__` to `RunResult` and `Agent`; add citation-verification-loop example | Submitted Jun 21. Pushed two review fixes: added a note that the verifier uses model memory (a search tool is needed in production), and replaced the Pydantic validator with a loop-level guard so bad outputs get logged and dropped. |
-| [#3666](https://github.com/openai/openai-agents-python/pull/3666) | **OpenAI Agents Python** | 19K ⭐ | docs: add missing docstrings to guardrail `run`/`get_name` and `ModelSettings.to_json_dict` | Submitted Jun 21, all checks pass |
-| [#3667](https://github.com/openai/openai-agents-python/pull/3667) | **OpenAI Agents Python** | 19K ⭐ | feat(examples): structured output validation loop + multi-step tool chain patterns | Submitted Jun 21. Pushed two review fixes: validator now checks all fields even when the score is out of range, and research agent runs tools one at a time. |
-| [#3668](https://github.com/openai/openai-agents-python/pull/3668) | **OpenAI Agents Python** | 19K ⭐ | feat(examples): streaming lifecycle event observer + typed context injection with `RunContextWrapper` | Submitted Jun 21. Both reviewer comments resolved: get_price tool output cleaned up to remove the internal price tier label, and the docstring now describes what the model receives from the context wrapper. |
 | [#2810](https://github.com/openai/openai-cookbook/pull/2810) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): structured extraction from PDFs with GPT-4o vision + Pydantic validation loop | Four Codex rounds resolved: registry.yaml, validation routing, early-pass confidence check, total_amount check when tax is absent. Waiting for re-review. |
 | [#2811](https://github.com/openai/openai-cookbook/pull/2811) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): model routing, cheapest capable OpenAI model dispatch with tiktoken cost tracking | Four Codex rounds resolved: registry, API key, tier-1 upgrade skip, classifier cost in totals, JSON compact output exemption. Waiting for re-review. |
 | [#2812](https://github.com/openai/openai-cookbook/pull/2812) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): error handling and retry patterns for OpenAI API, tenacity, fallback, header inspection | Submitted Jun 21. All four reviewer comments resolved. |
 | [#2813](https://github.com/openai/openai-cookbook/pull/2813) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): multi-agent task decomposition, parallel specialists + asyncio.gather synthesis | Four Codex rounds resolved: registry, asyncio fix, AsyncOpenAI deferred, synthesis prompt now dynamic from results keys. Waiting for re-review. |
 
-**Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas · **Anthropic Courses** · **Anthropic Cookbook** · **OpenAI Cookbook** · **OpenAI Agents Python**
+**Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas · **Anthropic Courses** · **Anthropic Cookbook** · **OpenAI Cookbook**
 
 ---
 
