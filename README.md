@@ -65,10 +65,10 @@ Contributing to the infrastructure layer of AI, the frameworks, SDKs, and toolin
 
 ### ✅ Contributions Merged, Approved, and Acknowledged
 
-- **15 PRs merged into production**
+- **16 PRs merged into production**
 - **2 PRs approved by maintainers**, awaiting final merge (sklearn #33728, Anthropic Cookbook #733)
 - **1 contribution acknowledged and shipped** by the maintainer team
-- **21 PRs under review** across 8 repos (Anthropic Cookbook ×9, OpenAI Cookbook ×4, Anthropic Courses ×1, scikit-learn ×3, vLLM, spaCy, MCP, Google ADK)
+- **20 PRs under review** across 7 repos (Anthropic Cookbook ×9, OpenAI Cookbook ×4, Anthropic Courses ×1, scikit-learn ×3, vLLM, spaCy, MCP)
 
 These contributions are now part of the official codebases used by millions of engineers worldwide.
 
@@ -128,6 +128,10 @@ Fixed exception propagation in **Instructor** (10K ⭐): when an LLM returns an 
 
 Fixed incorrect import count in the PyTorch CIFAR tutorial notebook in **Ray** (37K ⭐), the comment stated 3 Ray-specific imports where only 2 existed. Reviewed by @pseudo-rnd-thoughts (LGTM) and merged.
 
+**[google/adk-python #5235](https://github.com/google/adk-python/pull/5235) (merged)**
+
+Fixed a crash in `adk web` for **Google ADK** (9K ⭐), Google's Agent Development Kit, by adding support for flat-module agent layouts in `_determine_agent_language`. The dev UI was breaking for agents that didn't follow a package-style module structure; the fix makes language detection work for both layouts. Merged into main via Google's internal Copybara import process.
+
 **[openai/openai-agents-python #2876](https://github.com/openai/openai-agents-python/pull/2876) (acknowledged)**
 
 Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in the **OpenAI Agents SDK** (19K ⭐). The maintainer responded *"Thank you so much for sending this"* and resolved the gap via [#2877](https://github.com/openai/openai-agents-python/pull/2877). The contribution identified a documentation need that the core team then prioritized and shipped.
@@ -141,7 +145,6 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#33728](https://github.com/scikit-learn/scikit-learn/pull/33728) | **scikit-learn** | 65K ⭐ | docs: document `StratifiedShuffleSplit` approximation limitation for rare classes | Approved by @ArturoAmorQ, awaiting @glemaitre confirmation |
 | [#33791](https://github.com/scikit-learn/scikit-learn/pull/33791) | **scikit-learn** | 65K ⭐ | docs: add Notes + References sections to `CCA` docstring (numerical instability warning) | Awaiting review |
 | [#33792](https://github.com/scikit-learn/scikit-learn/pull/33792) | **scikit-learn** | 65K ⭐ | fix: correct `SimpleImputer.inverse_transform` column order with all-NaN features | codecov/patch failing — new bugfix lines have no test coverage; test for all-NaN column reordering needed |
-| [#5235](https://github.com/google/adk-python/pull/5235) | **Google ADK** | 9K ⭐ | fix: support flat-module agents in `_determine_agent_language`; fixes `adk web` crash | Under review, assigned to @DeanChensj |
 | [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Awaiting review |
 | [#13965](https://github.com/explosion/spaCy/pull/13965) | **spaCy** | 32K ⭐ | fix: add `is_base_form` to `FrenchLemmatizer` to skip suffix rules on French infinitives | Awaiting review |
 | [#40271](https://github.com/vllm-project/vllm/pull/40271) | **vLLM** | 47K ⭐ | docs: expand `load_weights` contributing guide with `AutoWeightsLoader` and manual patterns | Awaiting maintainer `ready` label for CI |
