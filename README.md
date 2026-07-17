@@ -66,9 +66,10 @@ Contributing to the infrastructure layer of AI, the frameworks, SDKs, and toolin
 ### ✅ Contributions Merged, Approved, and Acknowledged
 
 - **16 PRs merged into production**
+- **9 additional PRs opened 2026-07-16**, spanning HuggingFace PEFT, Accelerate, Optimum, Tokenizers, Datasets, chat-ui (×2), lighteval, and PyTorch Lightning — all narrow, single-purpose fixes (type hints, bugfixes, docs), each independently duplicate-checked and policy-checked before submission
 - **2 PRs approved by maintainers**, awaiting final merge (sklearn #33728, Anthropic Cookbook #733)
 - **1 contribution acknowledged and shipped** by the maintainer team
-- **20 PRs under review** across 7 repos (Anthropic Cookbook ×9, OpenAI Cookbook ×4, Anthropic Courses ×1, scikit-learn ×3, vLLM, spaCy, MCP)
+- **29 PRs under review** across 15 repos (Anthropic Cookbook ×9, OpenAI Cookbook ×4, scikit-learn ×3, chat-ui ×2, Anthropic Courses, vLLM, spaCy, MCP, HuggingFace PEFT, Accelerate, Optimum, Tokenizers, Datasets, lighteval, PyTorch Lightning ×1 each)
 
 These contributions are now part of the official codebases used by millions of engineers worldwide.
 
@@ -163,8 +164,17 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#2811](https://github.com/openai/openai-cookbook/pull/2811) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): model routing, cheapest capable OpenAI model dispatch with tiktoken cost tracking | Four Codex rounds resolved: registry, API key, tier-1 upgrade skip, classifier cost in totals, JSON compact output exemption. Waiting for re-review. |
 | [#2812](https://github.com/openai/openai-cookbook/pull/2812) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): error handling and retry patterns for OpenAI API, tenacity, fallback, header inspection | Submitted Jun 21. All four reviewer comments resolved. |
 | [#2813](https://github.com/openai/openai-cookbook/pull/2813) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): multi-agent task decomposition, parallel specialists + asyncio.gather synthesis | Four Codex rounds resolved: registry, asyncio fix, AsyncOpenAI deferred, synthesis prompt now dynamic from results keys. Waiting for re-review. |
+| [#3448](https://github.com/huggingface/peft/pull/3448) | **HuggingFace PEFT** | 17K ⭐ | Add type hints to `rescale_adapter_scale` and `compute_loss` in `helpers.py` | Submitted Jul 16 |
+| [#4123](https://github.com/huggingface/accelerate/pull/4123) | **HuggingFace Accelerate** | 8.5K ⭐ | Add missing `-> bool` return type hints in `utils/imports.py` | Submitted Jul 16 |
+| [#2462](https://github.com/huggingface/optimum/pull/2462) | **HuggingFace Optimum** | 2.7K ⭐ | Add `swinv2` to `NormalizedConfigManager` mapping, fixes `KeyError` | Submitted Jul 16 |
+| [#2211](https://github.com/huggingface/tokenizers/pull/2211) | **HuggingFace Tokenizers** | 9.5K ⭐ | Add missing return type hints to `BaseTokenizer.save`, `save_model`, `to_str` | Submitted Jul 16 |
+| [#8340](https://github.com/huggingface/datasets/pull/8340) | **HuggingFace Datasets** | 19K ⭐ | Make `Dataset` generic (`Dataset[T]`) so column types can be specified in typehints | Submitted Jul 16 |
+| [#2431](https://github.com/huggingface/chat-ui/pull/2431) | **HuggingFace chat-ui** | 8K ⭐ | fix: make `.dockerignore` ignore `node_modules` at any depth | Submitted Jul 16 |
+| [#2432](https://github.com/huggingface/chat-ui/pull/2432) | **HuggingFace chat-ui** | 8K ⭐ | fix: allow `addSibling` to target the root message | Submitted Jul 16; follow-up fix pushed after the repo's Codex bot flagged root siblings were unreachable in the branch UI |
+| [#1300](https://github.com/huggingface/lighteval/pull/1300) | **lighteval** | 5K ⭐ | fix: correct `stop_sequence` → `stop_sequences` typo in `_continuous_greedy_until` | Submitted Jul 16 |
+| [#21841](https://github.com/Lightning-AI/pytorch-lightning/pull/21841) | **PyTorch Lightning** | 31K ⭐ | docs: clarify `sync_dist` warning is a false positive for TorchMetrics-derived values | Submitted Jul 16 |
 
-**Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas · **Anthropic Courses** · **Anthropic Cookbook** · **OpenAI Cookbook**
+**Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · HuggingFace Accelerate · HuggingFace Optimum · HuggingFace Tokenizers · HuggingFace Datasets · HuggingFace chat-ui · lighteval · PyTorch Lightning · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas · **Anthropic Courses** · **Anthropic Cookbook** · **OpenAI Cookbook**
 
 ---
 
