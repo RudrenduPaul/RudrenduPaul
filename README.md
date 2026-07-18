@@ -66,10 +66,10 @@ Contributing to the infrastructure layer of AI, the frameworks, SDKs, and toolin
 ### ✅ Contributions Merged, Approved, and Acknowledged
 
 - **16 PRs merged into production**
-- **9 additional PRs opened 2026-07-16**, spanning HuggingFace PEFT, Accelerate, Optimum, Tokenizers, Datasets, chat-ui (×2), lighteval, and PyTorch Lightning — all narrow, single-purpose fixes (type hints, bugfixes, docs), each independently duplicate-checked and policy-checked before submission
+- **13 additional PRs opened 2026-07-16 to 07-17**, spanning HuggingFace PEFT (×2), Accelerate (×3), Optimum, Tokenizers (×2), Datasets, chat-ui (×2), lighteval, and PyTorch Lightning — all narrow, single-purpose fixes (type hints, bugfixes, docs), each independently duplicate-checked and policy-checked before submission
 - **2 PRs approved by maintainers**, awaiting final merge (sklearn #33728, Anthropic Cookbook #733)
 - **1 contribution acknowledged and shipped** by the maintainer team
-- **29 PRs under review** across 15 repos (Anthropic Cookbook ×9, OpenAI Cookbook ×4, scikit-learn ×3, chat-ui ×2, Anthropic Courses, vLLM, spaCy, MCP, HuggingFace PEFT, Accelerate, Optimum, Tokenizers, Datasets, lighteval, PyTorch Lightning ×1 each)
+- **33 PRs under review** across 15 repos (Anthropic Cookbook ×9, OpenAI Cookbook ×4, scikit-learn ×3, HuggingFace Accelerate ×3, chat-ui ×2, HuggingFace PEFT ×2, HuggingFace Tokenizers ×2, Anthropic Courses, vLLM, spaCy, MCP, HuggingFace Optimum, HuggingFace Datasets, lighteval, PyTorch Lightning ×1 each)
 
 These contributions are now part of the official codebases used by millions of engineers worldwide.
 
@@ -173,6 +173,10 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#2432](https://github.com/huggingface/chat-ui/pull/2432) | **HuggingFace chat-ui** | 8K ⭐ | fix: allow `addSibling` to target the root message | Submitted Jul 16; follow-up fix pushed after the repo's Codex bot flagged root siblings were unreachable in the branch UI |
 | [#1300](https://github.com/huggingface/lighteval/pull/1300) | **lighteval** | 5K ⭐ | fix: correct `stop_sequence` → `stop_sequences` typo in `_continuous_greedy_until` | Submitted Jul 16 |
 | [#21841](https://github.com/Lightning-AI/pytorch-lightning/pull/21841) | **PyTorch Lightning** | 31K ⭐ | docs: clarify `sync_dist` warning is a false positive for TorchMetrics-derived values | Submitted Jul 16 |
+| [#3452](https://github.com/huggingface/peft/pull/3452) | **HuggingFace PEFT** | 17K ⭐ | Add type hints to hotswap utility functions in `hotswap.py` | Submitted Jul 17 |
+| [#4124](https://github.com/huggingface/accelerate/pull/4124) | **HuggingFace Accelerate** | 8.5K ⭐ | Add `module: nn.Module` type hints to `ModelHook` lifecycle methods | Submitted Jul 17 |
+| [#4125](https://github.com/huggingface/accelerate/pull/4125) | **HuggingFace Accelerate** | 8.5K ⭐ | Add `level`/`msg` type hints to `MultiProcessAdapter.log` | Submitted Jul 17 |
+| [#2215](https://github.com/huggingface/tokenizers/pull/2215) | **HuggingFace Tokenizers** | 9.5K ⭐ | Fix dead wikitext-103 S3 link in `quicktour.mdx` | Submitted Jul 17 |
 
 **Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · HuggingFace Accelerate · HuggingFace Optimum · HuggingFace Tokenizers · HuggingFace Datasets · HuggingFace chat-ui · lighteval · PyTorch Lightning · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas · **Anthropic Courses** · **Anthropic Cookbook** · **OpenAI Cookbook**
 
