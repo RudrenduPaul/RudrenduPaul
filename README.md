@@ -14,7 +14,7 @@ My work spans **Ads, Marketing Measurement, and Incrementality Testing**, and ha
 
 **Core domains:**
 - Marketing Mix Modeling · Multi-Touch Attribution · Incrementality Testing
-- [Product Experimentation with Causal Inference on Gen AI and LLM Applications](#causal-inference-for-genaillm-product-experimentation-freecodecamp-series-10-articles) (10-article series on [freeCodeCamp](https://www.freecodecamp.org/news/author/rudrendupaul/), 10M+ monthly visitors)
+- [Product Experimentation with Causal Inference on Gen AI and LLM Applications](#causal-inference-for-genaillm-product-experimentation-freecodecamp-series-10-published-and-2-in-progress) (12+-article series on [freeCodeCamp](https://www.freecodecamp.org/news/author/rudrendupaul/), 10M+ monthly visitors)
 - Causal Inference · Experimentation at Scale
 - Generative AI · LLM Systems · AI Agents
 - Agent-Native B2A/A2A Applications · Multi-Agent Orchestration: [30+ OSS agent-native solutions](#open-source-agent-native-tools) with 20k+ package downloads
@@ -29,11 +29,10 @@ Launches tracked on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai
 
 **Published author with Springer Nature, Elsevier, and IEEE.** 33+ publications across peer-reviewed journals, books, conferences, and industry platforms. Full list: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690)
 
-**Books (3)**
+**Books (2)**
 
 - 📘 [*Applications of Artificial Intelligence in Healthcare*](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443439346000365), **Elsevier**
 - 📘 [*AI for Advanced Manufacturing and Industrial Applications*](http://dx.doi.org/10.1007/978-3-031-86091-1), **Springer Nature**
-- 📘 *AI-Driven Autonomous Systems and Advanced Manufacturing with MLOps*, Chronicle International
 
 **Articles (31)**
 
@@ -48,7 +47,7 @@ Launches tracked on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai
 | **Data Science Central** (TechTarget) | Data science community | [*The Hidden Price of Not Being AI-Ready*](https://www.datasciencecentral.com/the-hidden-price-of-not-being-ai-ready/) |
 | **EMERJ AI Research** | Enterprise AI | [*AI for Avoiding Supply Chain Disruptions*](https://emerj.com/ai-for-avoiding-supply-chain-disruptions-two-use-cases/) |
 
-**Causal Inference for GenAI/LLM Product Experimentation (freeCodeCamp series, 10 articles)**
+**Causal Inference for GenAI/LLM Product Experimentation (freeCodeCamp series, 10 published and 2 in progress)**
 
 A Python-implementation series on applying causal inference methods to Gen AI and LLM product experimentation. Full list at [freecodecamp.org/news/author/rudrendupaul](https://www.freecodecamp.org/news/author/rudrendupaul/).
 
