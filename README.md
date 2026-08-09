@@ -1,6 +1,6 @@
 # Rudrendu Paul, Agent-Native B2A/A2A Builder · Applied AI/ML Leader · Published Author (ICML) · Open Source Contributor
 
-**Agent-Native B2A/A2A Applications · Fortune 50 AI/ML · ICML · Springer Nature · Elsevier · IEEE · HuggingFace Transformers · scikit-learn · vLLM · MCP**
+**Agent-Native B2A/A2A Applications · Fortune 50 AI/ML · ICML · Springer Nature · Elsevier · IEEE · OSS Contributor to HuggingFace Transformers · scikit-learn · vLLM · MCP**
 
 > Building agent-native B2A (business-to-agent) and A2A (agent-to-agent) applications — CLI-first tools designed to be called by other agents, not just humans. 15+ years scaling world-class AI/ML systems at Fortune 50 companies. Published researcher (ICML) and author with **Springer Nature, Elsevier, and IEEE**. Active open source contributor to the tools the AI industry runs on.
 
@@ -16,11 +16,11 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 - Marketing Mix Modeling · Multi-Touch Attribution · Incrementality Testing
 - Causal Inference · Experimentation at Scale
 - Generative AI · LLM Systems · AI Agents
-- Agent-Native B2A/A2A Applications · Multi-Agent Orchestration
+- [Agent-Native B2A/A2A Applications](#open-source-agent-native-tools) · Multi-Agent Orchestration
 - Retail Media Network (RMN) Measurement · Advertising Monetization
 - Applied ML for E-commerce · CPG · AdTech · MarTech
 
-Building agent-native B2A (business-to-agent) and A2A (agent-to-agent) applications — CLI-first tools designed to be called by other agents, not just humans. Launches tracked on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai).
+Building agent-native B2A (business-to-agent) and A2A (agent-to-agent) applications — CLI-first tools designed to be called by other agents, not just humans. See the [full list of 30+ agent-native tools below](#open-source-agent-native-tools). Launches tracked on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai).
 
 ---
 
@@ -197,11 +197,12 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 
 ## Open Source Agent-Native Tools
 
-29 self-built, agent-native CLIs, MCP servers, and libraries — most ship on both npm and PyPI with a `--json`/structured-output mode built for AI agents to call directly, not just humans.
+30+ self-built, agent-native CLIs, MCP servers, and libraries — 20k+ npm downloads, most shipping on both npm and PyPI with a `--json`/structured-output mode built for AI agents to call directly, not just humans.
 
 | Repo | What it does |
 |------|---------------|
 | [TruthRoute](https://github.com/RudrenduPaul/TruthRoute) | Cross-model divergence scoring CLI comparing OpenAI, Anthropic, and Gemini responses, with an MCP server for agent-to-agent use |
+| [ownvoice](https://github.com/RudrenduPaul/ownvoice) | Trains a LoRA voice adapter for Kyutai's pocket-tts, kept as a local file instead of an API subscription, with `--json` output for agents and scripts |
 | [auditreach](https://github.com/RudrenduPaul/auditreach) | BYOK CLI and MCP server for researching Reddit/YouTube with a tamper-evident, hash-chained audit log |
 | [agent-observability](https://github.com/RudrenduPaul/agent-observability) | Deterministic record-and-replay for LLM agent HTTP traffic — record a failing run once, replay offline with zero API calls |
 | [swarmmesh](https://github.com/RudrenduPaul/swarmmesh) | Shared context/memory coordination layer for swarms of parallel AI agents, with a built-in MCP server |
