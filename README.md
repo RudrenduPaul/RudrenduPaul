@@ -71,7 +71,7 @@ Publication portfolio: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-00
 | Regression discontinuity | [*Product Experimentation with Regression Discontinuity: How an LLM Confidence Threshold Creates a Natural Experiment in Python*](https://www.freecodecamp.org/news/gen-ai-product-experimentation-with-regression-discontinuity-design/) |
 | Propensity scores | [*Product Experimentation with Propensity Scores: Causal Inference for LLM-Based Features in Python*](https://www.freecodecamp.org/news/product-experimentation-with-propensity-scores-causal-inference-for-llm-based-features-in-python/) |
 
-**Peer-Reviewed Research (4)**
+**Peer-Reviewed Research**
 
 | Reach | Topics | Articles |
 |-------|--------|----------|
