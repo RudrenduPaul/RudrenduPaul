@@ -38,12 +38,12 @@ Publication portfolio: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-00
 
 **ICML 2026:** 4 papers published across various workshops at the top 3 global AI/ML conference.
 
-| Reach | Topics | Articles |
-|-------|--------|----------|
-| Top 3 global AI/ML conference | Multi-agent coordination | [*The Orchestrator Bottleneck: Formal Coordination Strategies for Cost-Optimal Multi-Agent Enterprise Workflows*](https://icml.cc/virtual/2026/67427) (SCALE Workshop) |
-| Top 3 global AI/ML conference | Heterogeneous model routing | [*AgentRouter: Heterogeneous Model Routing for Cost-Optimal Multi-Step Agentic Workflows*](https://icml.cc/virtual/2026/74502) (AgenticUQ Workshop) |
-| Top 3 global AI/ML conference | Prompt injection defense | [*Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems*](https://icml.cc/virtual/2026/67971) (AIWILD Workshop) |
-| Top 3 global AI/ML conference | Compound AI system reliability | [*Compound AI System Reliability: A Failure Taxonomy and Resilience Pattern Catalog from 150 Production Incidents*](https://icml.cc/virtual/2026/67983) (AIWILD Workshop) |
+| Workshop | Topic | Article |
+|----------|-------|---------|
+| SCALE | Multi-agent coordination | [*The Orchestrator Bottleneck: Formal Coordination Strategies for Cost-Optimal Multi-Agent Enterprise Workflows*](https://icml.cc/virtual/2026/67427) |
+| AgenticUQ | Heterogeneous model routing | [*AgentRouter: Heterogeneous Model Routing for Cost-Optimal Multi-Step Agentic Workflows*](https://icml.cc/virtual/2026/74502) |
+| AIWILD | Prompt injection defense | [*Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems*](https://icml.cc/virtual/2026/67971) |
+| AIWILD | Compound AI system reliability | [*Compound AI System Reliability: A Failure Taxonomy and Resilience Pattern Catalog from 150 Production Incidents*](https://icml.cc/virtual/2026/67983) |
 
 | Platform | Reach | Articles |
 |----------|-------|----------|
@@ -149,35 +149,35 @@ These contributions are now part of the official codebases used by millions of e
 
 **[huggingface/transformers #45352](https://github.com/huggingface/transformers/pull/45352) (merged)**
 
-Fixed an incorrect return type annotation on `Qwen3MoeSparseMoeBlock.forward` in **HuggingFace Transformers** (158K ⭐), the most widely-used library in AI/ML. Propagated the fix to two generated model files (`qwen3_vl_moe`, `qwen3_omni_moe`). Reviewed and approved by a Transformers core maintainer. Ran `make fix-repo` consistency checks and resolved CI failures before merge.
+Fixed an incorrect return type annotation on `Qwen3MoeSparseMoeBlock.forward` in **HuggingFace Transformers** (158K&nbsp;⭐), the most widely-used library in AI/ML. Propagated the fix to two generated model files (`qwen3_vl_moe`, `qwen3_omni_moe`). Reviewed and approved by a Transformers core maintainer. Ran `make fix-repo` consistency checks and resolved CI failures before merge.
 
 **[huggingface/transformers #45370](https://github.com/huggingface/transformers/pull/45370) (merged)**
 
-Fixed 5 docstring errors in `Gemma3nTextConfig` across **HuggingFace Transformers** (158K ⭐), correcting typos, grammar, and formatting issues in Google's Gemma 3n model configuration. Passed the anti-slop check and all CI checks.
+Fixed 5 docstring errors in `Gemma3nTextConfig` across **HuggingFace Transformers** (158K&nbsp;⭐), correcting typos, grammar, and formatting issues in Google's Gemma 3n model configuration. Passed the anti-slop check and all CI checks.
 
 **[huggingface/transformers #45351](https://github.com/huggingface/transformers/pull/45351) (merged)**
 
-Fixed a crash in `get_device_capability()` in **HuggingFace Transformers** (158K ⭐) testing utilities when CUDA is installed but no GPU is present. Refactored CUDA/ROCm and XPU split per @remi-or's review, both accelerator paths are now independent. Reviewed and merged by Transformers core maintainers.
+Fixed a crash in `get_device_capability()` in **HuggingFace Transformers** (158K&nbsp;⭐) testing utilities when CUDA is installed but no GPU is present. Refactored CUDA/ROCm and XPU split per @remi-or's review, both accelerator paths are now independent. Reviewed and merged by Transformers core maintainers.
 
 **[optuna/optuna #6631](https://github.com/optuna/optuna/pull/6631) (merged)**
 
-Fixed a Sphinx RST directive typo in **Optuna** (11K ⭐), correcting `.. note:` to `.. note::` in the `QMCSampler` docstring, which prevented the note from rendering in the documentation. "Good catch!" response from maintainer before merge.
+Fixed a Sphinx RST directive typo in **Optuna** (11K&nbsp;⭐), correcting `.. note:` to `.. note::` in the `QMCSampler` docstring, which prevented the note from rendering in the documentation. "Good catch!" response from maintainer before merge.
 
 **[huggingface/trl #5527](https://github.com/huggingface/trl/pull/5527) (merged)**
 
-Contributed a new training template for **DeepSeek-V3** to **HuggingFace TRL** (12K ⭐). This template enables engineers to correctly fine-tune DeepSeek-V3 models using SFT loss masking, ensuring the model learns only from the assistant's responses, not the user's questions. Reviewed and approved by the TRL core maintainer.
+Contributed a new training template for **DeepSeek-V3** to **HuggingFace TRL** (12K&nbsp;⭐). This template enables engineers to correctly fine-tune DeepSeek-V3 models using SFT loss masking, ensuring the model learns only from the assistant's responses, not the user's questions. Reviewed and approved by the TRL core maintainer.
 
 **[huggingface/trl #5522](https://github.com/huggingface/trl/pull/5522) (merged)**
 
-Contributed a new training template for **Alibaba's Qwen2.5 language model** to **HuggingFace TRL** (12K ⭐). This change enables engineers to correctly train Qwen2.5 models so the AI learns only from the assistant's responses, a critical capability for building production chatbots and AI assistants. Reviewed and approved by the TRL core maintainer.
+Contributed a new training template for **Alibaba's Qwen2.5 language model** to **HuggingFace TRL** (12K&nbsp;⭐). This change enables engineers to correctly train Qwen2.5 models so the AI learns only from the assistant's responses, a critical capability for building production chatbots and AI assistants. Reviewed and approved by the TRL core maintainer.
 
 **[huggingface/trl #5526](https://github.com/huggingface/trl/pull/5526) (merged)**
 
-Contributed a new training template for **Microsoft's Phi-3 model family** to **HuggingFace TRL** (12K ⭐). Adds `{% generation %}` markers for SFT assistant-only loss masking. Approved by the TRL core maintainer and merged into main.
+Contributed a new training template for **Microsoft's Phi-3 model family** to **HuggingFace TRL** (12K&nbsp;⭐). Adds `{% generation %}` markers for SFT assistant-only loss masking. Approved by the TRL core maintainer and merged into main.
 
 **[huggingface/trl #5493](https://github.com/huggingface/trl/pull/5493) (merged)**
 
-Contributed the equivalent training template for **Meta's Llama 3 model family** to **HuggingFace TRL** (12K ⭐). Llama 3 is one of the most popular open-source AI models in the world. This template is now part of TRL's official release and is used daily by ML engineers fine-tuning Llama 3 for production applications.
+Contributed the equivalent training template for **Meta's Llama 3 model family** to **HuggingFace TRL** (12K&nbsp;⭐). Llama 3 is one of the most popular open-source AI models in the world. This template is now part of TRL's official release and is used daily by ML engineers fine-tuning Llama 3 for production applications.
 
 **[huggingface/trl #5494](https://github.com/huggingface/trl/pull/5494) (merged)**
 
@@ -185,31 +185,31 @@ Added a working code example to **HuggingFace TRL**'s documentation showing how 
 
 **[scikit-learn/scikit-learn #33723](https://github.com/scikit-learn/scikit-learn/pull/33723) (merged)**
 
-Clarified in **scikit-learn** (65K ⭐) documentation that `best_estimator_` in `HalvingGridSearchCV` and `HalvingRandomSearchCV` reflects only the winner of the final halving iteration, a subtle but important distinction for users interpreting search results. Approved by two scikit-learn core maintainers (StefanieSenger, betatim) and merged. Also closed issue #24901.
+Clarified in **scikit-learn** (65K&nbsp;⭐) documentation that `best_estimator_` in `HalvingGridSearchCV` and `HalvingRandomSearchCV` reflects only the winner of the final halving iteration, a subtle but important distinction for users interpreting search results. Approved by two scikit-learn core maintainers (StefanieSenger, betatim) and merged. Also closed issue #24901.
 
 **[scikit-learn/scikit-learn #33722](https://github.com/scikit-learn/scikit-learn/pull/33722) (merged)**
 
-Clarified in **scikit-learn** (65K ⭐) that `VotingClassifier.estimators_` contains models fitted on integer-encoded labels, not the original string class names. This subtle distinction causes silent misinterpretation when users inspect the fitted sub-estimators. Reviewed by jeremiedbb and merged; also closed issue #12189.
+Clarified in **scikit-learn** (65K&nbsp;⭐) that `VotingClassifier.estimators_` contains models fitted on integer-encoded labels, not the original string class names. This subtle distinction causes silent misinterpretation when users inspect the fitted sub-estimators. Reviewed by jeremiedbb and merged; also closed issue #12189.
 
 **[huggingface/peft #3144](https://github.com/huggingface/peft/pull/3144) (merged)**
 
-Added type annotations to utility functions across `src/peft/utils/` in **HuggingFace PEFT** (17K ⭐), `merge_utils.py`, `other.py`, `loftq_utils.py`, and `integrations.py`. Ran pyright across the full module to target the most impactful errors. Approved by PEFT lead maintainer BenjaminBossan after an iterative review addressing 5 inline change requests.
+Added type annotations to utility functions across `src/peft/utils/` in **HuggingFace PEFT** (17K&nbsp;⭐), `merge_utils.py`, `other.py`, `loftq_utils.py`, and `integrations.py`. Ran pyright across the full module to target the most impactful errors. Approved by PEFT lead maintainer BenjaminBossan after an iterative review addressing 5 inline change requests.
 
 **[567-labs/instructor #2280](https://github.com/567-labs/instructor/pull/2280) (merged)**
 
-Fixed exception propagation in **Instructor** (10K ⭐): when an LLM returns an incomplete response, `IncompleteOutputException` was being swallowed inside a tenacity `RetryError` wrapper, hiding the root cause from callers. The fix propagates it directly, giving users the correct exception type without the wrapping noise. Merged by Jason Liu.
+Fixed exception propagation in **Instructor** (10K&nbsp;⭐): when an LLM returns an incomplete response, `IncompleteOutputException` was being swallowed inside a tenacity `RetryError` wrapper, hiding the root cause from callers. The fix propagates it directly, giving users the correct exception type without the wrapping noise. Merged by Jason Liu.
 
 **[ray-project/ray #62756](https://github.com/ray-project/ray/pull/62756) (merged)**
 
-Fixed incorrect import count in the PyTorch CIFAR tutorial notebook in **Ray** (37K ⭐), the comment stated 3 Ray-specific imports where only 2 existed. Reviewed by @pseudo-rnd-thoughts (LGTM) and merged.
+Fixed incorrect import count in the PyTorch CIFAR tutorial notebook in **Ray** (37K&nbsp;⭐), the comment stated 3 Ray-specific imports where only 2 existed. Reviewed by @pseudo-rnd-thoughts (LGTM) and merged.
 
 **[google/adk-python #5235](https://github.com/google/adk-python/pull/5235) (merged)**
 
-Fixed a crash in `adk web` for **Google ADK** (9K ⭐), Google's Agent Development Kit, by adding support for flat-module agent layouts in `_determine_agent_language`. The dev UI was breaking for agents that didn't follow a package-style module structure; the fix makes language detection work for both layouts. Merged into main via Google's internal Copybara import process.
+Fixed a crash in `adk web` for **Google ADK** (9K&nbsp;⭐), Google's Agent Development Kit, by adding support for flat-module agent layouts in `_determine_agent_language`. The dev UI was breaking for agents that didn't follow a package-style module structure; the fix makes language detection work for both layouts. Merged into main via Google's internal Copybara import process.
 
 **[openai/openai-agents-python #2876](https://github.com/openai/openai-agents-python/pull/2876) (acknowledged)**
 
-Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in the **OpenAI Agents SDK** (19K ⭐). The maintainer responded *"Thank you so much for sending this"* and resolved the gap via [#2877](https://github.com/openai/openai-agents-python/pull/2877). The contribution identified a documentation need that the core team then prioritized and shipped.
+Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in the **OpenAI Agents SDK** (19K&nbsp;⭐). The maintainer responded *"Thank you so much for sending this"* and resolved the gap via [#2877](https://github.com/openai/openai-agents-python/pull/2877). The contribution identified a documentation need that the core team then prioritized and shipped.
 
 ---
 
@@ -217,50 +217,50 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 
 | PR | Repo | Stars | Description | Status |
 |----|------|-------|-------------|--------|
-| [#33728](https://github.com/scikit-learn/scikit-learn/pull/33728) | **scikit-learn** | 65K ⭐ | docs: document `StratifiedShuffleSplit` approximation limitation for rare classes | Approved by @ArturoAmorQ; wording sharpened per @PranavAchar01's verified math, awaiting @glemaitre confirmation |
-| [#33791](https://github.com/scikit-learn/scikit-learn/pull/33791) | **scikit-learn** | 65K ⭐ | docs: add Notes + References sections to `CCA` docstring (numerical instability warning) | Awaiting review |
-| [#33792](https://github.com/scikit-learn/scikit-learn/pull/33792) | **scikit-learn** | 65K ⭐ | fix: correct `SimpleImputer.inverse_transform` column order with all-NaN features | codecov/patch gap closed with a targeted test; awaiting review |
-| [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Rebased onto latest main, conflicts resolved; mergeable, awaiting review |
-| [#13965](https://github.com/explosion/spaCy/pull/13965) | **spaCy** | 32K ⭐ | fix: add `is_base_form` to `FrenchLemmatizer` to skip suffix rules on French infinitives | Awaiting review |
-| [#40271](https://github.com/vllm-project/vllm/pull/40271) | **vLLM** | 47K ⭐ | docs: expand `load_weights` contributing guide with `AutoWeightsLoader` and manual patterns | Awaiting maintainer `ready` label for CI |
-| ~~[#65291](https://github.com/pandas-dev/pandas/pull/65291)~~ | ~~**Pandas**~~ | ~~45K ⭐~~ | ~~docs: add docstring with examples to `NDFrame.__invert__`; add `DataFrame.__invert__` to frame.rst~~ | **MERGED Jun 21** ✅ (@jbrockmendel approved; "thanks @RudrenduPaul") |
-| [#168](https://github.com/anthropics/courses/pull/168) | **Anthropic Courses** | 7K ⭐ | fix: update `claude-3-haiku-20240307` to `claude-haiku-4-5` in `04_parameters.ipynb` | Submitted Jun 21 |
-| [#725](https://github.com/anthropics/claude-cookbooks/pull/725) | **Anthropic Cookbook** | 12K ⭐ | fix(security): add `.npmrc` to `.gitignore` with negation for safe sandbox templates | Submitted Jun 21 |
-| [#726](https://github.com/anthropics/claude-cookbooks/pull/726) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Pipeline vs Barrier notebook, benchmark of asyncio pipeline vs barrier for sub-agent composition | Submitted Jun 21 (refs issue #721) |
-| [#727](https://github.com/anthropics/claude-cookbooks/pull/727) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Adversarial Self-Verification notebook, Generator to 3 Verifiers to Synthesis pattern to cut false positives | Submitted Jun 21 (refs issue #713) |
-| [#728](https://github.com/anthropics/claude-cookbooks/pull/728) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Model Routing notebook, cheapest-capable-model dispatch with ModelRouter class and cost analysis | Submitted Jun 21 (refs issue #714) |
-| [#729](https://github.com/anthropics/claude-cookbooks/pull/729) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Human-in-the-Loop Approval notebook, `IrreversibleActionGate` with blast-radius preflight and timeout-abort | Submitted Jun 21 (refs issue #701) |
-| [#730](https://github.com/anthropics/claude-cookbooks/pull/730) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): rate limiting and retry patterns, tenacity backoff, token budget, async semaphore | Submitted Jun 21 |
-| [#731](https://github.com/anthropics/claude-cookbooks/pull/731) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): token counting and context window management, sliding-window, extended thinking | Submitted Jun 21 |
-| [#732](https://github.com/anthropics/claude-cookbooks/pull/732) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): streaming text and events, all 6 event types, async streaming, progress indicator | Submitted Jun 21 |
-| [#733](https://github.com/anthropics/claude-cookbooks/pull/733) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Message Batches API, async batch submission, polling, result streaming, 50% cost savings | **Approved** by @sajjadfarooq768-ai, Jun 21, awaiting merge |
-| [#2810](https://github.com/openai/openai-cookbook/pull/2810) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): structured extraction from PDFs with GPT-4o vision + Pydantic validation loop | Four Codex rounds resolved: registry.yaml, validation routing, early-pass confidence check, total_amount check when tax is absent. Waiting for re-review. |
-| [#2811](https://github.com/openai/openai-cookbook/pull/2811) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): model routing, cheapest capable OpenAI model dispatch with tiktoken cost tracking | Four Codex rounds resolved: registry, API key, tier-1 upgrade skip, classifier cost in totals, JSON compact output exemption. Waiting for re-review. |
-| [#2812](https://github.com/openai/openai-cookbook/pull/2812) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): error handling and retry patterns for OpenAI API, tenacity, fallback, header inspection | Submitted Jun 21. All four reviewer comments resolved. |
-| [#2813](https://github.com/openai/openai-cookbook/pull/2813) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): multi-agent task decomposition, parallel specialists + asyncio.gather synthesis | Four Codex rounds resolved: registry, asyncio fix, AsyncOpenAI deferred, synthesis prompt now dynamic from results keys. Waiting for re-review. |
-| [#4123](https://github.com/huggingface/accelerate/pull/4123) | **HuggingFace Accelerate** | 8.5K ⭐ | Add missing `-> bool` return type hints in `utils/imports.py` | Submitted Jul 16 |
-| [#2462](https://github.com/huggingface/optimum/pull/2462) | **HuggingFace Optimum** | 2.7K ⭐ | Add `swinv2` to `NormalizedConfigManager` mapping, fixes `KeyError` | Submitted Jul 16 |
-| [#2211](https://github.com/huggingface/tokenizers/pull/2211) | **HuggingFace Tokenizers** | 9.5K ⭐ | Add missing return type hints to `BaseTokenizer.save`, `save_model`, `to_str` | Submitted Jul 16 |
-| [#8340](https://github.com/huggingface/datasets/pull/8340) | **HuggingFace Datasets** | 19K ⭐ | Make `Dataset` generic (`Dataset[T]`) so column types can be specified in typehints | Submitted Jul 16 |
-| [#2431](https://github.com/huggingface/chat-ui/pull/2431) | **HuggingFace chat-ui** | 8K ⭐ | fix: make `.dockerignore` ignore `node_modules` at any depth | Submitted Jul 16 |
-| [#2432](https://github.com/huggingface/chat-ui/pull/2432) | **HuggingFace chat-ui** | 8K ⭐ | fix: allow `addSibling` to target the root message | Submitted Jul 16; follow-up fix pushed after the repo's Codex bot flagged root siblings were unreachable in the branch UI |
-| [#1300](https://github.com/huggingface/lighteval/pull/1300) | **lighteval** | 5K ⭐ | fix: correct `stop_sequence` → `stop_sequences` typo in `_continuous_greedy_until` | Submitted Jul 16 |
-| [#21841](https://github.com/Lightning-AI/pytorch-lightning/pull/21841) | **PyTorch Lightning** | 31K ⭐ | docs: clarify `sync_dist` warning is a false positive for TorchMetrics-derived values | Submitted Jul 16 |
-| [#3529](https://github.com/huggingface/peft/pull/3529) | **HuggingFace PEFT** | 17K ⭐ | Add type hints to `helpers.py`, `hotswap.py`, `constants.py`, `integrations.py` (consolidates #3448 + #3452 into one PR per maintainer request, later expanded in place rather than opening two more standalone PRs) | Submitted Aug 8 |
-| [#4124](https://github.com/huggingface/accelerate/pull/4124) | **HuggingFace Accelerate** | 8.5K ⭐ | Add `module: nn.Module` type hints to `ModelHook` lifecycle methods | Submitted Jul 17 |
-| [#4125](https://github.com/huggingface/accelerate/pull/4125) | **HuggingFace Accelerate** | 8.5K ⭐ | Add `level`/`msg` type hints to `MultiProcessAdapter.log` | Submitted Jul 17 |
-| [#2215](https://github.com/huggingface/tokenizers/pull/2215) | **HuggingFace Tokenizers** | 9.5K ⭐ | Fix dead wikitext-103 S3 link in `quicktour.mdx` | Submitted Jul 17 |
-| [#787](https://github.com/huggingface/evaluate/pull/787) | **HuggingFace Evaluate** | 2K ⭐ | Fix "IoUO" typo in `types_of_evaluations.mdx` | Submitted Aug 9 |
-| [#788](https://github.com/huggingface/evaluate/pull/788) | **HuggingFace Evaluate** | 2K ⭐ | Fix confusion_matrix doc typo + missing `normalize` valid-values note | Submitted Aug 9 |
-| [#2325](https://github.com/huggingface/tokenizers/pull/2325) | **HuggingFace Tokenizers** | 9.5K ⭐ | Return type hints on `CharBPETokenizer.from_file`/`train`/`train_from_iterator` | Submitted Aug 9 |
-| [#2326](https://github.com/huggingface/tokenizers/pull/2326) | **HuggingFace Tokenizers** | 9.5K ⭐ | Return type hints on `ByteLevelBPETokenizer.from_file`/`train`/`train_from_iterator` | Submitted Aug 9 |
-| [#4152](https://github.com/huggingface/accelerate/pull/4152) | **HuggingFace Accelerate** | 8.5K ⭐ | Type hints in `utils/memory.py` (`clear_device_cache`, `release_memory`) | Submitted Aug 9 |
-| [#4153](https://github.com/huggingface/accelerate/pull/4153) | **HuggingFace Accelerate** | 8.5K ⭐ | Type hints in `checkpointing.py` (save/load accelerator + custom state) | Submitted Aug 9 |
-| [#1324](https://github.com/huggingface/lighteval/pull/1324) | **lighteval** | 5K ⭐ | Fix stale "openai" backend reference in CLI `--help` text | Submitted Aug 9 |
-| [#8454](https://github.com/huggingface/datasets/pull/8454) | **HuggingFace Datasets** | 19K ⭐ | Fix `ClassLabel.names` YAML serialization bug (`numpy.str_` values broke `push_to_hub()`): root-caused and reproduced end-to-end, not just a doc fix | Submitted Aug 9 |
-| [#6689](https://github.com/huggingface/trl/pull/6689) | **HuggingFace TRL** | 12K ⭐ | Mistral (v0.3) training chat template with `{% generation %}` markers | Submitted Aug 9 |
-| [#6690](https://github.com/huggingface/trl/pull/6690) | **HuggingFace TRL** | 12K ⭐ | OLMo3 training chat template with `{% generation %}` markers | Submitted Aug 9 |
-| [#6691](https://github.com/huggingface/trl/pull/6691) | **HuggingFace TRL** | 12K ⭐ | Falcon3 training chat template with `{% generation %}` markers | Submitted Aug 9 |
+| [#33728](https://github.com/scikit-learn/scikit-learn/pull/33728) | **scikit-learn** | 65K&nbsp;⭐ | docs: document `StratifiedShuffleSplit` approximation limitation for rare classes | Approved by @ArturoAmorQ; wording sharpened per @PranavAchar01's verified math, awaiting @glemaitre confirmation |
+| [#33791](https://github.com/scikit-learn/scikit-learn/pull/33791) | **scikit-learn** | 65K&nbsp;⭐ | docs: add Notes + References sections to `CCA` docstring (numerical instability warning) | Awaiting review |
+| [#33792](https://github.com/scikit-learn/scikit-learn/pull/33792) | **scikit-learn** | 65K&nbsp;⭐ | fix: correct `SimpleImputer.inverse_transform` column order with all-NaN features | codecov/patch gap closed with a targeted test; awaiting review |
+| [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K&nbsp;⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Rebased onto latest main, conflicts resolved; mergeable, awaiting review |
+| [#13965](https://github.com/explosion/spaCy/pull/13965) | **spaCy** | 32K&nbsp;⭐ | fix: add `is_base_form` to `FrenchLemmatizer` to skip suffix rules on French infinitives | Awaiting review |
+| [#40271](https://github.com/vllm-project/vllm/pull/40271) | **vLLM** | 47K&nbsp;⭐ | docs: expand `load_weights` contributing guide with `AutoWeightsLoader` and manual patterns | Awaiting maintainer `ready` label for CI |
+| ~~[#65291](https://github.com/pandas-dev/pandas/pull/65291)~~ | ~~**Pandas**~~ | ~~45K&nbsp;⭐~~ | ~~docs: add docstring with examples to `NDFrame.__invert__`; add `DataFrame.__invert__` to frame.rst~~ | **MERGED Jun 21** ✅ (@jbrockmendel approved; "thanks @RudrenduPaul") |
+| [#168](https://github.com/anthropics/courses/pull/168) | **Anthropic Courses** | 7K&nbsp;⭐ | fix: update `claude-3-haiku-20240307` to `claude-haiku-4-5` in `04_parameters.ipynb` | Submitted Jun 21 |
+| [#725](https://github.com/anthropics/claude-cookbooks/pull/725) | **Anthropic Cookbook** | 12K&nbsp;⭐ | fix(security): add `.npmrc` to `.gitignore` with negation for safe sandbox templates | Submitted Jun 21 |
+| [#726](https://github.com/anthropics/claude-cookbooks/pull/726) | **Anthropic Cookbook** | 12K&nbsp;⭐ | feat(misc): Pipeline vs Barrier notebook, benchmark of asyncio pipeline vs barrier for sub-agent composition | Submitted Jun 21 (refs issue #721) |
+| [#727](https://github.com/anthropics/claude-cookbooks/pull/727) | **Anthropic Cookbook** | 12K&nbsp;⭐ | feat(misc): Adversarial Self-Verification notebook, Generator to 3 Verifiers to Synthesis pattern to cut false positives | Submitted Jun 21 (refs issue #713) |
+| [#728](https://github.com/anthropics/claude-cookbooks/pull/728) | **Anthropic Cookbook** | 12K&nbsp;⭐ | feat(misc): Model Routing notebook, cheapest-capable-model dispatch with ModelRouter class and cost analysis | Submitted Jun 21 (refs issue #714) |
+| [#729](https://github.com/anthropics/claude-cookbooks/pull/729) | **Anthropic Cookbook** | 12K&nbsp;⭐ | feat(misc): Human-in-the-Loop Approval notebook, `IrreversibleActionGate` with blast-radius preflight and timeout-abort | Submitted Jun 21 (refs issue #701) |
+| [#730](https://github.com/anthropics/claude-cookbooks/pull/730) | **Anthropic Cookbook** | 12K&nbsp;⭐ | feat(misc): rate limiting and retry patterns, tenacity backoff, token budget, async semaphore | Submitted Jun 21 |
+| [#731](https://github.com/anthropics/claude-cookbooks/pull/731) | **Anthropic Cookbook** | 12K&nbsp;⭐ | feat(misc): token counting and context window management, sliding-window, extended thinking | Submitted Jun 21 |
+| [#732](https://github.com/anthropics/claude-cookbooks/pull/732) | **Anthropic Cookbook** | 12K&nbsp;⭐ | feat(misc): streaming text and events, all 6 event types, async streaming, progress indicator | Submitted Jun 21 |
+| [#733](https://github.com/anthropics/claude-cookbooks/pull/733) | **Anthropic Cookbook** | 12K&nbsp;⭐ | feat(misc): Message Batches API, async batch submission, polling, result streaming, 50% cost savings | **Approved** by @sajjadfarooq768-ai, Jun 21, awaiting merge |
+| [#2810](https://github.com/openai/openai-cookbook/pull/2810) | **OpenAI Cookbook** | 12K&nbsp;⭐ | feat(examples): structured extraction from PDFs with GPT-4o vision + Pydantic validation loop | Four Codex rounds resolved: registry.yaml, validation routing, early-pass confidence check, total_amount check when tax is absent. Waiting for re-review. |
+| [#2811](https://github.com/openai/openai-cookbook/pull/2811) | **OpenAI Cookbook** | 12K&nbsp;⭐ | feat(examples): model routing, cheapest capable OpenAI model dispatch with tiktoken cost tracking | Four Codex rounds resolved: registry, API key, tier-1 upgrade skip, classifier cost in totals, JSON compact output exemption. Waiting for re-review. |
+| [#2812](https://github.com/openai/openai-cookbook/pull/2812) | **OpenAI Cookbook** | 12K&nbsp;⭐ | feat(examples): error handling and retry patterns for OpenAI API, tenacity, fallback, header inspection | Submitted Jun 21. All four reviewer comments resolved. |
+| [#2813](https://github.com/openai/openai-cookbook/pull/2813) | **OpenAI Cookbook** | 12K&nbsp;⭐ | feat(examples): multi-agent task decomposition, parallel specialists + asyncio.gather synthesis | Four Codex rounds resolved: registry, asyncio fix, AsyncOpenAI deferred, synthesis prompt now dynamic from results keys. Waiting for re-review. |
+| [#4123](https://github.com/huggingface/accelerate/pull/4123) | **HuggingFace Accelerate** | 8.5K&nbsp;⭐ | Add missing `-> bool` return type hints in `utils/imports.py` | Submitted Jul 16 |
+| [#2462](https://github.com/huggingface/optimum/pull/2462) | **HuggingFace Optimum** | 2.7K&nbsp;⭐ | Add `swinv2` to `NormalizedConfigManager` mapping, fixes `KeyError` | Submitted Jul 16 |
+| [#2211](https://github.com/huggingface/tokenizers/pull/2211) | **HuggingFace Tokenizers** | 9.5K&nbsp;⭐ | Add missing return type hints to `BaseTokenizer.save`, `save_model`, `to_str` | Submitted Jul 16 |
+| [#8340](https://github.com/huggingface/datasets/pull/8340) | **HuggingFace Datasets** | 19K&nbsp;⭐ | Make `Dataset` generic (`Dataset[T]`) so column types can be specified in typehints | Submitted Jul 16 |
+| [#2431](https://github.com/huggingface/chat-ui/pull/2431) | **HuggingFace chat-ui** | 8K&nbsp;⭐ | fix: make `.dockerignore` ignore `node_modules` at any depth | Submitted Jul 16 |
+| [#2432](https://github.com/huggingface/chat-ui/pull/2432) | **HuggingFace chat-ui** | 8K&nbsp;⭐ | fix: allow `addSibling` to target the root message | Submitted Jul 16; follow-up fix pushed after the repo's Codex bot flagged root siblings were unreachable in the branch UI |
+| [#1300](https://github.com/huggingface/lighteval/pull/1300) | **lighteval** | 5K&nbsp;⭐ | fix: correct `stop_sequence` → `stop_sequences` typo in `_continuous_greedy_until` | Submitted Jul 16 |
+| [#21841](https://github.com/Lightning-AI/pytorch-lightning/pull/21841) | **PyTorch Lightning** | 31K&nbsp;⭐ | docs: clarify `sync_dist` warning is a false positive for TorchMetrics-derived values | Submitted Jul 16 |
+| [#3529](https://github.com/huggingface/peft/pull/3529) | **HuggingFace PEFT** | 17K&nbsp;⭐ | Add type hints to `helpers.py`, `hotswap.py`, `constants.py`, `integrations.py` (consolidates #3448 + #3452 into one PR per maintainer request, later expanded in place rather than opening two more standalone PRs) | Submitted Aug 8 |
+| [#4124](https://github.com/huggingface/accelerate/pull/4124) | **HuggingFace Accelerate** | 8.5K&nbsp;⭐ | Add `module: nn.Module` type hints to `ModelHook` lifecycle methods | Submitted Jul 17 |
+| [#4125](https://github.com/huggingface/accelerate/pull/4125) | **HuggingFace Accelerate** | 8.5K&nbsp;⭐ | Add `level`/`msg` type hints to `MultiProcessAdapter.log` | Submitted Jul 17 |
+| [#2215](https://github.com/huggingface/tokenizers/pull/2215) | **HuggingFace Tokenizers** | 9.5K&nbsp;⭐ | Fix dead wikitext-103 S3 link in `quicktour.mdx` | Submitted Jul 17 |
+| [#787](https://github.com/huggingface/evaluate/pull/787) | **HuggingFace Evaluate** | 2K&nbsp;⭐ | Fix "IoUO" typo in `types_of_evaluations.mdx` | Submitted Aug 9 |
+| [#788](https://github.com/huggingface/evaluate/pull/788) | **HuggingFace Evaluate** | 2K&nbsp;⭐ | Fix confusion_matrix doc typo + missing `normalize` valid-values note | Submitted Aug 9 |
+| [#2325](https://github.com/huggingface/tokenizers/pull/2325) | **HuggingFace Tokenizers** | 9.5K&nbsp;⭐ | Return type hints on `CharBPETokenizer.from_file`/`train`/`train_from_iterator` | Submitted Aug 9 |
+| [#2326](https://github.com/huggingface/tokenizers/pull/2326) | **HuggingFace Tokenizers** | 9.5K&nbsp;⭐ | Return type hints on `ByteLevelBPETokenizer.from_file`/`train`/`train_from_iterator` | Submitted Aug 9 |
+| [#4152](https://github.com/huggingface/accelerate/pull/4152) | **HuggingFace Accelerate** | 8.5K&nbsp;⭐ | Type hints in `utils/memory.py` (`clear_device_cache`, `release_memory`) | Submitted Aug 9 |
+| [#4153](https://github.com/huggingface/accelerate/pull/4153) | **HuggingFace Accelerate** | 8.5K&nbsp;⭐ | Type hints in `checkpointing.py` (save/load accelerator + custom state) | Submitted Aug 9 |
+| [#1324](https://github.com/huggingface/lighteval/pull/1324) | **lighteval** | 5K&nbsp;⭐ | Fix stale "openai" backend reference in CLI `--help` text | Submitted Aug 9 |
+| [#8454](https://github.com/huggingface/datasets/pull/8454) | **HuggingFace Datasets** | 19K&nbsp;⭐ | Fix `ClassLabel.names` YAML serialization bug (`numpy.str_` values broke `push_to_hub()`): root-caused and reproduced end-to-end, not just a doc fix | Submitted Aug 9 |
+| [#6689](https://github.com/huggingface/trl/pull/6689) | **HuggingFace TRL** | 12K&nbsp;⭐ | Mistral (v0.3) training chat template with `{% generation %}` markers | Submitted Aug 9 |
+| [#6690](https://github.com/huggingface/trl/pull/6690) | **HuggingFace TRL** | 12K&nbsp;⭐ | OLMo3 training chat template with `{% generation %}` markers | Submitted Aug 9 |
+| [#6691](https://github.com/huggingface/trl/pull/6691) | **HuggingFace TRL** | 12K&nbsp;⭐ | Falcon3 training chat template with `{% generation %}` markers | Submitted Aug 9 |
 
 **Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · HuggingFace Accelerate · HuggingFace Optimum · HuggingFace Tokenizers · HuggingFace Datasets · HuggingFace Evaluate · HuggingFace chat-ui · lighteval · PyTorch Lightning · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas · **Anthropic Courses** · **Anthropic Cookbook** · **OpenAI Cookbook**
 
