@@ -140,10 +140,9 @@ Contributing to the infrastructure layer of AI, the frameworks, SDKs, and toolin
 ### ✅ Contributions Merged, Approved, and Acknowledged
 
 - **16 OSS contributions merged** across **9 repos**: HuggingFace Transformers, TRL, PEFT, scikit-learn, Optuna, Instructor, Ray, Google ADK, and Pandas
-- **13 additional PRs opened 2026-07-16 to 07-17**, spanning HuggingFace PEFT (×2), Accelerate (×3), Optimum, Tokenizers (×2), Datasets, chat-ui (×2), lighteval, and PyTorch Lightning: all narrow, single-purpose fixes (type hints, bugfixes, docs), each independently duplicate-checked and policy-checked before submission
-- **2 PRs approved by maintainers**, awaiting final merge (sklearn #33728, Anthropic Cookbook #733)
-- **1 contribution acknowledged and shipped** by the maintainer team
-- **43 PRs under review** across 16 repos (Anthropic Cookbook ×9, OpenAI Cookbook ×4, HuggingFace Tokenizers ×4, HuggingFace Accelerate ×5, scikit-learn ×3, HuggingFace TRL ×3, chat-ui ×2, HuggingFace Datasets ×2, HuggingFace Evaluate ×2, lighteval ×2, HuggingFace PEFT ×1 (consolidated), Anthropic Courses, vLLM, spaCy, MCP, HuggingFace Optimum, PyTorch Lightning ×1 each)
+- **13 additional PRs opened 2026-07-16 to 07-17**, spanning HuggingFace PEFT, Accelerate, Optimum, Tokenizers, Datasets, chat-ui, lighteval, and PyTorch Lightning: all narrow, single-purpose fixes (type hints, bugfixes, docs), each independently duplicate-checked and policy-checked before submission
+- **3 more in the pipeline**: PRs approved by maintainers awaiting final merge (sklearn #33728, Anthropic Cookbook #733), plus a contribution acknowledged and shipped by the maintainer team
+- **43 PRs under review** across 16 repos: Anthropic Cookbook, OpenAI Cookbook, HuggingFace Tokenizers, HuggingFace Accelerate, scikit-learn, HuggingFace TRL, chat-ui, HuggingFace Datasets, HuggingFace Evaluate, lighteval, HuggingFace PEFT (consolidated), Anthropic Courses, vLLM, spaCy, MCP, HuggingFace Optimum, and PyTorch Lightning
 
 These contributions are now part of the official codebases used by millions of engineers worldwide.
 
