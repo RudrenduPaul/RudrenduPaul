@@ -69,7 +69,7 @@ Contributing to the infrastructure layer of AI, the frameworks, SDKs, and toolin
 - **13 additional PRs opened 2026-07-16 to 07-17**, spanning HuggingFace PEFT (×2), Accelerate (×3), Optimum, Tokenizers (×2), Datasets, chat-ui (×2), lighteval, and PyTorch Lightning — all narrow, single-purpose fixes (type hints, bugfixes, docs), each independently duplicate-checked and policy-checked before submission
 - **2 PRs approved by maintainers**, awaiting final merge (sklearn #33728, Anthropic Cookbook #733)
 - **1 contribution acknowledged and shipped** by the maintainer team
-- **32 PRs under review** across 15 repos (Anthropic Cookbook ×9, OpenAI Cookbook ×4, scikit-learn ×3, HuggingFace Accelerate ×3, chat-ui ×2, HuggingFace Tokenizers ×2, HuggingFace PEFT ×1 (consolidated), Anthropic Courses, vLLM, spaCy, MCP, HuggingFace Optimum, HuggingFace Datasets, lighteval, PyTorch Lightning ×1 each)
+- **43 PRs under review** across 16 repos (Anthropic Cookbook ×9, OpenAI Cookbook ×4, HuggingFace Tokenizers ×4, HuggingFace Accelerate ×5, scikit-learn ×3, HuggingFace TRL ×3, chat-ui ×2, HuggingFace Datasets ×2, HuggingFace Evaluate ×2, lighteval ×2, HuggingFace PEFT ×1 (consolidated), Anthropic Courses, vLLM, spaCy, MCP, HuggingFace Optimum, PyTorch Lightning ×1 each)
 
 These contributions are now part of the official codebases used by millions of engineers worldwide.
 
@@ -172,12 +172,23 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#2432](https://github.com/huggingface/chat-ui/pull/2432) | **HuggingFace chat-ui** | 8K ⭐ | fix: allow `addSibling` to target the root message | Submitted Jul 16; follow-up fix pushed after the repo's Codex bot flagged root siblings were unreachable in the branch UI |
 | [#1300](https://github.com/huggingface/lighteval/pull/1300) | **lighteval** | 5K ⭐ | fix: correct `stop_sequence` → `stop_sequences` typo in `_continuous_greedy_until` | Submitted Jul 16 |
 | [#21841](https://github.com/Lightning-AI/pytorch-lightning/pull/21841) | **PyTorch Lightning** | 31K ⭐ | docs: clarify `sync_dist` warning is a false positive for TorchMetrics-derived values | Submitted Jul 16 |
-| [#3529](https://github.com/huggingface/peft/pull/3529) | **HuggingFace PEFT** | 17K ⭐ | Add type hints to `helpers.py` and `hotswap.py` (consolidates #3448 + #3452 into one PR per maintainer request) | Submitted Aug 8 |
+| [#3529](https://github.com/huggingface/peft/pull/3529) | **HuggingFace PEFT** | 17K ⭐ | Add type hints to `helpers.py`, `hotswap.py`, `constants.py`, `integrations.py` (consolidates #3448 + #3452 into one PR per maintainer request, later expanded in place rather than opening two more standalone PRs) | Submitted Aug 8 |
 | [#4124](https://github.com/huggingface/accelerate/pull/4124) | **HuggingFace Accelerate** | 8.5K ⭐ | Add `module: nn.Module` type hints to `ModelHook` lifecycle methods | Submitted Jul 17 |
 | [#4125](https://github.com/huggingface/accelerate/pull/4125) | **HuggingFace Accelerate** | 8.5K ⭐ | Add `level`/`msg` type hints to `MultiProcessAdapter.log` | Submitted Jul 17 |
 | [#2215](https://github.com/huggingface/tokenizers/pull/2215) | **HuggingFace Tokenizers** | 9.5K ⭐ | Fix dead wikitext-103 S3 link in `quicktour.mdx` | Submitted Jul 17 |
+| [#787](https://github.com/huggingface/evaluate/pull/787) | **HuggingFace Evaluate** | 2K ⭐ | Fix "IoUO" typo in `types_of_evaluations.mdx` | Submitted Aug 9 |
+| [#788](https://github.com/huggingface/evaluate/pull/788) | **HuggingFace Evaluate** | 2K ⭐ | Fix confusion_matrix doc typo + missing `normalize` valid-values note | Submitted Aug 9 |
+| [#2325](https://github.com/huggingface/tokenizers/pull/2325) | **HuggingFace Tokenizers** | 9.5K ⭐ | Return type hints on `CharBPETokenizer.from_file`/`train`/`train_from_iterator` | Submitted Aug 9 |
+| [#2326](https://github.com/huggingface/tokenizers/pull/2326) | **HuggingFace Tokenizers** | 9.5K ⭐ | Return type hints on `ByteLevelBPETokenizer.from_file`/`train`/`train_from_iterator` | Submitted Aug 9 |
+| [#4152](https://github.com/huggingface/accelerate/pull/4152) | **HuggingFace Accelerate** | 8.5K ⭐ | Type hints in `utils/memory.py` (`clear_device_cache`, `release_memory`) | Submitted Aug 9 |
+| [#4153](https://github.com/huggingface/accelerate/pull/4153) | **HuggingFace Accelerate** | 8.5K ⭐ | Type hints in `checkpointing.py` (save/load accelerator + custom state) | Submitted Aug 9 |
+| [#1324](https://github.com/huggingface/lighteval/pull/1324) | **lighteval** | 5K ⭐ | Fix stale "openai" backend reference in CLI `--help` text | Submitted Aug 9 |
+| [#8454](https://github.com/huggingface/datasets/pull/8454) | **HuggingFace Datasets** | 19K ⭐ | Fix `ClassLabel.names` YAML serialization bug (`numpy.str_` values broke `push_to_hub()`) — root-caused and reproduced end-to-end, not just a doc fix | Submitted Aug 9 |
+| [#6689](https://github.com/huggingface/trl/pull/6689) | **HuggingFace TRL** | 12K ⭐ | Mistral (v0.3) training chat template with `{% generation %}` markers | Submitted Aug 9 |
+| [#6690](https://github.com/huggingface/trl/pull/6690) | **HuggingFace TRL** | 12K ⭐ | OLMo3 training chat template with `{% generation %}` markers | Submitted Aug 9 |
+| [#6691](https://github.com/huggingface/trl/pull/6691) | **HuggingFace TRL** | 12K ⭐ | Falcon3 training chat template with `{% generation %}` markers | Submitted Aug 9 |
 
-**Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · HuggingFace Accelerate · HuggingFace Optimum · HuggingFace Tokenizers · HuggingFace Datasets · HuggingFace chat-ui · lighteval · PyTorch Lightning · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas · **Anthropic Courses** · **Anthropic Cookbook** · **OpenAI Cookbook**
+**Active tracks:** HuggingFace Transformers · HuggingFace TRL · HuggingFace PEFT · HuggingFace Accelerate · HuggingFace Optimum · HuggingFace Tokenizers · HuggingFace Datasets · HuggingFace Evaluate · HuggingFace chat-ui · lighteval · PyTorch Lightning · scikit-learn · Google ADK · MCP · Instructor · OpenAI Agents SDK · Optuna · spaCy · Ray · vLLM · Pandas · **Anthropic Courses** · **Anthropic Cookbook** · **OpenAI Cookbook**
 
 ---
 
