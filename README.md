@@ -25,7 +25,7 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 
 ## Published Research & Thought Leadership
 
-**Published author with Springer Nature, Elsevier, and IEEE.** 33+ publications across peer-reviewed journals, books, conferences, and industry platforms.
+**Published author with ICML, Springer Nature, Elsevier, and IEEE.** 33+ publications across peer-reviewed journals, books, conferences, and industry platforms.
 
 Publication portfolio: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690)
 
