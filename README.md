@@ -34,10 +34,11 @@ Publication portfolio: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-00
 - 📘 [*Applications of Artificial Intelligence in Healthcare*](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443439346000365), **Elsevier**
 - 📘 [*AI for Advanced Manufacturing and Industrial Applications*](http://dx.doi.org/10.1007/978-3-031-86091-1), **Springer Nature**
 
-**Articles (31)**
+**Articles (35)**
 
 | Platform | Reach | Articles |
 |----------|-------|----------|
+| **ICML** | Top 3 global AI/ML conference | · [*The Orchestrator Bottleneck: Formal Coordination Strategies for Cost-Optimal Multi-Agent Enterprise Workflows*](https://icml.cc/virtual/2026/67427) (SCALE Workshop) <br> · [*AgentRouter: Heterogeneous Model Routing for Cost-Optimal Multi-Step Agentic Workflows*](https://icml.cc/virtual/2026/74502) (AgenticUQ Workshop) <br> · [*Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems*](https://icml.cc/virtual/2026/67971) (AIWILD Workshop) <br> · [*Compound AI System Reliability: A Failure Taxonomy and Resilience Pattern Catalog from 150 Production Incidents*](https://icml.cc/virtual/2026/67983) (AIWILD Workshop) |
 | **freeCodeCamp** | 10M+ monthly visitors | · [*Product Experimentation with Regression Discontinuity*](https://www.freecodecamp.org/news/gen-ai-product-experimentation-with-regression-discontinuity-design/) <br> · [*Product Experimentation with Propensity Scores*](https://www.freecodecamp.org/news/product-experimentation-with-propensity-scores-causal-inference-for-llm-based-features-in-python/) <br> · [*Why A/B Testing Breaks in AI Rollouts*](https://www.freecodecamp.org/news/why-ab-testing-breaks-in-ai-rollouts-and-how-to-fix-it/) <br> · [*The AI Governance Handbook*](https://www.freecodecamp.org/news/the-ai-governance-handbook-build-responsible-ai-systems/) <br> · [*How to Build and Secure a Personal AI Agent*](https://www.freecodecamp.org/news/how-to-build-and-secure-a-personal-ai-agent-with-openclaw/): full causal-inference series below ↓ |
 | **DZone** | 1M+ monthly readers | · [*Beyond "Lift-and-Shift": AI Automating Complex Logic*](https://dzone.com/articles/how-ai-and-genai-are-automating-complex-logic) <br> · [*Escaping the "Demo Trap": Reliable AI Agents*](https://dzone.com/articles/escaping-demo-trap-reliable-ai-agents) <br> · [*Self-Evolving AI Agent That Learns From Failure*](https://dzone.com/articles/self-evolving-ai-agent-learns-from-failure) <br> · [*GenAI Unleashed: MLOps and LLM Deployment*](https://dzone.com/articles/generative-ai-unleashed-mlops-and-llm-deployment-s) |
 | **Hackernoon** | 4M+ monthly readers | · [*Why AI Enterprises Still Rely on Manual Labor for Data Migration*](https://hackernoon.com/why-ai-driven-enterprises-still-rely-on-manual-labor-for-data-migration) <br> · [*GenAI Strategy Demands All-Inclusive Data Modernization*](https://hackernoon.com/why-your-genai-strategy-demands-an-all-inclusive-data-modernization) <br> · [*The New Monetizing Playbook: Pricing GenAI*](https://hackernoon.com/the-new-monetizing-playbook-a-product-leaders-framework-for-pricing-genai-capabilities) <br> · [*The AI Flywheel: Building Compounding Growth*](https://hackernoon.com/the-ai-flywheel-a-product-leaders-guide-to-building-compounding-growth) |
@@ -62,14 +63,8 @@ A Python-implementation series on applying causal inference methods to Gen AI an
 - [*Product Experimentation with Regression Discontinuity: How an LLM Confidence Threshold Creates a Natural Experiment in Python*](https://www.freecodecamp.org/news/gen-ai-product-experimentation-with-regression-discontinuity-design/)
 - [*Product Experimentation with Propensity Scores: Causal Inference for LLM-Based Features in Python*](https://www.freecodecamp.org/news/product-experimentation-with-propensity-scores-causal-inference-for-llm-based-features-in-python/)
 
-**Peer-Reviewed Research (8)**
+**Peer-Reviewed Research (4)**
 
-4 papers published across multiple workshops on multi-agent orchestration at ICML 2026 (top 3 global AI/ML conference), spanning coordination, prompt injection defense, compound AI system reliability, and heterogeneous model routing: research infrastructure underlying Thespian Logic's Business-to-Agent (B2A) agentic visibility layer.
-
-- [*The Orchestrator Bottleneck: Formal Coordination Strategies for Cost-Optimal Multi-Agent Enterprise Workflows*](https://icml.cc/virtual/2026/67427), ICML 2026, SCALE Workshop
-- [*AgentRouter: Heterogeneous Model Routing for Cost-Optimal Multi-Step Agentic Workflows*](https://icml.cc/virtual/2026/74502), ICML 2026, AgenticUQ Workshop
-- [*Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems*](https://icml.cc/virtual/2026/67971), ICML 2026, AIWILD Workshop
-- [*Compound AI System Reliability: A Failure Taxonomy and Resilience Pattern Catalog from 150 Production Incidents*](https://icml.cc/virtual/2026/67983), ICML 2026, AIWILD Workshop
 - [*Performance Comparison of Advanced Machine Learning Techniques for Electricity Price Forecasting*](https://ieeexplore.ieee.org/document/10318603), 2023 North American Power Symposium (NAPS), IEEE
 - [*xCovNet: A Wide Deep Learning Model for CXR-based COVID-19 Detection*](https://iopscience.iop.org/article/10.1088/1742-6596/2634/1/012056), Journal of Physics: Conference Series (CONF-CIAP 2023)
 - [*Automated Currency Transactions Forecasting for Global E-commerce*](http://dx.doi.org/10.54254/2755-2721/30/20230070), Applied and Computational Engineering
