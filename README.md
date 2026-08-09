@@ -2,7 +2,7 @@
 
 **Agent-Native B2A/A2A Applications · Fortune 50 AI/ML · ICML · Springer Nature · Elsevier · IEEE · OSS Contributor to HuggingFace Transformers · scikit-learn · vLLM · MCP**
 
-> Building agent-native B2A (business-to-agent) and A2A (agent-to-agent) applications — CLI-first tools designed to be called by other agents, not just humans. 15+ years scaling world-class AI/ML systems at Fortune 50 companies. Published researcher (ICML) and author with **Springer Nature, Elsevier, and IEEE**. Active open source contributor to the tools the AI industry runs on.
+> I build agent-native B2A (business-to-agent) and A2A (agent-to-agent) applications: CLI-first tools designed to be called by other agents, not just humans. 15+ years scaling AI/ML systems at Fortune 50 companies. Published researcher (ICML) and author with **Springer Nature, Elsevier, and IEEE**, and an active open source contributor to the tools the AI industry runs on.
 
 ---
 
@@ -15,12 +15,14 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 **Core domains:**
 - Marketing Mix Modeling · Multi-Touch Attribution · Incrementality Testing
 - Causal Inference · Experimentation at Scale
+- [Product Experimentation with Causal Inference on Gen AI and LLM Applications](#causal-inference-for-genaillm-product-experimentation-freecodecamp-series-10-articles)
 - Generative AI · LLM Systems · AI Agents
 - [Agent-Native B2A/A2A Applications](#open-source-agent-native-tools) · Multi-Agent Orchestration
+- Building agent-native B2A (business-to-agent) and A2A (agent-to-agent) applications: CLI-first tools designed to be called by other agents, not just humans. See the [full list of 30+ agent-native tools below](#open-source-agent-native-tools).
 - Retail Media Network (RMN) Measurement · Advertising Monetization
 - Applied ML for E-commerce · CPG · AdTech · MarTech
 
-Building agent-native B2A (business-to-agent) and A2A (agent-to-agent) applications — CLI-first tools designed to be called by other agents, not just humans. See the [full list of 30+ agent-native tools below](#open-source-agent-native-tools). Launches tracked on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai).
+Launches tracked on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai).
 
 ---
 
@@ -38,7 +40,7 @@ Building agent-native B2A (business-to-agent) and A2A (agent-to-agent) applicati
 
 | Platform | Reach | Articles |
 |----------|-------|----------|
-| **freeCodeCamp** | 10M+ monthly visitors | · [*Product Experimentation with Regression Discontinuity*](https://www.freecodecamp.org/news/gen-ai-product-experimentation-with-regression-discontinuity-design/) <br> · [*Product Experimentation with Propensity Scores*](https://www.freecodecamp.org/news/product-experimentation-with-propensity-scores-causal-inference-for-llm-based-features-in-python/) <br> · [*Why A/B Testing Breaks in AI Rollouts*](https://www.freecodecamp.org/news/why-ab-testing-breaks-in-ai-rollouts-and-how-to-fix-it/) <br> · [*The AI Governance Handbook*](https://www.freecodecamp.org/news/the-ai-governance-handbook-build-responsible-ai-systems/) <br> · [*How to Build and Secure a Personal AI Agent*](https://www.freecodecamp.org/news/how-to-build-and-secure-a-personal-ai-agent-with-openclaw/) — full causal-inference series below ↓ |
+| **freeCodeCamp** | 10M+ monthly visitors | · [*Product Experimentation with Regression Discontinuity*](https://www.freecodecamp.org/news/gen-ai-product-experimentation-with-regression-discontinuity-design/) <br> · [*Product Experimentation with Propensity Scores*](https://www.freecodecamp.org/news/product-experimentation-with-propensity-scores-causal-inference-for-llm-based-features-in-python/) <br> · [*Why A/B Testing Breaks in AI Rollouts*](https://www.freecodecamp.org/news/why-ab-testing-breaks-in-ai-rollouts-and-how-to-fix-it/) <br> · [*The AI Governance Handbook*](https://www.freecodecamp.org/news/the-ai-governance-handbook-build-responsible-ai-systems/) <br> · [*How to Build and Secure a Personal AI Agent*](https://www.freecodecamp.org/news/how-to-build-and-secure-a-personal-ai-agent-with-openclaw/): full causal-inference series below ↓ |
 | **DZone** | 1M+ monthly readers | · [*Beyond "Lift-and-Shift": AI Automating Complex Logic*](https://dzone.com/articles/how-ai-and-genai-are-automating-complex-logic) <br> · [*Escaping the "Demo Trap": Reliable AI Agents*](https://dzone.com/articles/escaping-demo-trap-reliable-ai-agents) <br> · [*Self-Evolving AI Agent That Learns From Failure*](https://dzone.com/articles/self-evolving-ai-agent-learns-from-failure) <br> · [*GenAI Unleashed: MLOps and LLM Deployment*](https://dzone.com/articles/generative-ai-unleashed-mlops-and-llm-deployment-s) |
 | **Hackernoon** | 4M+ monthly readers | · [*Why AI Enterprises Still Rely on Manual Labor for Data Migration*](https://hackernoon.com/why-ai-driven-enterprises-still-rely-on-manual-labor-for-data-migration) <br> · [*GenAI Strategy Demands All-Inclusive Data Modernization*](https://hackernoon.com/why-your-genai-strategy-demands-an-all-inclusive-data-modernization) <br> · [*The New Monetizing Playbook: Pricing GenAI*](https://hackernoon.com/the-new-monetizing-playbook-a-product-leaders-framework-for-pricing-genai-capabilities) <br> · [*The AI Flywheel: Building Compounding Growth*](https://hackernoon.com/the-ai-flywheel-a-product-leaders-guide-to-building-compounding-growth) |
 | **Swiss Cognitive** | Global AI platform | · [*The Discovery Deficit: Why Manual Assessments Fail*](https://swisscognitive.ch/2026/04/14/the-discovery-deficit-why-manual-assessments-fail-and-ai-driven-analysis-is-essential/) <br> · [*From "Isolated Genius" to Co-Pilot*](https://swisscognitive.ch/2026/02/24/from-isolated-genius-to-co-pilot-why-the-next-ai-scientist-must-be-social/) <br> · [*AI-Powered Predictive Maintenance*](https://swisscognitive.ch/2023/11/23/ai-powered-predictive-maintenance-in-advanced-manufacturing/) <br> · [*Conversational AI on Manufacturing Floors*](https://swisscognitive.ch/2023/12/21/conversational-ai-on-manufacturing-floors-with-nlp-enabled-assistants/) |
@@ -49,7 +51,7 @@ Building agent-native B2A (business-to-agent) and A2A (agent-to-agent) applicati
 
 **Causal Inference for GenAI/LLM Product Experimentation (freeCodeCamp series, 10 articles)**
 
-A Python-implementation series on applying causal inference methods to Gen AI and LLM product experimentation — full list at [freecodecamp.org/news/author/rudrendupaul](https://www.freecodecamp.org/news/author/rudrendupaul/).
+A Python-implementation series on applying causal inference methods to Gen AI and LLM product experimentation. Full list at [freecodecamp.org/news/author/rudrendupaul](https://www.freecodecamp.org/news/author/rudrendupaul/).
 
 - [*Product Experimentation with Instrumental Variables: Unconfounding LLM Routing Decisions in Python*](https://www.freecodecamp.org/news/instrumental-variables-for-llm-routing-in-python/)
 - [*Product Experimentation with Counterfactual Methods for Estimating the Effects of AI Prompt Engineering*](https://www.freecodecamp.org/news/counterfactual-meta-learners-for-llm-prompt-decisions/)
@@ -84,7 +86,7 @@ Contributing to the infrastructure layer of AI, the frameworks, SDKs, and toolin
 ### ✅ Contributions Merged, Approved, and Acknowledged
 
 - **16 PRs merged into production**
-- **13 additional PRs opened 2026-07-16 to 07-17**, spanning HuggingFace PEFT (×2), Accelerate (×3), Optimum, Tokenizers (×2), Datasets, chat-ui (×2), lighteval, and PyTorch Lightning — all narrow, single-purpose fixes (type hints, bugfixes, docs), each independently duplicate-checked and policy-checked before submission
+- **13 additional PRs opened 2026-07-16 to 07-17**, spanning HuggingFace PEFT (×2), Accelerate (×3), Optimum, Tokenizers (×2), Datasets, chat-ui (×2), lighteval, and PyTorch Lightning: all narrow, single-purpose fixes (type hints, bugfixes, docs), each independently duplicate-checked and policy-checked before submission
 - **2 PRs approved by maintainers**, awaiting final merge (sklearn #33728, Anthropic Cookbook #733)
 - **1 contribution acknowledged and shipped** by the maintainer team
 - **43 PRs under review** across 16 repos (Anthropic Cookbook ×9, OpenAI Cookbook ×4, HuggingFace Tokenizers ×4, HuggingFace Accelerate ×5, scikit-learn ×3, HuggingFace TRL ×3, chat-ui ×2, HuggingFace Datasets ×2, HuggingFace Evaluate ×2, lighteval ×2, HuggingFace PEFT ×1 (consolidated), Anthropic Courses, vLLM, spaCy, MCP, HuggingFace Optimum, PyTorch Lightning ×1 each)
@@ -167,7 +169,7 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Rebased onto latest main, conflicts resolved; mergeable, awaiting review |
 | [#13965](https://github.com/explosion/spaCy/pull/13965) | **spaCy** | 32K ⭐ | fix: add `is_base_form` to `FrenchLemmatizer` to skip suffix rules on French infinitives | Awaiting review |
 | [#40271](https://github.com/vllm-project/vllm/pull/40271) | **vLLM** | 47K ⭐ | docs: expand `load_weights` contributing guide with `AutoWeightsLoader` and manual patterns | Awaiting maintainer `ready` label for CI |
-| ~~[#65291](https://github.com/pandas-dev/pandas/pull/65291)~~ | ~~**Pandas**~~ | ~~45K ⭐~~ | ~~docs: add docstring with examples to `NDFrame.__invert__`; add `DataFrame.__invert__` to frame.rst~~ | **MERGED Jun 21** ✅ — @jbrockmendel approved; "thanks @RudrenduPaul" |
+| ~~[#65291](https://github.com/pandas-dev/pandas/pull/65291)~~ | ~~**Pandas**~~ | ~~45K ⭐~~ | ~~docs: add docstring with examples to `NDFrame.__invert__`; add `DataFrame.__invert__` to frame.rst~~ | **MERGED Jun 21** ✅ (@jbrockmendel approved; "thanks @RudrenduPaul") |
 | [#168](https://github.com/anthropics/courses/pull/168) | **Anthropic Courses** | 7K ⭐ | fix: update `claude-3-haiku-20240307` to `claude-haiku-4-5` in `04_parameters.ipynb` | Submitted Jun 21 |
 | [#725](https://github.com/anthropics/claude-cookbooks/pull/725) | **Anthropic Cookbook** | 12K ⭐ | fix(security): add `.npmrc` to `.gitignore` with negation for safe sandbox templates | Submitted Jun 21 |
 | [#726](https://github.com/anthropics/claude-cookbooks/pull/726) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Pipeline vs Barrier notebook, benchmark of asyncio pipeline vs barrier for sub-agent composition | Submitted Jun 21 (refs issue #721) |
@@ -177,7 +179,7 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#730](https://github.com/anthropics/claude-cookbooks/pull/730) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): rate limiting and retry patterns, tenacity backoff, token budget, async semaphore | Submitted Jun 21 |
 | [#731](https://github.com/anthropics/claude-cookbooks/pull/731) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): token counting and context window management, sliding-window, extended thinking | Submitted Jun 21 |
 | [#732](https://github.com/anthropics/claude-cookbooks/pull/732) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): streaming text and events, all 6 event types, async streaming, progress indicator | Submitted Jun 21 |
-| [#733](https://github.com/anthropics/claude-cookbooks/pull/733) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Message Batches API, async batch submission, polling, result streaming, 50% cost savings | **Approved** by @sajjadfarooq768-ai, Jun 21 — awaiting merge |
+| [#733](https://github.com/anthropics/claude-cookbooks/pull/733) | **Anthropic Cookbook** | 12K ⭐ | feat(misc): Message Batches API, async batch submission, polling, result streaming, 50% cost savings | **Approved** by @sajjadfarooq768-ai, Jun 21, awaiting merge |
 | [#2810](https://github.com/openai/openai-cookbook/pull/2810) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): structured extraction from PDFs with GPT-4o vision + Pydantic validation loop | Four Codex rounds resolved: registry.yaml, validation routing, early-pass confidence check, total_amount check when tax is absent. Waiting for re-review. |
 | [#2811](https://github.com/openai/openai-cookbook/pull/2811) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): model routing, cheapest capable OpenAI model dispatch with tiktoken cost tracking | Four Codex rounds resolved: registry, API key, tier-1 upgrade skip, classifier cost in totals, JSON compact output exemption. Waiting for re-review. |
 | [#2812](https://github.com/openai/openai-cookbook/pull/2812) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): error handling and retry patterns for OpenAI API, tenacity, fallback, header inspection | Submitted Jun 21. All four reviewer comments resolved. |
@@ -201,7 +203,7 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#4152](https://github.com/huggingface/accelerate/pull/4152) | **HuggingFace Accelerate** | 8.5K ⭐ | Type hints in `utils/memory.py` (`clear_device_cache`, `release_memory`) | Submitted Aug 9 |
 | [#4153](https://github.com/huggingface/accelerate/pull/4153) | **HuggingFace Accelerate** | 8.5K ⭐ | Type hints in `checkpointing.py` (save/load accelerator + custom state) | Submitted Aug 9 |
 | [#1324](https://github.com/huggingface/lighteval/pull/1324) | **lighteval** | 5K ⭐ | Fix stale "openai" backend reference in CLI `--help` text | Submitted Aug 9 |
-| [#8454](https://github.com/huggingface/datasets/pull/8454) | **HuggingFace Datasets** | 19K ⭐ | Fix `ClassLabel.names` YAML serialization bug (`numpy.str_` values broke `push_to_hub()`) — root-caused and reproduced end-to-end, not just a doc fix | Submitted Aug 9 |
+| [#8454](https://github.com/huggingface/datasets/pull/8454) | **HuggingFace Datasets** | 19K ⭐ | Fix `ClassLabel.names` YAML serialization bug (`numpy.str_` values broke `push_to_hub()`): root-caused and reproduced end-to-end, not just a doc fix | Submitted Aug 9 |
 | [#6689](https://github.com/huggingface/trl/pull/6689) | **HuggingFace TRL** | 12K ⭐ | Mistral (v0.3) training chat template with `{% generation %}` markers | Submitted Aug 9 |
 | [#6690](https://github.com/huggingface/trl/pull/6690) | **HuggingFace TRL** | 12K ⭐ | OLMo3 training chat template with `{% generation %}` markers | Submitted Aug 9 |
 | [#6691](https://github.com/huggingface/trl/pull/6691) | **HuggingFace TRL** | 12K ⭐ | Falcon3 training chat template with `{% generation %}` markers | Submitted Aug 9 |
@@ -212,16 +214,16 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 
 ## Open Source Agent-Native Tools
 
-30+ self-built, agent-native CLIs, MCP servers, and libraries — 20k+ npm downloads, most shipping on both npm and PyPI with a `--json`/structured-output mode built for AI agents to call directly, not just humans.
+30+ self-built, agent-native CLIs, MCP servers, and libraries, with 20k+ npm downloads. Most ship on both npm and PyPI with a `--json`/structured-output mode built for AI agents to call directly, not just humans.
 
 | Repo | What it does |
 |------|---------------|
 | [TruthRoute](https://github.com/RudrenduPaul/TruthRoute) | Cross-model divergence scoring CLI comparing OpenAI, Anthropic, and Gemini responses, with an MCP server for agent-to-agent use |
 | [ownvoice](https://github.com/RudrenduPaul/ownvoice) | Trains a LoRA voice adapter for Kyutai's pocket-tts, kept as a local file instead of an API subscription, with `--json` output for agents and scripts |
 | [auditreach](https://github.com/RudrenduPaul/auditreach) | BYOK CLI and MCP server for researching Reddit/YouTube with a tamper-evident, hash-chained audit log |
-| [agent-observability](https://github.com/RudrenduPaul/agent-observability) | Deterministic record-and-replay for LLM agent HTTP traffic — record a failing run once, replay offline with zero API calls |
+| [agent-observability](https://github.com/RudrenduPaul/agent-observability) | Deterministic record-and-replay for LLM agent HTTP traffic: record a failing run once, replay offline with zero API calls |
 | [swarmmesh](https://github.com/RudrenduPaul/swarmmesh) | Shared context/memory coordination layer for swarms of parallel AI agents, with a built-in MCP server |
-| [NeuronScope](https://github.com/RudrenduPaul/NeuronScope) | CLI/MCP server for mechanistic interpretability — traces which attention heads and neurons drive an LLM's output |
+| [NeuronScope](https://github.com/RudrenduPaul/NeuronScope) | CLI/MCP server for mechanistic interpretability: traces which attention heads and neurons drive an LLM's output |
 | [skillguard](https://github.com/RudrenduPaul/skillguard) | Security scanner for third-party AI agent-skill files, detecting cross-skill privilege chaining and prompt injection |
 | [taskswarm](https://github.com/RudrenduPaul/taskswarm) | Pushes a local notification and live status page the instant a parallel Claude Code/Codex/Cursor session blocks or finishes |
 | [teamspend](https://github.com/RudrenduPaul/teamspend) | Compares AI coding tool spend before/after a migration, pulling real numbers from each vendor's API or local logs |
@@ -263,4 +265,4 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | 📚 Research (ORCID) | [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690) |
 | ✍️ Blog | [rudrendupaul.medium.com](https://rudrendupaul.medium.com) |
 | 🤗 Hugging Face | [huggingface.co/Rudrendu](https://huggingface.co/Rudrendu) |
-| 🚀 Product Hunt | [@rudrendu_paul_ai](https://www.producthunt.com/@rudrendu_paul_ai) — agent-native B2A product launches |
+| 🚀 Product Hunt | [@rudrendu_paul_ai](https://www.producthunt.com/@rudrendu_paul_ai): agent-native B2A product launches |
