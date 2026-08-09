@@ -62,8 +62,16 @@ A Python-implementation series on applying causal inference methods to Gen AI an
 - [*Product Experimentation with Regression Discontinuity: How an LLM Confidence Threshold Creates a Natural Experiment in Python*](https://www.freecodecamp.org/news/gen-ai-product-experimentation-with-regression-discontinuity-design/)
 - [*Product Experimentation with Propensity Scores: Causal Inference for LLM-Based Features in Python*](https://www.freecodecamp.org/news/product-experimentation-with-propensity-scores-causal-inference-for-llm-based-features-in-python/)
 
-**Peer-Reviewed Research (2)**
+**Peer-Reviewed Research (8)**
 
+4 papers published across multiple workshops on multi-agent orchestration at ICML 2026 (top 3 global AI/ML conference), spanning coordination, prompt injection defense, compound AI system reliability, and heterogeneous model routing: research infrastructure underlying Thespian Logic's Business-to-Agent (B2A) agentic visibility layer.
+
+- [*The Orchestrator Bottleneck: Formal Coordination Strategies for Cost-Optimal Multi-Agent Enterprise Workflows*](https://icml.cc/virtual/2026/67427), ICML 2026, SCALE Workshop
+- [*AgentRouter: Heterogeneous Model Routing for Cost-Optimal Multi-Step Agentic Workflows*](https://icml.cc/virtual/2026/74502), ICML 2026, AgenticUQ Workshop
+- [*Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems*](https://icml.cc/virtual/2026/67971), ICML 2026, AIWILD Workshop
+- [*Compound AI System Reliability: A Failure Taxonomy and Resilience Pattern Catalog from 150 Production Incidents*](https://icml.cc/virtual/2026/67983), ICML 2026, AIWILD Workshop
+- [*Performance Comparison of Advanced Machine Learning Techniques for Electricity Price Forecasting*](https://ieeexplore.ieee.org/document/10318603), 2023 North American Power Symposium (NAPS), IEEE
+- [*xCovNet: A Wide Deep Learning Model for CXR-based COVID-19 Detection*](https://iopscience.iop.org/article/10.1088/1742-6596/2634/1/012056), Journal of Physics: Conference Series (CONF-CIAP 2023)
 - [*Automated Currency Transactions Forecasting for Global E-commerce*](http://dx.doi.org/10.54254/2755-2721/30/20230070), Applied and Computational Engineering
 - [*Credit Risk Evaluation for Financial Inclusion Using ML Optimization*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4690773), SSRN
 
