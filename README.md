@@ -27,7 +27,9 @@ Launches tracked on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai
 
 ## Published Research & Thought Leadership
 
-**Published author with Springer Nature, Elsevier, and IEEE.** 33+ publications across peer-reviewed journals, books, conferences, and industry platforms. Full list: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690)
+**Published author with Springer Nature, Elsevier, and IEEE.** 33+ publications across peer-reviewed journals, books, conferences, and industry platforms.
+
+Publication portfolio: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690)
 
 **Books (2)**
 
