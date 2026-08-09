@@ -36,7 +36,7 @@ Publication portfolio: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-00
 
 **Articles (35)**
 
-**ICML 2026** — 4 papers published across various workshops at the top 3 global AI/ML conference:
+**ICML 2026:** 4 papers published across various workshops at the top 3 global AI/ML conference.
 
 | Reach | Topics | Articles |
 |-------|--------|----------|
