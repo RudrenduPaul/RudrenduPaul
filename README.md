@@ -36,10 +36,18 @@ Publication portfolio: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-00
 
 **Articles (35)**
 
+**ICML 2026** — 4 papers published across various workshops at the top 3 global AI/ML conference:
+
+| Reach | Topics | Articles |
+|-------|--------|----------|
+| Top 3 global AI/ML conference | Multi-agent coordination | [*The Orchestrator Bottleneck: Formal Coordination Strategies for Cost-Optimal Multi-Agent Enterprise Workflows*](https://icml.cc/virtual/2026/67427) (SCALE Workshop) |
+| Top 3 global AI/ML conference | Heterogeneous model routing | [*AgentRouter: Heterogeneous Model Routing for Cost-Optimal Multi-Step Agentic Workflows*](https://icml.cc/virtual/2026/74502) (AgenticUQ Workshop) |
+| Top 3 global AI/ML conference | Prompt injection defense | [*Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems*](https://icml.cc/virtual/2026/67971) (AIWILD Workshop) |
+| Top 3 global AI/ML conference | Compound AI system reliability | [*Compound AI System Reliability: A Failure Taxonomy and Resilience Pattern Catalog from 150 Production Incidents*](https://icml.cc/virtual/2026/67983) (AIWILD Workshop) |
+
 | Platform | Reach | Articles |
 |----------|-------|----------|
-| **ICML** | Top 3 global AI/ML conference | **4 papers published across various workshops:** <br><br> · **SCALE Workshop:** [*The Orchestrator Bottleneck: Formal Coordination Strategies for Cost-Optimal Multi-Agent Enterprise Workflows*](https://icml.cc/virtual/2026/67427) <br><br> · **AgenticUQ Workshop:** [*AgentRouter: Heterogeneous Model Routing for Cost-Optimal Multi-Step Agentic Workflows*](https://icml.cc/virtual/2026/74502) <br><br> · **AIWILD Workshop:** [*Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems*](https://icml.cc/virtual/2026/67971) <br><br> · **AIWILD Workshop:** [*Compound AI System Reliability: A Failure Taxonomy and Resilience Pattern Catalog from 150 Production Incidents*](https://icml.cc/virtual/2026/67983) |
-| **freeCodeCamp** | 10M+ monthly visitors | · [*Product Experimentation with Regression Discontinuity*](https://www.freecodecamp.org/news/gen-ai-product-experimentation-with-regression-discontinuity-design/) <br> · [*Product Experimentation with Propensity Scores*](https://www.freecodecamp.org/news/product-experimentation-with-propensity-scores-causal-inference-for-llm-based-features-in-python/) <br> · [*Why A/B Testing Breaks in AI Rollouts*](https://www.freecodecamp.org/news/why-ab-testing-breaks-in-ai-rollouts-and-how-to-fix-it/) <br> · [*The AI Governance Handbook*](https://www.freecodecamp.org/news/the-ai-governance-handbook-build-responsible-ai-systems/) <br> · [*How to Build and Secure a Personal AI Agent*](https://www.freecodecamp.org/news/how-to-build-and-secure-a-personal-ai-agent-with-openclaw/): full causal-inference series below ↓ |
+| **freeCodeCamp** | 10M+ monthly visitors | · [*Why A/B Testing Breaks in AI Rollouts*](https://www.freecodecamp.org/news/why-ab-testing-breaks-in-ai-rollouts-and-how-to-fix-it/) <br> · [*The AI Governance Handbook*](https://www.freecodecamp.org/news/the-ai-governance-handbook-build-responsible-ai-systems/) <br> · [*How to Build and Secure a Personal AI Agent*](https://www.freecodecamp.org/news/how-to-build-and-secure-a-personal-ai-agent-with-openclaw/) <br> · [*Product Experimentation with Instrumental Variables: Unconfounding LLM Routing Decisions in Python*](https://www.freecodecamp.org/news/instrumental-variables-for-llm-routing-in-python/) <br> · [*Product Experimentation with Counterfactual Methods for Estimating the Effects of AI Prompt Engineering*](https://www.freecodecamp.org/news/counterfactual-meta-learners-for-llm-prompt-decisions/) <br> · [*Product Experimentation with Regression-Based Causal Inference: Estimating LLM Feature Impact with Python and statsmodels*](https://www.freecodecamp.org/news/regression-models-for-causal-inference-on-ai-features/) <br> · [*Product Experimentation with Uplift Modeling: Targeting Your LLM Feature Rollout to Users Who Actually Benefit*](https://www.freecodecamp.org/news/uplift-modeling-for-personalized-ai-rollouts-in-python/) <br> · [*Product Experimentation: Stop Early Without P-Hacking Using mSPRT and Sequential Testing in Python*](https://www.freecodecamp.org/news/stop-early-without-p-hacking-using-msprt-and-sequential-testing-in-python/) <br> · [*Product Experimentation for LLM Platforms: Switchback Designs When User Randomization Breaks Market Equilibrium*](https://www.freecodecamp.org/news/switchback-experiments-for-ai-platform-features-in-python/) <br> · [*Product Experimentation for Collaborative AI Features: Cluster Randomization for LLM-Based Tools in Python*](https://www.freecodecamp.org/news/cluster-randomization-for-llm-based-tools-in-python/) <br> · [*Product Experimentation with Synthetic Control: Causal Inference for Global LLM Rollouts in Python*](https://www.freecodecamp.org/news/product-experimentation-with-synthetic-control-causal-inference-for-global-llm-rollouts-in-python/) <br> · [*Product Experimentation with Regression Discontinuity: How an LLM Confidence Threshold Creates a Natural Experiment in Python*](https://www.freecodecamp.org/news/gen-ai-product-experimentation-with-regression-discontinuity-design/) <br> · [*Product Experimentation with Propensity Scores: Causal Inference for LLM-Based Features in Python*](https://www.freecodecamp.org/news/product-experimentation-with-propensity-scores-causal-inference-for-llm-based-features-in-python/) (10 published + 2 in progress in the causal-inference series) |
 | **DZone** | 1M+ monthly readers | · [*Beyond "Lift-and-Shift": AI Automating Complex Logic*](https://dzone.com/articles/how-ai-and-genai-are-automating-complex-logic) <br> · [*Escaping the "Demo Trap": Reliable AI Agents*](https://dzone.com/articles/escaping-demo-trap-reliable-ai-agents) <br> · [*Self-Evolving AI Agent That Learns From Failure*](https://dzone.com/articles/self-evolving-ai-agent-learns-from-failure) <br> · [*GenAI Unleashed: MLOps and LLM Deployment*](https://dzone.com/articles/generative-ai-unleashed-mlops-and-llm-deployment-s) |
 | **Hackernoon** | 4M+ monthly readers | · [*Why AI Enterprises Still Rely on Manual Labor for Data Migration*](https://hackernoon.com/why-ai-driven-enterprises-still-rely-on-manual-labor-for-data-migration) <br> · [*GenAI Strategy Demands All-Inclusive Data Modernization*](https://hackernoon.com/why-your-genai-strategy-demands-an-all-inclusive-data-modernization) <br> · [*The New Monetizing Playbook: Pricing GenAI*](https://hackernoon.com/the-new-monetizing-playbook-a-product-leaders-framework-for-pricing-genai-capabilities) <br> · [*The AI Flywheel: Building Compounding Growth*](https://hackernoon.com/the-ai-flywheel-a-product-leaders-guide-to-building-compounding-growth) |
 | **Swiss Cognitive** | Global AI platform | · [*The Discovery Deficit: Why Manual Assessments Fail*](https://swisscognitive.ch/2026/04/14/the-discovery-deficit-why-manual-assessments-fail-and-ai-driven-analysis-is-essential/) <br> · [*From "Isolated Genius" to Co-Pilot*](https://swisscognitive.ch/2026/02/24/from-isolated-genius-to-co-pilot-why-the-next-ai-scientist-must-be-social/) <br> · [*AI-Powered Predictive Maintenance*](https://swisscognitive.ch/2023/11/23/ai-powered-predictive-maintenance-in-advanced-manufacturing/) <br> · [*Conversational AI on Manufacturing Floors*](https://swisscognitive.ch/2023/12/21/conversational-ai-on-manufacturing-floors-with-nlp-enabled-assistants/) |
@@ -48,27 +56,14 @@ Publication portfolio: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-00
 | **Data Science Central** (TechTarget) | Data science community | [*The Hidden Price of Not Being AI-Ready*](https://www.datasciencecentral.com/the-hidden-price-of-not-being-ai-ready/) |
 | **EMERJ AI Research** | Enterprise AI | [*AI for Avoiding Supply Chain Disruptions*](https://emerj.com/ai-for-avoiding-supply-chain-disruptions-two-use-cases/) |
 
-**Causal Inference for GenAI/LLM Product Experimentation (freeCodeCamp series, 10 published and 2 in progress)**
-
-A Python-implementation series on applying causal inference methods to Gen AI and LLM product experimentation. Full list at [freecodecamp.org/news/author/rudrendupaul](https://www.freecodecamp.org/news/author/rudrendupaul/).
-
-- [*Product Experimentation with Instrumental Variables: Unconfounding LLM Routing Decisions in Python*](https://www.freecodecamp.org/news/instrumental-variables-for-llm-routing-in-python/)
-- [*Product Experimentation with Counterfactual Methods for Estimating the Effects of AI Prompt Engineering*](https://www.freecodecamp.org/news/counterfactual-meta-learners-for-llm-prompt-decisions/)
-- [*Product Experimentation with Regression-Based Causal Inference: Estimating LLM Feature Impact with Python and statsmodels*](https://www.freecodecamp.org/news/regression-models-for-causal-inference-on-ai-features/)
-- [*Product Experimentation with Uplift Modeling: Targeting Your LLM Feature Rollout to Users Who Actually Benefit*](https://www.freecodecamp.org/news/uplift-modeling-for-personalized-ai-rollouts-in-python/)
-- [*Product Experimentation: Stop Early Without P-Hacking Using mSPRT and Sequential Testing in Python*](https://www.freecodecamp.org/news/stop-early-without-p-hacking-using-msprt-and-sequential-testing-in-python/)
-- [*Product Experimentation for LLM Platforms: Switchback Designs When User Randomization Breaks Market Equilibrium*](https://www.freecodecamp.org/news/switchback-experiments-for-ai-platform-features-in-python/)
-- [*Product Experimentation for Collaborative AI Features: Cluster Randomization for LLM-Based Tools in Python*](https://www.freecodecamp.org/news/cluster-randomization-for-llm-based-tools-in-python/)
-- [*Product Experimentation with Synthetic Control: Causal Inference for Global LLM Rollouts in Python*](https://www.freecodecamp.org/news/product-experimentation-with-synthetic-control-causal-inference-for-global-llm-rollouts-in-python/)
-- [*Product Experimentation with Regression Discontinuity: How an LLM Confidence Threshold Creates a Natural Experiment in Python*](https://www.freecodecamp.org/news/gen-ai-product-experimentation-with-regression-discontinuity-design/)
-- [*Product Experimentation with Propensity Scores: Causal Inference for LLM-Based Features in Python*](https://www.freecodecamp.org/news/product-experimentation-with-propensity-scores-causal-inference-for-llm-based-features-in-python/)
-
 **Peer-Reviewed Research (4)**
 
-- [*Performance Comparison of Advanced Machine Learning Techniques for Electricity Price Forecasting*](https://ieeexplore.ieee.org/document/10318603), 2023 North American Power Symposium (NAPS), IEEE
-- [*xCovNet: A Wide Deep Learning Model for CXR-based COVID-19 Detection*](https://iopscience.iop.org/article/10.1088/1742-6596/2634/1/012056), Journal of Physics: Conference Series (CONF-CIAP 2023)
-- [*Automated Currency Transactions Forecasting for Global E-commerce*](http://dx.doi.org/10.54254/2755-2721/30/20230070), Applied and Computational Engineering
-- [*Credit Risk Evaluation for Financial Inclusion Using ML Optimization*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4690773), SSRN
+| Reach | Topics | Articles |
+|-------|--------|----------|
+| IEEE conference | Electricity price forecasting | [*Performance Comparison of Advanced Machine Learning Techniques for Electricity Price Forecasting*](https://ieeexplore.ieee.org/document/10318603) (2023 North American Power Symposium, IEEE) |
+| Journal of Physics: Conference Series | Medical imaging, COVID-19 detection | [*xCovNet: A Wide Deep Learning Model for CXR-based COVID-19 Detection*](https://iopscience.iop.org/article/10.1088/1742-6596/2634/1/012056) (CONF-CIAP 2023) |
+| Applied and Computational Engineering | Currency forecasting, e-commerce | [*Automated Currency Transactions Forecasting for Global E-commerce*](http://dx.doi.org/10.54254/2755-2721/30/20230070) |
+| SSRN | Credit risk, financial inclusion | [*Credit Risk Evaluation for Financial Inclusion Using ML Optimization*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4690773) |
 
 **Conference Talks (5)**
 
@@ -82,7 +77,11 @@ A Python-implementation series on applying causal inference methods to Gen AI an
 
 ## Open Source Agent-Native Tools
 
-30+ self-built, agent-native CLIs, MCP servers, and libraries, with 20k+ npm downloads. Most ship on both npm and PyPI with a `--json`/structured-output mode built for AI agents to call directly, not just humans.
+**30+** self-built, agent-native CLIs, MCP servers, and libraries, with **20k+** npm downloads.
+
+Most ship on both npm and PyPI with a JSON/structured-output mode built for AI agents to call directly, not just humans.
+
+Packages published on [npm](https://www.npmjs.com/~rudrendu_paul_packages) and [PyPI](https://pypi.org/user/Rudrendu/).
 
 | Repo | What it does |
 |------|---------------|
@@ -125,7 +124,7 @@ Contributing to the infrastructure layer of AI, the frameworks, SDKs, and toolin
 
 ### ✅ Contributions Merged, Approved, and Acknowledged
 
-- **16 PRs merged into production**
+- **16 OSS contributions merged** across **9 repos**: HuggingFace Transformers, TRL, PEFT, scikit-learn, Optuna, Instructor, Ray, Google ADK, and Pandas
 - **13 additional PRs opened 2026-07-16 to 07-17**, spanning HuggingFace PEFT (×2), Accelerate (×3), Optimum, Tokenizers (×2), Datasets, chat-ui (×2), lighteval, and PyTorch Lightning: all narrow, single-purpose fixes (type hints, bugfixes, docs), each independently duplicate-checked and policy-checked before submission
 - **2 PRs approved by maintainers**, awaiting final merge (sklearn #33728, Anthropic Cookbook #733)
 - **1 contribution acknowledged and shipped** by the maintainer team
