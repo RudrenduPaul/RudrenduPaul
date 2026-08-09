@@ -27,7 +27,7 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 
 **Books (3)**
 
-- 📘 *Applications of Artificial Intelligence in Healthcare*, **Elsevier** *(forthcoming)*
+- 📘 [*Applications of Artificial Intelligence in Healthcare*](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443439346000365), **Elsevier**
 - 📘 [*AI for Advanced Manufacturing and Industrial Applications*](http://dx.doi.org/10.1007/978-3-031-86091-1), **Springer Nature**
 - 📘 *AI-Driven Autonomous Systems and Advanced Manufacturing with MLOps*, Chronicle International
 
