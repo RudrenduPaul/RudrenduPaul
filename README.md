@@ -1,8 +1,8 @@
-# Rudrendu Paul, Applied AI/ML Leader · Published Author · Open Source Contributor
+# Rudrendu Paul, Agent-Native B2A/A2A Builder · Applied AI/ML Leader · Published Author (ICML) · Open Source Contributor
 
-**Fortune 50 AI/ML · Springer Nature · Elsevier · IEEE · HuggingFace Transformers · scikit-learn · Pandas · vLLM · Google ADK · MCP · DSPy**
+**Agent-Native B2A/A2A Applications · Fortune 50 AI/ML · ICML · Springer Nature · Elsevier · IEEE · HuggingFace Transformers · scikit-learn · vLLM · MCP**
 
-> Building and scaling world-class AI/ML systems at Fortune 50 companies for 15+ years. Published author with **Springer Nature, Elsevier, and IEEE**. Active open source contributor to the tools the AI industry runs on.
+> Building agent-native B2A (business-to-agent) and A2A (agent-to-agent) applications — CLI-first tools designed to be called by other agents, not just humans. 15+ years scaling world-class AI/ML systems at Fortune 50 companies. Published researcher (ICML) and author with **Springer Nature, Elsevier, and IEEE**. Active open source contributor to the tools the AI industry runs on.
 
 ---
 
