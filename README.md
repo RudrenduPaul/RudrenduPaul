@@ -8,17 +8,16 @@
 
 ## What I Do
 
-I sit at the intersection of **applied machine learning**, **causal inference**, and **marketing measurement science**, building production AI systems that drive measurable business outcomes at scale.
+I sit at the intersection of **applied machine learning**, **causal inference**, **marketing measurement**, and **agentic B2A applications**, building production AI systems that drive measurable business outcomes at scale.
 
-My work has shaped AI and data strategy across **retail media networks, AdTech, MarTech, CPG, and e-commerce** at some of the world's largest companies. I specialize in problems where the math is hard, the stakes are high, and the answer has to work in production.
+My work spans **Ads, Marketing Measurement, and Incrementality Testing**, and has shaped AI and data strategy across **retail media networks, AdTech, MarTech, CPG, and e-commerce** at some of the world's largest companies. I specialize in problems where the math is hard, the stakes are high, and the answer has to work in production.
 
 **Core domains:**
 - Marketing Mix Modeling · Multi-Touch Attribution · Incrementality Testing
+- [Product Experimentation with Causal Inference on Gen AI and LLM Applications](#causal-inference-for-genaillm-product-experimentation-freecodecamp-series-10-articles) (10-article series on [freeCodeCamp](https://www.freecodecamp.org/news/author/rudrendupaul/), 10M+ monthly visitors)
 - Causal Inference · Experimentation at Scale
-- [Product Experimentation with Causal Inference on Gen AI and LLM Applications](#causal-inference-for-genaillm-product-experimentation-freecodecamp-series-10-articles)
 - Generative AI · LLM Systems · AI Agents
-- [Agent-Native B2A/A2A Applications](#open-source-agent-native-tools) · Multi-Agent Orchestration
-- Building agent-native B2A (business-to-agent) and A2A (agent-to-agent) applications: CLI-first tools designed to be called by other agents, not just humans. See the [full list of 30+ agent-native tools below](#open-source-agent-native-tools).
+- Agent-Native B2A/A2A Applications · Multi-Agent Orchestration: [30+ OSS agent-native solutions](#open-source-agent-native-tools) with 20k+ package downloads
 - Retail Media Network (RMN) Measurement · Advertising Monetization
 - Applied ML for E-commerce · CPG · AdTech · MarTech
 
