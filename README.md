@@ -69,7 +69,7 @@ Contributing to the infrastructure layer of AI, the frameworks, SDKs, and toolin
 - **13 additional PRs opened 2026-07-16 to 07-17**, spanning HuggingFace PEFT (×2), Accelerate (×3), Optimum, Tokenizers (×2), Datasets, chat-ui (×2), lighteval, and PyTorch Lightning — all narrow, single-purpose fixes (type hints, bugfixes, docs), each independently duplicate-checked and policy-checked before submission
 - **2 PRs approved by maintainers**, awaiting final merge (sklearn #33728, Anthropic Cookbook #733)
 - **1 contribution acknowledged and shipped** by the maintainer team
-- **33 PRs under review** across 15 repos (Anthropic Cookbook ×9, OpenAI Cookbook ×4, scikit-learn ×3, HuggingFace Accelerate ×3, chat-ui ×2, HuggingFace PEFT ×2, HuggingFace Tokenizers ×2, Anthropic Courses, vLLM, spaCy, MCP, HuggingFace Optimum, HuggingFace Datasets, lighteval, PyTorch Lightning ×1 each)
+- **32 PRs under review** across 15 repos (Anthropic Cookbook ×9, OpenAI Cookbook ×4, scikit-learn ×3, HuggingFace Accelerate ×3, chat-ui ×2, HuggingFace Tokenizers ×2, HuggingFace PEFT ×1 (consolidated), Anthropic Courses, vLLM, spaCy, MCP, HuggingFace Optimum, HuggingFace Datasets, lighteval, PyTorch Lightning ×1 each)
 
 These contributions are now part of the official codebases used by millions of engineers worldwide.
 
@@ -143,10 +143,10 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 
 | PR | Repo | Stars | Description | Status |
 |----|------|-------|-------------|--------|
-| [#33728](https://github.com/scikit-learn/scikit-learn/pull/33728) | **scikit-learn** | 65K ⭐ | docs: document `StratifiedShuffleSplit` approximation limitation for rare classes | Approved by @ArturoAmorQ, awaiting @glemaitre confirmation |
+| [#33728](https://github.com/scikit-learn/scikit-learn/pull/33728) | **scikit-learn** | 65K ⭐ | docs: document `StratifiedShuffleSplit` approximation limitation for rare classes | Approved by @ArturoAmorQ; wording sharpened per @PranavAchar01's verified math, awaiting @glemaitre confirmation |
 | [#33791](https://github.com/scikit-learn/scikit-learn/pull/33791) | **scikit-learn** | 65K ⭐ | docs: add Notes + References sections to `CCA` docstring (numerical instability warning) | Awaiting review |
-| [#33792](https://github.com/scikit-learn/scikit-learn/pull/33792) | **scikit-learn** | 65K ⭐ | fix: correct `SimpleImputer.inverse_transform` column order with all-NaN features | codecov/patch failing — new bugfix lines have no test coverage; test for all-NaN column reordering needed |
-| [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Awaiting review |
+| [#33792](https://github.com/scikit-learn/scikit-learn/pull/33792) | **scikit-learn** | 65K ⭐ | fix: correct `SimpleImputer.inverse_transform` column order with all-NaN features | codecov/patch gap closed with a targeted test; awaiting review |
+| [#2410](https://github.com/modelcontextprotocol/python-sdk/pull/2410) | **MCP Python SDK** | 4K ⭐ | fix: allow integer file descriptors for `errlog` in `stdio_client` | Rebased onto latest main, conflicts resolved; mergeable, awaiting review |
 | [#13965](https://github.com/explosion/spaCy/pull/13965) | **spaCy** | 32K ⭐ | fix: add `is_base_form` to `FrenchLemmatizer` to skip suffix rules on French infinitives | Awaiting review |
 | [#40271](https://github.com/vllm-project/vllm/pull/40271) | **vLLM** | 47K ⭐ | docs: expand `load_weights` contributing guide with `AutoWeightsLoader` and manual patterns | Awaiting maintainer `ready` label for CI |
 | ~~[#65291](https://github.com/pandas-dev/pandas/pull/65291)~~ | ~~**Pandas**~~ | ~~45K ⭐~~ | ~~docs: add docstring with examples to `NDFrame.__invert__`; add `DataFrame.__invert__` to frame.rst~~ | **MERGED Jun 21** ✅ — @jbrockmendel approved; "thanks @RudrenduPaul" |
@@ -164,7 +164,6 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#2811](https://github.com/openai/openai-cookbook/pull/2811) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): model routing, cheapest capable OpenAI model dispatch with tiktoken cost tracking | Four Codex rounds resolved: registry, API key, tier-1 upgrade skip, classifier cost in totals, JSON compact output exemption. Waiting for re-review. |
 | [#2812](https://github.com/openai/openai-cookbook/pull/2812) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): error handling and retry patterns for OpenAI API, tenacity, fallback, header inspection | Submitted Jun 21. All four reviewer comments resolved. |
 | [#2813](https://github.com/openai/openai-cookbook/pull/2813) | **OpenAI Cookbook** | 12K ⭐ | feat(examples): multi-agent task decomposition, parallel specialists + asyncio.gather synthesis | Four Codex rounds resolved: registry, asyncio fix, AsyncOpenAI deferred, synthesis prompt now dynamic from results keys. Waiting for re-review. |
-| [#3448](https://github.com/huggingface/peft/pull/3448) | **HuggingFace PEFT** | 17K ⭐ | Add type hints to `rescale_adapter_scale` and `compute_loss` in `helpers.py` | Submitted Jul 16 |
 | [#4123](https://github.com/huggingface/accelerate/pull/4123) | **HuggingFace Accelerate** | 8.5K ⭐ | Add missing `-> bool` return type hints in `utils/imports.py` | Submitted Jul 16 |
 | [#2462](https://github.com/huggingface/optimum/pull/2462) | **HuggingFace Optimum** | 2.7K ⭐ | Add `swinv2` to `NormalizedConfigManager` mapping, fixes `KeyError` | Submitted Jul 16 |
 | [#2211](https://github.com/huggingface/tokenizers/pull/2211) | **HuggingFace Tokenizers** | 9.5K ⭐ | Add missing return type hints to `BaseTokenizer.save`, `save_model`, `to_str` | Submitted Jul 16 |
@@ -173,7 +172,7 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | [#2432](https://github.com/huggingface/chat-ui/pull/2432) | **HuggingFace chat-ui** | 8K ⭐ | fix: allow `addSibling` to target the root message | Submitted Jul 16; follow-up fix pushed after the repo's Codex bot flagged root siblings were unreachable in the branch UI |
 | [#1300](https://github.com/huggingface/lighteval/pull/1300) | **lighteval** | 5K ⭐ | fix: correct `stop_sequence` → `stop_sequences` typo in `_continuous_greedy_until` | Submitted Jul 16 |
 | [#21841](https://github.com/Lightning-AI/pytorch-lightning/pull/21841) | **PyTorch Lightning** | 31K ⭐ | docs: clarify `sync_dist` warning is a false positive for TorchMetrics-derived values | Submitted Jul 16 |
-| [#3452](https://github.com/huggingface/peft/pull/3452) | **HuggingFace PEFT** | 17K ⭐ | Add type hints to hotswap utility functions in `hotswap.py` | Submitted Jul 17 |
+| [#3529](https://github.com/huggingface/peft/pull/3529) | **HuggingFace PEFT** | 17K ⭐ | Add type hints to `helpers.py` and `hotswap.py` (consolidates #3448 + #3452 into one PR per maintainer request) | Submitted Aug 8 |
 | [#4124](https://github.com/huggingface/accelerate/pull/4124) | **HuggingFace Accelerate** | 8.5K ⭐ | Add `module: nn.Module` type hints to `ModelHook` lifecycle methods | Submitted Jul 17 |
 | [#4125](https://github.com/huggingface/accelerate/pull/4125) | **HuggingFace Accelerate** | 8.5K ⭐ | Add `level`/`msg` type hints to `MultiProcessAdapter.log` | Submitted Jul 17 |
 | [#2215](https://github.com/huggingface/tokenizers/pull/2215) | **HuggingFace Tokenizers** | 9.5K ⭐ | Fix dead wikitext-103 S3 link in `quicktour.mdx` | Submitted Jul 17 |
