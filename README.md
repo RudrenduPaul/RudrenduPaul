@@ -21,7 +21,7 @@ My work spans **Ads, Marketing Measurement, and Incrementality Testing**, and ha
 - Retail Media Network (RMN) Measurement · Advertising Monetization
 - Applied ML for E-commerce · CPG · AdTech · MarTech
 
-Launches tracked on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai).
+Agent-native product launches at [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai/activity).
 
 ---
 
@@ -265,4 +265,4 @@ Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in 
 | 📚 Research (ORCID) | [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-0008-0141-4690) |
 | ✍️ Blog | [rudrendupaul.medium.com](https://rudrendupaul.medium.com) |
 | 🤗 Hugging Face | [huggingface.co/Rudrendu](https://huggingface.co/Rudrendu) |
-| 🚀 Product Hunt | [@rudrendu_paul_ai](https://www.producthunt.com/@rudrendu_paul_ai): agent-native B2A product launches |
+| 🚀 Product Hunt | [@rudrendu_paul_ai](https://www.producthunt.com/@rudrendu_paul_ai/activity): agent-native B2A product launches |
