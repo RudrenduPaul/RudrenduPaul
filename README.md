@@ -147,67 +147,67 @@ Contributing to the infrastructure layer of AI, the frameworks, SDKs, and toolin
 
 These contributions are now part of the official codebases used by millions of engineers worldwide.
 
-**[huggingface/transformers #45352](https://github.com/huggingface/transformers/pull/45352) (merged)**
+**✅ [huggingface/transformers #45352](https://github.com/huggingface/transformers/pull/45352) (merged)**
 
 Fixed an incorrect return type annotation on `Qwen3MoeSparseMoeBlock.forward` in **HuggingFace Transformers** (158K&nbsp;⭐), the most widely-used library in AI/ML. Propagated the fix to two generated model files (`qwen3_vl_moe`, `qwen3_omni_moe`). Reviewed and approved by a Transformers core maintainer. Ran `make fix-repo` consistency checks and resolved CI failures before merge.
 
-**[huggingface/transformers #45370](https://github.com/huggingface/transformers/pull/45370) (merged)**
+**✅ [huggingface/transformers #45370](https://github.com/huggingface/transformers/pull/45370) (merged)**
 
 Fixed 5 docstring errors in `Gemma3nTextConfig` across **HuggingFace Transformers** (158K&nbsp;⭐), correcting typos, grammar, and formatting issues in Google's Gemma 3n model configuration. Passed the anti-slop check and all CI checks.
 
-**[huggingface/transformers #45351](https://github.com/huggingface/transformers/pull/45351) (merged)**
+**✅ [huggingface/transformers #45351](https://github.com/huggingface/transformers/pull/45351) (merged)**
 
 Fixed a crash in `get_device_capability()` in **HuggingFace Transformers** (158K&nbsp;⭐) testing utilities when CUDA is installed but no GPU is present. Refactored CUDA/ROCm and XPU split per @remi-or's review, both accelerator paths are now independent. Reviewed and merged by Transformers core maintainers.
 
-**[optuna/optuna #6631](https://github.com/optuna/optuna/pull/6631) (merged)**
+**✅ [optuna/optuna #6631](https://github.com/optuna/optuna/pull/6631) (merged)**
 
 Fixed a Sphinx RST directive typo in **Optuna** (11K&nbsp;⭐), correcting `.. note:` to `.. note::` in the `QMCSampler` docstring, which prevented the note from rendering in the documentation. "Good catch!" response from maintainer before merge.
 
-**[huggingface/trl #5527](https://github.com/huggingface/trl/pull/5527) (merged)**
+**✅ [huggingface/trl #5527](https://github.com/huggingface/trl/pull/5527) (merged)**
 
 Contributed a new training template for **DeepSeek-V3** to **HuggingFace TRL** (12K&nbsp;⭐). This template enables engineers to correctly fine-tune DeepSeek-V3 models using SFT loss masking, ensuring the model learns only from the assistant's responses, not the user's questions. Reviewed and approved by the TRL core maintainer.
 
-**[huggingface/trl #5522](https://github.com/huggingface/trl/pull/5522) (merged)**
+**✅ [huggingface/trl #5522](https://github.com/huggingface/trl/pull/5522) (merged)**
 
 Contributed a new training template for **Alibaba's Qwen2.5 language model** to **HuggingFace TRL** (12K&nbsp;⭐). This change enables engineers to correctly train Qwen2.5 models so the AI learns only from the assistant's responses, a critical capability for building production chatbots and AI assistants. Reviewed and approved by the TRL core maintainer.
 
-**[huggingface/trl #5526](https://github.com/huggingface/trl/pull/5526) (merged)**
+**✅ [huggingface/trl #5526](https://github.com/huggingface/trl/pull/5526) (merged)**
 
 Contributed a new training template for **Microsoft's Phi-3 model family** to **HuggingFace TRL** (12K&nbsp;⭐). Adds `{% generation %}` markers for SFT assistant-only loss masking. Approved by the TRL core maintainer and merged into main.
 
-**[huggingface/trl #5493](https://github.com/huggingface/trl/pull/5493) (merged)**
+**✅ [huggingface/trl #5493](https://github.com/huggingface/trl/pull/5493) (merged)**
 
 Contributed the equivalent training template for **Meta's Llama 3 model family** to **HuggingFace TRL** (12K&nbsp;⭐). Llama 3 is one of the most popular open-source AI models in the world. This template is now part of TRL's official release and is used daily by ML engineers fine-tuning Llama 3 for production applications.
 
-**[huggingface/trl #5494](https://github.com/huggingface/trl/pull/5494) (merged)**
+**✅ [huggingface/trl #5494](https://github.com/huggingface/trl/pull/5494) (merged)**
 
 Added a working code example to **HuggingFace TRL**'s documentation showing how to use a key training feature (`completion_only_loss`) that was previously undocumented, helping new users get started faster with a feature the community had been asking about.
 
-**[scikit-learn/scikit-learn #33723](https://github.com/scikit-learn/scikit-learn/pull/33723) (merged)**
+**✅ [scikit-learn/scikit-learn #33723](https://github.com/scikit-learn/scikit-learn/pull/33723) (merged)**
 
 Clarified in **scikit-learn** (65K&nbsp;⭐) documentation that `best_estimator_` in `HalvingGridSearchCV` and `HalvingRandomSearchCV` reflects only the winner of the final halving iteration, a subtle but important distinction for users interpreting search results. Approved by two scikit-learn core maintainers (StefanieSenger, betatim) and merged. Also closed issue #24901.
 
-**[scikit-learn/scikit-learn #33722](https://github.com/scikit-learn/scikit-learn/pull/33722) (merged)**
+**✅ [scikit-learn/scikit-learn #33722](https://github.com/scikit-learn/scikit-learn/pull/33722) (merged)**
 
 Clarified in **scikit-learn** (65K&nbsp;⭐) that `VotingClassifier.estimators_` contains models fitted on integer-encoded labels, not the original string class names. This subtle distinction causes silent misinterpretation when users inspect the fitted sub-estimators. Reviewed by jeremiedbb and merged; also closed issue #12189.
 
-**[huggingface/peft #3144](https://github.com/huggingface/peft/pull/3144) (merged)**
+**✅ [huggingface/peft #3144](https://github.com/huggingface/peft/pull/3144) (merged)**
 
 Added type annotations to utility functions across `src/peft/utils/` in **HuggingFace PEFT** (17K&nbsp;⭐), `merge_utils.py`, `other.py`, `loftq_utils.py`, and `integrations.py`. Ran pyright across the full module to target the most impactful errors. Approved by PEFT lead maintainer BenjaminBossan after an iterative review addressing 5 inline change requests.
 
-**[567-labs/instructor #2280](https://github.com/567-labs/instructor/pull/2280) (merged)**
+**✅ [567-labs/instructor #2280](https://github.com/567-labs/instructor/pull/2280) (merged)**
 
 Fixed exception propagation in **Instructor** (10K&nbsp;⭐): when an LLM returns an incomplete response, `IncompleteOutputException` was being swallowed inside a tenacity `RetryError` wrapper, hiding the root cause from callers. The fix propagates it directly, giving users the correct exception type without the wrapping noise. Merged by Jason Liu.
 
-**[ray-project/ray #62756](https://github.com/ray-project/ray/pull/62756) (merged)**
+**✅ [ray-project/ray #62756](https://github.com/ray-project/ray/pull/62756) (merged)**
 
 Fixed incorrect import count in the PyTorch CIFAR tutorial notebook in **Ray** (37K&nbsp;⭐), the comment stated 3 Ray-specific imports where only 2 existed. Reviewed by @pseudo-rnd-thoughts (LGTM) and merged.
 
-**[google/adk-python #5235](https://github.com/google/adk-python/pull/5235) (merged)**
+**✅ [google/adk-python #5235](https://github.com/google/adk-python/pull/5235) (merged)**
 
 Fixed a crash in `adk web` for **Google ADK** (9K&nbsp;⭐), Google's Agent Development Kit, by adding support for flat-module agent layouts in `_determine_agent_language`. The dev UI was breaking for agents that didn't follow a package-style module structure; the fix makes language detection work for both layouts. Merged into main via Google's internal Copybara import process.
 
-**[openai/openai-agents-python #2876](https://github.com/openai/openai-agents-python/pull/2876) (acknowledged)**
+**📋 [openai/openai-agents-python #2876](https://github.com/openai/openai-agents-python/pull/2876) (acknowledged)**
 
 Submitted docstrings for the `Computer` and `AsyncComputer` abstract methods in the **OpenAI Agents SDK** (19K&nbsp;⭐). The maintainer responded *"Thank you so much for sending this"* and resolved the gap via [#2877](https://github.com/openai/openai-agents-python/pull/2877). The contribution identified a documentation need that the core team then prioritized and shipped.
 
