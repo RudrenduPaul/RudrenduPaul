@@ -16,7 +16,7 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 - Ads · Marketing Measurement · Incrementality Testing
 - Agent-native product launches at [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai/activity)
 - Agent-Native B2A/A2A Applications · Multi-Agent Orchestration: [30+ OSS agent-native solutions](#open-source-agent-native-tools) with 20k+ package downloads ([npm](https://www.npmjs.com/~rudrendu_paul_packages), [PyPI](https://pypi.org/user/Rudrendu/))
-- [Product Experimentation with Causal Inference on Gen AI and LLM Applications](#causal-inference-for-genaillm-product-experimentation-freecodecamp-series-10-published-and-2-in-progress) (12+ article series on [freeCodeCamp](https://www.freecodecamp.org/news/author/rudrendupaul/), 10M+ monthly visitors)
+- [Product Experimentation with Causal Inference on Gen AI and LLM Applications](https://www.freecodecamp.org/news/author/rudrendupaul/) (12+ article series on freeCodeCamp, 10M+ monthly visitors)
 - Generative AI · LLM Systems
 - Retail Media Network (RMN) Measurement · Advertising Monetization
 - Applied ML for E-commerce · CPG · AdTech · MarTech
@@ -56,7 +56,7 @@ Publication portfolio: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-00
 | **Data Science Central** (TechTarget) | Data science community | [*The Hidden Price of Not Being AI-Ready*](https://www.datasciencecentral.com/the-hidden-price-of-not-being-ai-ready/) |
 | **EMERJ AI Research** | Enterprise AI | [*AI for Avoiding Supply Chain Disruptions*](https://emerj.com/ai-for-avoiding-supply-chain-disruptions-two-use-cases/) |
 
-**Causal Inference for GenAI/LLM Product Experimentation:** freeCodeCamp series, 10 published and 2 in progress.
+**Causal Inference Series for GenAI/LLM Product Experimentation:** [freeCodeCamp](https://www.freecodecamp.org/news/author/rudrendupaul/) (10M+ monthly visitors)
 
 | Method | Article |
 |--------|---------|
