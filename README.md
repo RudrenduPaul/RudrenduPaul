@@ -14,12 +14,12 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 
 **Core domains:**
 - Ads · Marketing Measurement · Incrementality Testing
+- Agent-native product launches at [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai/activity)
 - [Product Experimentation with Causal Inference on Gen AI and LLM Applications](#causal-inference-for-genaillm-product-experimentation-freecodecamp-series-10-published-and-2-in-progress) (12+ article series on [freeCodeCamp](https://www.freecodecamp.org/news/author/rudrendupaul/), 10M+ monthly visitors)
 - Generative AI · LLM Systems
-- Agent-Native B2A/A2A Applications · Multi-Agent Orchestration: [30+ OSS agent-native solutions](#open-source-agent-native-tools) with 20k+ package downloads
+- Agent-Native B2A/A2A Applications · Multi-Agent Orchestration: [30+ OSS agent-native solutions](#open-source-agent-native-tools) with 20k+ package downloads ([npm](https://www.npmjs.com/~rudrendu_paul_packages), [PyPI](https://pypi.org/user/Rudrendu/))
 - Retail Media Network (RMN) Measurement · Advertising Monetization
 - Applied ML for E-commerce · CPG · AdTech · MarTech
-- Agent-native product launches at [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai/activity)
 
 ---
 
