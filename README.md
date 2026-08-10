@@ -55,7 +55,7 @@ Most ship on both npm and PyPI with a JSON/structured-output mode built for AI a
 
 Packages published on [npm](https://www.npmjs.com/~rudrendu_paul_packages) and [PyPI](https://pypi.org/user/Rudrendu/).
 
-| Repo | What it does | CLI package downloads (npm + PyPI) |
+| Repo | What it does | CLI package downloads (npm&nbsp;+&nbsp;PyPI) |
 |------|---------------|----------------------|
 | [toolgovern](https://github.com/RudrenduPaul/toolgovern) | Runtime governance middleware gating shell/filesystem/network/credential access for AI agent tool calls<br><br>· CLI: `toolgovern-cli`<br>· npm: [toolgovern-cli](https://www.npmjs.com/package/toolgovern-cli)<br>· PyPI: [toolgovern-cli](https://pypi.org/project/toolgovern-cli/) | 2,144 |
 | [agent-observability](https://github.com/RudrenduPaul/agent-observability) | Deterministic record-and-replay for LLM agent HTTP traffic: record a failing run once, replay offline with zero API calls<br><br>· CLI: `agent-trace`<br>· npm: [agent-observability-trace-cli](https://www.npmjs.com/package/agent-observability-trace-cli)<br>· PyPI: [agent-observability-trace-cli](https://pypi.org/project/agent-observability-trace-cli/) | 1,907 |
