@@ -21,9 +21,9 @@
 - **Agentic Native Open Source Software (OSS) / Developer Community Contributions**
   - [Agent-Native Tools](#user-content-open-source-agent-native-tools): 30+ self-built CLIs, MCP servers, and libraries, 30k+ downloads across [npm](https://www.npmjs.com/~rudrendu_paul_packages) and [PyPI](https://pypi.org/user/Rudrendu/), also launched on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai/activity)
   - [OSS Contributions](#user-content-merged-contributions): Merged PRs across high-impact repos
-    - HuggingFace Transformers (158K&nbsp;⭐)
-    - scikit-learn (65K&nbsp;⭐)
-    - Ray (37K&nbsp;⭐)
+    - HuggingFace Transformers (158K+ stars)
+    - scikit-learn (65K+ stars)
+    - Ray (37K+ stars)
     - TRL
     - PEFT
     - Google ADK
