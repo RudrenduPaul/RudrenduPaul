@@ -6,23 +6,6 @@
 
 ---
 
-## Major Contributions
-
-- **Agentic Native Open Source Software (OSS) / Developer Community Contributions** (30+ tools · merged PRs · 43 in review)
-  - [Agent-Native Tools](#open-source-agent-native-tools): 30+ self-built CLIs, MCP servers, and libraries, 20k+ [npm downloads](https://www.npmjs.com/~rudrendu_paul_packages), also on [PyPI](https://pypi.org/user/Rudrendu/) and launched on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai/activity)
-  - [OSS Contributions](#merged-contributions): Merged PRs across high-impact repos, including HuggingFace Transformers (158K⭐), scikit-learn (65K⭐), Ray (37K⭐), TRL, PEFT, and Google ADK
-  - [Open Pull Requests](#open-prs): 43 PRs under review across 17 repos
-- **[Published Research](#published-research)** (33+ publications · [ORCID portfolio](https://orcid.org/0009-0008-0141-4690))
-  - [ICML 2026 Papers](#icml-papers): 4 papers, multi-agent orchestration, model routing, prompt-injection defense, compound AI reliability
-  - [Books](#books): 2 book chapters, Elsevier & Springer Nature
-  - [Peer-Reviewed Research](#peer-reviewed): IEEE, Journal of Physics, Applied and Computational Engineering, SSRN
-- **[Thought Leadership](#thought-leadership)** (21 articles · 10-part series · 5 talks)
-  - [Articles](#articles): 21 industry articles across 8 platforms, freeCodeCamp, DZone, Hackernoon, and 5 more
-  - [Causal Inference Series](#causal-inference-series): Product Experimentation with Causal Inference, 10-article series at freeCodeCamp (10M+ monthly visitors)
-  - [Industry Conference Talks](#conference-talks): 5 talks
-
----
-
 ## What I Do
 
 I sit at the intersection of **applied machine learning**, **causal inference**, **marketing measurement**, and **agentic B2A applications**, building production AI systems that drive measurable business outcomes at scale.
@@ -37,6 +20,23 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 - Generative AI · LLM Systems
 - Retail Media Network (RMN) Measurement · Advertising Monetization
 - Applied ML for E-commerce · CPG · AdTech · MarTech
+
+---
+
+## Major Contributions
+
+- **Agentic Native Open Source Software (OSS) / Developer Community Contributions** (30+ tools · merged PRs · 43 in review)
+  - [Agent-Native Tools](#open-source-agent-native-tools): 30+ self-built CLIs, MCP servers, and libraries, 20k+ [npm downloads](https://www.npmjs.com/~rudrendu_paul_packages), also on [PyPI](https://pypi.org/user/Rudrendu/) and launched on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai/activity)
+  - [OSS Contributions](#merged-contributions): Merged PRs across high-impact repos, including HuggingFace Transformers (158K⭐), scikit-learn (65K⭐), Ray (37K⭐), TRL, PEFT, and Google ADK
+  - [Open Pull Requests](#open-prs): 43 PRs under review across 17 repos
+- **[Published Research](#published-research)** (33+ publications · [ORCID portfolio](https://orcid.org/0009-0008-0141-4690))
+  - [ICML 2026 Papers](#icml-papers): 4 papers, multi-agent orchestration, model routing, prompt-injection defense, compound AI reliability
+  - [Books](#books): 2 book chapters, Elsevier & Springer Nature
+  - [Peer-Reviewed Research](#peer-reviewed): IEEE, Journal of Physics, Applied and Computational Engineering, SSRN
+- **[Thought Leadership](#thought-leadership)** (21 articles · 10-part series · 5 talks)
+  - [Articles](#articles): 21 industry articles across 8 platforms, freeCodeCamp, DZone, Hackernoon, and 5 more
+  - [Causal Inference Series](#causal-inference-series): Product Experimentation with Causal Inference, 10-article series at freeCodeCamp (10M+ monthly visitors)
+  - [Industry Conference Talks](#conference-talks): 5 talks
 
 ---
 
