@@ -8,7 +8,7 @@
 
 ## Contributions
 
-- **Agentic Native Open Source Software (OSS) / Developer Community Contributions** (30+ tools · merged PRs · 43 in review)
+- **Agentic Native Open Source Software (OSS) / Developer Community Contributions**
   - [Agent-Native Tools](#user-content-open-source-agent-native-tools): 30+ self-built CLIs, MCP servers, and libraries, 20k+ [npm downloads](https://www.npmjs.com/~rudrendu_paul_packages), also on [PyPI](https://pypi.org/user/Rudrendu/) and launched on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai/activity)
   - [OSS Contributions](#user-content-merged-contributions): Merged PRs across high-impact repos
     - HuggingFace Transformers (158K⭐)
