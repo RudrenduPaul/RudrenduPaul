@@ -8,9 +8,9 @@
 
 ## Major Contributions
 
-- **Agentic Native Open Source Software (OSS) / Developer Community Contributions** (30+ tools · 16 merged PRs · 43 in review)
+- **Agentic Native Open Source Software (OSS) / Developer Community Contributions** (30+ tools · merged PRs · 43 in review)
   - [Agent-Native Tools](#open-source-agent-native-tools): 30+ self-built CLIs, MCP servers, and libraries, 20k+ [npm downloads](https://www.npmjs.com/~rudrendu_paul_packages), also on [PyPI](https://pypi.org/user/Rudrendu/) and launched on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai/activity)
-  - [OSS Contributions](#merged-contributions): 16 PRs merged across high-impact repos, including HuggingFace Transformers (158K⭐), scikit-learn (65K⭐), Ray (37K⭐), TRL, PEFT, and Google ADK
+  - [OSS Contributions](#merged-contributions): Merged PRs across high-impact repos, including HuggingFace Transformers (158K⭐), scikit-learn (65K⭐), Ray (37K⭐), TRL, PEFT, and Google ADK
   - [Open Pull Requests](#open-prs): 43 PRs under review across 17 repos
 - **[Published Research](#published-research)** (33+ publications · [ORCID portfolio](https://orcid.org/0009-0008-0141-4690))
   - [ICML 2026 Papers](#icml-papers): 4 papers, multi-agent orchestration, model routing, prompt-injection defense, compound AI reliability
