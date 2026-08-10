@@ -37,9 +37,8 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 
 **Core domains:**
 - Ads · Marketing Measurement · Incrementality Testing
-- Agent-native product launches at [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai/activity)
 - Agent-Native B2A/A2A Applications · Multi-Agent Orchestration
-- [Product Experimentation with Causal Inference on Gen AI and LLM Applications](https://www.freecodecamp.org/news/author/rudrendupaul/) (10-article series on freeCodeCamp, 10M+ monthly visitors)
+- Product Experimentation with Causal Inference on Gen AI and LLM Applications
 - Generative AI · LLM Systems
 - Retail Media Network (RMN) Measurement · Advertising Monetization
 - Applied ML for E-commerce · CPG · AdTech · MarTech
