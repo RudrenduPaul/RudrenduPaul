@@ -53,38 +53,38 @@ Most ship on both npm and PyPI with a JSON/structured-output mode built for AI a
 
 Packages published on [npm](https://www.npmjs.com/~rudrendu_paul_packages) and [PyPI](https://pypi.org/user/Rudrendu/).
 
-| Repo | What it does |
-|------|---------------|
-| [TruthRoute](https://github.com/RudrenduPaul/TruthRoute) | Cross-model divergence scoring CLI comparing OpenAI, Anthropic, and Gemini responses, with an MCP server for agent-to-agent use |
-| [ownvoice](https://github.com/RudrenduPaul/ownvoice) | Trains a LoRA voice adapter for Kyutai's pocket-tts, kept as a local file instead of an API subscription, with `--json` output for agents and scripts |
-| [auditreach](https://github.com/RudrenduPaul/auditreach) | BYOK CLI and MCP server for researching Reddit/YouTube with a tamper-evident, hash-chained audit log |
-| [agent-observability](https://github.com/RudrenduPaul/agent-observability) | Deterministic record-and-replay for LLM agent HTTP traffic: record a failing run once, replay offline with zero API calls |
-| [swarmmesh](https://github.com/RudrenduPaul/swarmmesh) | Shared context/memory coordination layer for swarms of parallel AI agents, with a built-in MCP server |
-| [NeuronScope](https://github.com/RudrenduPaul/NeuronScope) | CLI/MCP server for mechanistic interpretability: traces which attention heads and neurons drive an LLM's output |
-| [skillguard](https://github.com/RudrenduPaul/skillguard) | Security scanner for third-party AI agent-skill files, detecting cross-skill privilege chaining and prompt injection |
-| [taskswarm](https://github.com/RudrenduPaul/taskswarm) | Pushes a local notification and live status page the instant a parallel Claude Code/Codex/Cursor session blocks or finishes |
-| [teamspend](https://github.com/RudrenduPaul/teamspend) | Compares AI coding tool spend before/after a migration, pulling real numbers from each vendor's API or local logs |
-| [ReleaseGuard](https://github.com/RudrenduPaul/ReleaseGuard) | Scans datasets/models for PII and secrets, generates compliance-ready model cards, with an MCP server for agent workflows |
-| [slop-eval](https://github.com/RudrenduPaul/slop-eval) | Scores AI-generated UI for genericness with an LLM-judge rubric, for CI and agent quality gates |
-| [DeskCert-CLI](https://github.com/RudrenduPaul/DeskCert-CLI) | Certifies whether an AI agent is safe to operate a web app before production rollout, with an MCP server |
-| [swarm-rd-orchestrator](https://github.com/RudrenduPaul/swarm-rd-orchestrator) | Ray-native context/memory sharing for parallel research agents (early milestone spike) |
-| [evolveguard](https://github.com/RudrenduPaul/evolveguard) | Regression-testing CI gate for self-edited Claude Agent Skills via golden-transcript record/replay |
-| [TokenTrust-CLI](https://github.com/RudrenduPaul/TokenTrust-CLI) | Verifies token/cost savings claimed by AI-coding-agent context-reduction proxies against a real labeled corpus |
-| [GraphKeeper](https://github.com/RudrenduPaul/GraphKeeper) | Mines git history for file co-change patterns and exposes them as a queryable graph for AI coding agents |
-| [memtrust](https://github.com/RudrenduPaul/memtrust) | Independent benchmark harness for agent-memory backends (MemPalace, Mem0, Zep/Graphiti, OpenViking) |
-| [TenantGuard](https://github.com/RudrenduPaul/TenantGuard) | CLI/MCP scanner catching tenant-isolation defects in self-hosted multi-tenant AI-agent platforms |
-| [AgenticWorkspace](https://github.com/RudrenduPaul/AgenticWorkspace) | Converts any repo into an agent-ready workspace with progressive context and coding-agent adapters |
-| [HaltProof](https://github.com/RudrenduPaul/HaltProof) | Dry-run-by-default emergency shutdown orchestration for Slurm/K8s/IPMI clusters, with signed attestation logs |
-| [ComputeLedger](https://github.com/RudrenduPaul/ComputeLedger) | Signs, hash-chains, and verifies compute usage receipts across any cloud or on-prem provider |
-| [agent-eval](https://github.com/RudrenduPaul/agent-eval) | Runs your agent 50x on version A vs. B and gives a p-value on whether behavior actually shifted |
-| [workspaceguard](https://github.com/RudrenduPaul/workspaceguard) | Per-workspace usage metering and fail-closed quota caps for a shared self-hosted AI assistant |
-| [toolgovern](https://github.com/RudrenduPaul/toolgovern) | Runtime governance middleware gating shell/filesystem/network/credential access for AI agent tool calls |
-| [podcast-guest-crm](https://github.com/RudrenduPaul/podcast-guest-crm) | Agent-native CRM for podcast guest booking with Claude-powered outreach drafting and a scriptable CLI |
-| [PaceProof](https://github.com/RudrenduPaul/PaceProof) | Verifies Ed25519-signed compute-attestation records from any provider via CLI or MCP |
-| [electronics-rfq-agent](https://github.com/RudrenduPaul/electronics-rfq-agent) | AI quoting agent that prices RFQ line items against your ERP via MCP connectors |
-| [InferBench](https://github.com/RudrenduPaul/InferBench) | Vendor-neutral local LLM inference benchmark reporting real, measured tokens/sec with agent-ready JSON output |
-| [ShimGuard](https://github.com/RudrenduPaul/ShimGuard) | Verifies a GitHub issue closed as "fixed" actually has a merged fix, with structured JSON output for CI/agents |
-| [MasteryTrace](https://github.com/RudrenduPaul/MasteryTrace) | Fits Bayesian Knowledge Tracing/IRT models to learner logs for AI tutoring agents needing real mastery scoring |
+| Repo | What it does | npm Downloads (30d) |
+|------|---------------|----------------------|
+| [TruthRoute](https://github.com/RudrenduPaul/TruthRoute) | Cross-model divergence scoring CLI comparing OpenAI, Anthropic, and Gemini responses, with an MCP server for agent-to-agent use | 637 |
+| [ownvoice](https://github.com/RudrenduPaul/ownvoice) | Trains a LoRA voice adapter for Kyutai's pocket-tts, kept as a local file instead of an API subscription, with `--json` output for agents and scripts | 490 |
+| [auditreach](https://github.com/RudrenduPaul/auditreach) | BYOK CLI and MCP server for researching Reddit/YouTube with a tamper-evident, hash-chained audit log | 1,111 |
+| [agent-observability](https://github.com/RudrenduPaul/agent-observability) | Deterministic record-and-replay for LLM agent HTTP traffic: record a failing run once, replay offline with zero API calls | 812 |
+| [swarmmesh](https://github.com/RudrenduPaul/swarmmesh) | Shared context/memory coordination layer for swarms of parallel AI agents, with a built-in MCP server | 428 |
+| [NeuronScope](https://github.com/RudrenduPaul/NeuronScope) | CLI/MCP server for mechanistic interpretability: traces which attention heads and neurons drive an LLM's output | PyPI only |
+| [skillguard](https://github.com/RudrenduPaul/skillguard) | Security scanner for third-party AI agent-skill files, detecting cross-skill privilege chaining and prompt injection | 990 |
+| [taskswarm](https://github.com/RudrenduPaul/taskswarm) | Pushes a local notification and live status page the instant a parallel Claude Code/Codex/Cursor session blocks or finishes | 1,184 |
+| [teamspend](https://github.com/RudrenduPaul/teamspend) | Compares AI coding tool spend before/after a migration, pulling real numbers from each vendor's API or local logs | 655 |
+| [ReleaseGuard](https://github.com/RudrenduPaul/ReleaseGuard) | Scans datasets/models for PII and secrets, generates compliance-ready model cards, with an MCP server for agent workflows | 304 |
+| [slop-eval](https://github.com/RudrenduPaul/slop-eval) | Scores AI-generated UI for genericness with an LLM-judge rubric, for CI and agent quality gates | 821 |
+| [DeskCert-CLI](https://github.com/RudrenduPaul/DeskCert-CLI) | Certifies whether an AI agent is safe to operate a web app before production rollout, with an MCP server | 586 |
+| [swarm-rd-orchestrator](https://github.com/RudrenduPaul/swarm-rd-orchestrator) | Ray-native context/memory sharing for parallel research agents (early milestone spike) | 138 |
+| [evolveguard](https://github.com/RudrenduPaul/evolveguard) | Regression-testing CI gate for self-edited Claude Agent Skills via golden-transcript record/replay | 635 |
+| [TokenTrust-CLI](https://github.com/RudrenduPaul/TokenTrust-CLI) | Verifies token/cost savings claimed by AI-coding-agent context-reduction proxies against a real labeled corpus | 685 |
+| [GraphKeeper](https://github.com/RudrenduPaul/GraphKeeper) | Mines git history for file co-change patterns and exposes them as a queryable graph for AI coding agents | 625 |
+| [memtrust](https://github.com/RudrenduPaul/memtrust) | Independent benchmark harness for agent-memory backends (MemPalace, Mem0, Zep/Graphiti, OpenViking) | 1,130 |
+| [TenantGuard](https://github.com/RudrenduPaul/TenantGuard) | CLI/MCP scanner catching tenant-isolation defects in self-hosted multi-tenant AI-agent platforms | 516 |
+| [AgenticWorkspace](https://github.com/RudrenduPaul/AgenticWorkspace) | Converts any repo into an agent-ready workspace with progressive context and coding-agent adapters | 837 |
+| [HaltProof](https://github.com/RudrenduPaul/HaltProof) | Dry-run-by-default emergency shutdown orchestration for Slurm/K8s/IPMI clusters, with signed attestation logs | 303 |
+| [ComputeLedger](https://github.com/RudrenduPaul/ComputeLedger) | Signs, hash-chains, and verifies compute usage receipts across any cloud or on-prem provider | 448 |
+| [agent-eval](https://github.com/RudrenduPaul/agent-eval) | Runs your agent 50x on version A vs. B and gives a p-value on whether behavior actually shifted | 213 |
+| [workspaceguard](https://github.com/RudrenduPaul/workspaceguard) | Per-workspace usage metering and fail-closed quota caps for a shared self-hosted AI assistant | 1,029 |
+| [toolgovern](https://github.com/RudrenduPaul/toolgovern) | Runtime governance middleware gating shell/filesystem/network/credential access for AI agent tool calls | 1,782 |
+| [podcast-guest-crm](https://github.com/RudrenduPaul/podcast-guest-crm) | Agent-native CRM for podcast guest booking with Claude-powered outreach drafting and a scriptable CLI | 796 |
+| [PaceProof](https://github.com/RudrenduPaul/PaceProof) | Verifies Ed25519-signed compute-attestation records from any provider via CLI or MCP | 144 |
+| [electronics-rfq-agent](https://github.com/RudrenduPaul/electronics-rfq-agent) | AI quoting agent that prices RFQ line items against your ERP via MCP connectors | not yet published |
+| [InferBench](https://github.com/RudrenduPaul/InferBench) | Vendor-neutral local LLM inference benchmark reporting real, measured tokens/sec with agent-ready JSON output | 883 |
+| [ShimGuard](https://github.com/RudrenduPaul/ShimGuard) | Verifies a GitHub issue closed as "fixed" actually has a merged fix, with structured JSON output for CI/agents | 1,306 |
+| [MasteryTrace](https://github.com/RudrenduPaul/MasteryTrace) | Fits Bayesian Knowledge Tracing/IRT models to learner logs for AI tutoring agents needing real mastery scoring | 522 |
 
 ---
 
