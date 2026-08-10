@@ -26,17 +26,17 @@ My work has shaped AI and data strategy across **retail media networks, AdTech, 
 ## Major Contributions
 
 - **Agentic Native Open Source Software (OSS) / Developer Community Contributions** (30+ tools · merged PRs · 43 in review)
-  - [Agent-Native Tools](#open-source-agent-native-tools): 30+ self-built CLIs, MCP servers, and libraries, 20k+ [npm downloads](https://www.npmjs.com/~rudrendu_paul_packages), also on [PyPI](https://pypi.org/user/Rudrendu/) and launched on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai/activity)
-  - [OSS Contributions](#merged-contributions): Merged PRs across high-impact repos, including HuggingFace Transformers (158K⭐), scikit-learn (65K⭐), Ray (37K⭐), TRL, PEFT, and Google ADK
-  - [Open Pull Requests](#open-prs): 43 PRs under review across 17 repos
-- **[Published Research](#published-research)** (33+ publications · [ORCID portfolio](https://orcid.org/0009-0008-0141-4690))
-  - [ICML 2026 Papers](#icml-papers): 4 papers, multi-agent orchestration, model routing, prompt-injection defense, compound AI reliability
-  - [Books](#books): 2 book chapters, Elsevier & Springer Nature
-  - [Peer-Reviewed Research](#peer-reviewed): IEEE, Journal of Physics, Applied and Computational Engineering, SSRN
-- **[Thought Leadership](#thought-leadership)** (21 articles · 10-part series · 5 talks)
-  - [Articles](#articles): 21 industry articles across 8 platforms, freeCodeCamp, DZone, Hackernoon, and 5 more
-  - [Causal Inference Series](#causal-inference-series): Product Experimentation with Causal Inference, 10-article series at freeCodeCamp (10M+ monthly visitors)
-  - [Industry Conference Talks](#conference-talks): 5 talks
+  - [Agent-Native Tools](#user-content-open-source-agent-native-tools): 30+ self-built CLIs, MCP servers, and libraries, 20k+ [npm downloads](https://www.npmjs.com/~rudrendu_paul_packages), also on [PyPI](https://pypi.org/user/Rudrendu/) and launched on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai/activity)
+  - [OSS Contributions](#user-content-merged-contributions): Merged PRs across high-impact repos, including HuggingFace Transformers (158K⭐), scikit-learn (65K⭐), Ray (37K⭐), TRL, PEFT, and Google ADK
+  - [Open Pull Requests](#user-content-open-prs): 43 PRs under review across 17 repos
+- **[Published Research](#user-content-published-research)** (33+ publications · [ORCID portfolio](https://orcid.org/0009-0008-0141-4690))
+  - [ICML 2026 Papers](#user-content-icml-papers): 4 papers, multi-agent orchestration, model routing, prompt-injection defense, compound AI reliability
+  - [Books](#user-content-books): 2 book chapters, Elsevier & Springer Nature
+  - [Peer-Reviewed Research](#user-content-peer-reviewed): IEEE, Journal of Physics, Applied and Computational Engineering, SSRN
+- **[Thought Leadership](#user-content-thought-leadership)** (21 articles · 10-part series · 5 talks)
+  - [Articles](#user-content-articles): 21 industry articles across 8 platforms, freeCodeCamp, DZone, Hackernoon, and 5 more
+  - [Causal Inference Series](#user-content-causal-inference-series): Product Experimentation with Causal Inference, 10-article series at freeCodeCamp (10M+ monthly visitors)
+  - [Industry Conference Talks](#user-content-conference-talks): 5 talks
 
 ---
 
