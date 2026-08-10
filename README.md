@@ -53,7 +53,7 @@ Most ship on both npm and PyPI with a JSON/structured-output mode built for AI a
 
 Packages published on [npm](https://www.npmjs.com/~rudrendu_paul_packages) and [PyPI](https://pypi.org/user/Rudrendu/).
 
-| Repo | What it does | npm Downloads (30d) |
+| Repo | What it does | npm Downloads |
 |------|---------------|----------------------|
 | [TruthRoute](https://github.com/RudrenduPaul/TruthRoute) | Cross-model divergence scoring CLI comparing OpenAI, Anthropic, and Gemini responses, with an MCP server for agent-to-agent use | 637 |
 | [ownvoice](https://github.com/RudrenduPaul/ownvoice) | Trains a LoRA voice adapter for Kyutai's pocket-tts, kept as a local file instead of an API subscription, with `--json` output for agents and scripts | 490 |
