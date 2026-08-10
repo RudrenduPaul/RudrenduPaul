@@ -9,7 +9,7 @@
 ## Contributions
 
 - **Agentic Native Open Source Software (OSS) / Developer Community Contributions**
-  - [Agent-Native Tools](#user-content-open-source-agent-native-tools): 30+ self-built CLIs, MCP servers, and libraries, 30k+ downloads across [npm](https://www.npmjs.com/~rudrendu_paul_packages) and [PyPI](https://pypi.org/user/Rudrendu/), also launched on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai/activity)
+  - [Agent-Native Tools](#user-content-open-source-agent-native-tools): 30+ self-built CLIs, MCP servers, and libraries, 35k+ downloads across [npm](https://www.npmjs.com/~rudrendu_paul_packages) and [PyPI](https://pypi.org/user/Rudrendu/), also launched on [Product Hunt](https://www.producthunt.com/@rudrendu_paul_ai/activity)
   - [OSS Contributions](#user-content-merged-contributions): Merged PRs across high-impact repos
     - HuggingFace Transformers (158K+ stars)
     - scikit-learn (65K+ stars)
@@ -126,7 +126,7 @@ Publication portfolio: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-00
 
 ## Open Source Agent-Native Tools
 
-**30+** self-built, agent-native CLIs, MCP servers, and libraries, with **30k+** combined npm and PyPI downloads.
+**30+** self-built, agent-native CLIs, MCP servers, and libraries, with **35k+** combined npm and PyPI downloads.
 
 Most ship on both npm and PyPI with a JSON/structured-output mode built for AI agents to call directly, not just humans.
 
