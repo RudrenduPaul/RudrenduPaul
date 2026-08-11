@@ -21,7 +21,7 @@
 
 - **[Published Research](#user-content-published-research)** (50+ publications · [ORCID portfolio](https://orcid.org/0009-0008-0141-4690))
   - [ICML 2026 Papers](#user-content-icml-papers): 4 papers, multi-agent orchestration, model routing, prompt-injection defense, compound AI reliability
-  - [Books](#user-content-books): 2 book chapters, Elsevier & Springer Nature
+  - [Books](#user-content-books): Elsevier & Springer Nature
   - [Peer-Reviewed Research](#user-content-peer-reviewed): IEEE, Journal of Physics, Applied and Computational Engineering, SSRN
 
 - **[Thought Leadership](#user-content-thought-leadership)** (21 articles · 10-article series · 5 talks)
