@@ -27,7 +27,7 @@
 - **[Thought Leadership](#user-content-thought-leadership)** (21 articles · 10-article series · 5 talks)
   - [Articles](#user-content-articles): 21 industry articles across 8 platforms, freeCodeCamp, DZone, Hackernoon, and 5 more
   - [Causal Inference Series](#user-content-causal-inference-series): Product Experimentation with Causal Inference, 10-article series at freeCodeCamp (10M+ monthly visitors)
-  - [Industry Conference Talks](#user-content-conference-talks): 5 talks
+  - [Industry Conference Talks](#user-content-conference-talks): Featured speaker across 5 Top Conference on applied AI and scalable machine learning
 
 ---
 
