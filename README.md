@@ -180,7 +180,7 @@ Contributing to the infrastructure layer of AI, the frameworks, SDKs, and toolin
 
 - **16 OSS contributions merged** across **9 repos**: HuggingFace Transformers, TRL, PEFT, scikit-learn, Optuna, Instructor, Ray, Google ADK, and Pandas
 - **11 additional PRs** opened across HuggingFace Accelerate, Optimum, Tokenizers, Datasets, chat-ui, lighteval, and PyTorch Lightning: all narrow, single-purpose fixes (type hints, bugfixes, docs), each independently duplicate-checked and policy-checked before submission
-- **3 more in the pipeline**: PRs approved by maintainers awaiting final merge (sklearn #33728, Anthropic Cookbook #733), plus a contribution acknowledged and shipped by the maintainer team
+- **2 more in the pipeline**: a PR approved by a maintainer awaiting final merge (sklearn #33728), plus a contribution acknowledged and shipped by the maintainer team
 - **43 PRs under review** across 17 repos: Anthropic Cookbook, OpenAI Cookbook, HuggingFace Tokenizers, HuggingFace Accelerate, scikit-learn, HuggingFace TRL, chat-ui, HuggingFace Datasets, HuggingFace Evaluate, lighteval, HuggingFace PEFT (consolidated), Anthropic Courses, vLLM, spaCy, MCP, HuggingFace Optimum, and PyTorch Lightning
 
 These contributions are now part of the official codebases used by millions of engineers worldwide.
