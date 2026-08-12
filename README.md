@@ -14,6 +14,7 @@
     - HuggingFace Transformers (158K+ stars)
     - scikit-learn (65K+ stars)
     - Ray (37K+ stars)
+    - OpenAI Cookbook
     - TRL
     - PEFT
     - Google ADK
