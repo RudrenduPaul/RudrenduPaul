@@ -85,7 +85,7 @@ Publication portfolio: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-00
 ## Thought Leadership
 
 <a id="articles"></a>
-**Articles (22)**
+**Articles (25+)**
 
 | Platform | Reach | Articles |
 |----------|-------|----------|
