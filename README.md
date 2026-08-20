@@ -25,8 +25,8 @@
   - [Books](#user-content-books): Elsevier & Springer Nature
   - [Peer-Reviewed Research](#user-content-peer-reviewed): IEEE, Journal of Physics, Applied and Computational Engineering, SSRN
 
-- **[Thought Leadership](#user-content-thought-leadership)** (22 articles · 10-article series · 5 talks)
-  - [Articles](#user-content-articles): 22 industry articles across 9 platforms, O'Reilly Radar, freeCodeCamp, DZone, and 6 more
+- **[Thought Leadership](#user-content-thought-leadership)** (25+ articles · 10-article series · 5 talks)
+  - [Articles](#user-content-articles): 25+ industry articles across 9 platforms, O'Reilly Radar, freeCodeCamp, DZone, and 6 more
   - [Causal Inference Series](#user-content-causal-inference-series): Product Experimentation with Causal Inference, 10-article series at freeCodeCamp (10M+ monthly visitors)
   - [Industry Conference Talks](#user-content-conference-talks): Featured speaker across 5 top conferences on applied AI and scalable machine learning
 
