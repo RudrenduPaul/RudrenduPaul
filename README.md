@@ -25,8 +25,8 @@
   - [Books](#user-content-books): Elsevier & Springer Nature
   - [Peer-Reviewed Research](#user-content-peer-reviewed): IEEE, Journal of Physics, Applied and Computational Engineering, SSRN
 
-- **[Thought Leadership](#user-content-thought-leadership)** (21 articles · 10-article series · 5 talks)
-  - [Articles](#user-content-articles): 21 industry articles across 8 platforms, freeCodeCamp, DZone, Hackernoon, and 5 more
+- **[Thought Leadership](#user-content-thought-leadership)** (22 articles · 10-article series · 5 talks)
+  - [Articles](#user-content-articles): 22 industry articles across 9 platforms, O'Reilly Radar, freeCodeCamp, DZone, and 6 more
   - [Causal Inference Series](#user-content-causal-inference-series): Product Experimentation with Causal Inference, 10-article series at freeCodeCamp (10M+ monthly visitors)
   - [Industry Conference Talks](#user-content-conference-talks): Featured speaker across 5 top conferences on applied AI and scalable machine learning
 
@@ -85,10 +85,11 @@ Publication portfolio: [orcid.org/0009-0008-0141-4690](https://orcid.org/0009-00
 ## Thought Leadership
 
 <a id="articles"></a>
-**Articles (21)**
+**Articles (22)**
 
 | Platform | Reach | Articles |
 |----------|-------|----------|
+| **O'Reilly Radar** | Premier global tech publisher, 2.5M+ learners | [*When Your Buyer Is an AI Agent*](https://www.oreilly.com/radar/when-your-buyer-is-an-ai-agent/) |
 | **freeCodeCamp** | 10M+ monthly visitors | · [*Why A/B Testing Breaks in AI Rollouts*](https://www.freecodecamp.org/news/why-ab-testing-breaks-in-ai-rollouts-and-how-to-fix-it/) <br> · [*The AI Governance Handbook*](https://www.freecodecamp.org/news/the-ai-governance-handbook-build-responsible-ai-systems/) <br> · [*How to Build and Secure a Personal AI Agent*](https://www.freecodecamp.org/news/how-to-build-and-secure-a-personal-ai-agent-with-openclaw/) <br> · Plus a 10-article causal-inference series, listed in its own table below |
 | **DZone** | 1M+ monthly readers | · [*Beyond "Lift-and-Shift": AI Automating Complex Logic*](https://dzone.com/articles/how-ai-and-genai-are-automating-complex-logic) <br> · [*Escaping the "Demo Trap": Reliable AI Agents*](https://dzone.com/articles/escaping-demo-trap-reliable-ai-agents) <br> · [*Self-Evolving AI Agent That Learns From Failure*](https://dzone.com/articles/self-evolving-ai-agent-learns-from-failure) <br> · [*GenAI Unleashed: MLOps and LLM Deployment*](https://dzone.com/articles/generative-ai-unleashed-mlops-and-llm-deployment-s) |
 | **Hackernoon** | 4M+ monthly readers | · [*Why AI Enterprises Still Rely on Manual Labor for Data Migration*](https://hackernoon.com/why-ai-driven-enterprises-still-rely-on-manual-labor-for-data-migration) <br> · [*GenAI Strategy Demands All-Inclusive Data Modernization*](https://hackernoon.com/why-your-genai-strategy-demands-an-all-inclusive-data-modernization) <br> · [*The New Monetizing Playbook: Pricing GenAI*](https://hackernoon.com/the-new-monetizing-playbook-a-product-leaders-framework-for-pricing-genai-capabilities) <br> · [*The AI Flywheel: Building Compounding Growth*](https://hackernoon.com/the-ai-flywheel-a-product-leaders-guide-to-building-compounding-growth) |
